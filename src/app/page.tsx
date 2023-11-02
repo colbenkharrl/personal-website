@@ -4,7 +4,7 @@ import {
   GitHubIcon,
   InstagramIcon,
   LinkedInIcon,
-  TwitterIcon,
+  StravaIcon,
 } from '@/components/Icons';
 import { Newsletter } from '@/components/Newsletter';
 import { Photos } from '@/components/Photos';
@@ -32,14 +32,19 @@ export default async function Home() {
               icon={InstagramIcon}
             />
             <SocialLink
+              href="https://linkedin.com/in/mattkharrl/"
+              aria-label="Follow on LinkedIn"
+              icon={LinkedInIcon}
+            />
+            <SocialLink
               href="https://github.com/colbenkharrl/"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com/in/mattkharrl/"
-              aria-label="Follow on LinkedIn"
-              icon={LinkedInIcon}
+              href="https://www.strava.com/athletes/41283083"
+              aria-label="Follow on Strava"
+              icon={StravaIcon}
             />
           </div>
         </div>
