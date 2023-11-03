@@ -30,7 +30,7 @@ const projects = [
   {
     name: 'Confluence',
     description:
-      'Confluence is the most widely-used workplace documentation product in the world. I worked on the core navigation and discoverability features for their cloud-based web application, spending a lot of time with their design system team.',
+      'Confluence, an Atlassian product, is the most widely-used workplace documentation product in the world. I worked on the core navigation and discoverability features for their cloud-based web application, spending a lot of time with their design system team.',
     link: {
       href: 'https://www.atlassian.com/software/confluence',
       label: 'atlassian.com',
@@ -38,7 +38,7 @@ const projects = [
     logo: logoConfluence,
   },
   {
-    name: 'Amazon Echo Show',
+    name: 'Echo Show',
     description:
       "Amazon's Echo Show is their only Alexa-enabled household device with a screen. I developed an internal web application which enabled marketers and brand partners to create, schedule, and deploy advertising campaigns to devices worldwide in the form of custom camera filters.",
     link: {
@@ -70,7 +70,7 @@ const projects = [
   {
     name: 'Synergy SIS',
     description:
-      'The Synergy Student Information Platform provides end-to-end educational management services for K-12 schools across the United States. I worked on their .NET platform and focused on enhancements to their administrative reporting framework.',
+      'The Synergy Student Information Platform, developed by Edupoint, provides end-to-end educational management services for K-12 schools across the United States. I worked on their .NET platform and focused on enhancements to their administrative reporting framework.',
     link: {
       href: 'https://edupoint.com/Products/Student-Information-Management',
       label: 'edupoint.com',
