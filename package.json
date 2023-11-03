@@ -1,6 +1,6 @@
 {
-  "name": "matt-kharrl-next-website",
-  "version": "0.1.0",
+  "name": "matt-kharrl-website",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -9,7 +9,7 @@ export function NavItem({
   href: string;
   children: React.ReactNode;
 }) {
-  let isActive = usePathname() === href;
+  const isActive = usePathname() === href;
 
   return (
     <li>
@@ -18,13 +18,13 @@ export function NavItem({
         className={clsx(
           'relative block px-3 py-2 transition',
           isActive
-            ? 'text-sky-500 dark:text-sky-400'
-            : 'hover:text-sky-500 dark:hover:text-sky-400',
+            ? 'text-orange-500 dark:text-orange-400'
+            : 'hover:text-orange-500 dark:hover:text-orange-400',
         )}
       >
         {children}
         {isActive && (
-          <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-sky-500/0 via-sky-500/40 to-sky-500/0 dark:from-sky-400/0 dark:via-sky-400/40 dark:to-sky-400/0" />
+          <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-orange-500/0 via-orange-500/40 to-orange-500/0 dark:from-orange-400/0 dark:via-orange-400/40 dark:to-orange-400/0" />
         )}
       </Link>
     </li>
