@@ -5,14 +5,6 @@ import image2 from '@/images/photos/image-2.jpg';
 import image3 from '@/images/photos/image-3.jpg';
 import image4 from '@/images/photos/image-4.jpg';
 
-const rotations = [
-  'rotate-2',
-  '-rotate-2',
-  'rotate-2',
-  'rotate-2',
-  '-rotate-2',
-];
-
 export function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
@@ -21,8 +13,7 @@ export function Photos() {
           <div
             key={image.src}
             className={clsx(
-              'relative aspect-[9/10] w-28 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-40 sm:rounded-2xl md:w-48 lg:w-56 xl:w-64 2xl:w-72',
-              rotations[imageIndex % rotations.length],
+              'relative aspect-[1/1] w-28 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-40 sm:rounded-2xl md:w-48 lg:w-56 xl:w-64 2xl:w-72',
             )}
           >
             <Image
