@@ -9,7 +9,7 @@ export function DesktopNavigation(
         <NavItem href="/">Home</NavItem>
         <NavItem href="/about">About</NavItem>
         <NavItem href="/portfolio">Portfolio</NavItem>
-        <NavItem href="/blogs">Blog</NavItem>
+        <NavItem href="/blog">Blog</NavItem>
       </ul>
     </nav>
   );

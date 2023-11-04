@@ -97,7 +97,7 @@ export default function About() {
             <p>
               Bikes and I go way back. It&apos;s been a long and lovely
               relationship, from cruising around suburban neighborhoods as a kid
-              to causing trouble on BMX bikes as a teen to skidding to class on
+              to learning tricks on BMX bikes as a teen to skidding to class on
               fixed-gear bikes in college to exploring nature with a camera
               strapped to my back in California to lately venturing into the
               world of racing and growing as an athlete in the Arizona cycling

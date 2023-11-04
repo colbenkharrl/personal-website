@@ -12,7 +12,7 @@ export interface BlogWithSlug extends Blog {
 }
 
 async function importBlog(blogFilename: string): Promise<BlogWithSlug> {
-  const { blog } = (await import(`../app/blogs/${blogFilename}`)) as {
+  const { blog } = (await import(`../app/blog/${blogFilename}`)) as {
     default: React.ComponentType;
     blog: Blog;
   };
@@ -25,7 +25,7 @@ async function importBlog(blogFilename: string): Promise<BlogWithSlug> {
 
 export async function getAllBlogs() {
   const blogFilenames = await glob('*/page.mdx', {
-    cwd: './src/app/blogs',
+    cwd: './src/app/blog',
   });
 
   const blogs = await Promise.all(blogFilenames.map(importBlog));

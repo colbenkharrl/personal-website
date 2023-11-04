@@ -11,16 +11,6 @@ import Image from 'next/image';
 
 const projects = [
   {
-    name: 'Personal Portfolio',
-    description:
-      'The website you are browsing right now was built by me using modern web technologies. Over time I will likely test out new libraries in this very over-engineered project. You can view the source code on my Github profile.',
-    link: {
-      href: 'https://github.com/colbenkharrl/website',
-      label: 'github.com',
-    },
-    logo: logoPortfolio,
-  },
-  {
     name: 'Trust Cloud',
     description:
       "Spec's Trust Cloud is a real-time security defense platform that is currently protecting the web traffic of some of the largest brands in the world. I designed and developed their enterprise-grade web application, then went on to lead the entire engineering organization.",
@@ -58,14 +48,14 @@ const projects = [
     logo: logoThreatMetrix,
   },
   {
-    name: 'Blitz Racing Cycling Club',
+    name: 'Personal Portfolio',
     description:
-      'Blitz Racing is the cycling club for which I race bikes. I developed a simple landing page for our team where we can share information about our events, sponsors, and results.',
+      'The website you are browsing right now was built by me using modern web technologies. Over time I will likely test out new libraries in this very over-engineered project. You can view the source code on my Github profile.',
     link: {
-      href: 'https://blitzracingcc.com/',
-      label: 'blitzracingcc.com',
+      href: 'https://github.com/colbenkharrl/website',
+      label: 'github.com',
     },
-    logo: logoBlitz,
+    logo: logoPortfolio,
   },
   {
     name: 'Synergy SIS',
@@ -76,6 +66,16 @@ const projects = [
       label: 'edupoint.com',
     },
     logo: logoSynergy,
+  },
+  {
+    name: 'Blitz Racing Cycling Club',
+    description:
+      'Blitz Racing is the cycling club for which I race bikes. I developed a simple landing page for our team where we can share information about our events, sponsors, and results.',
+    link: {
+      href: 'https://blitzracingcc.com/',
+      label: 'blitzracingcc.com',
+    },
+    logo: logoBlitz,
   },
 ];
 
