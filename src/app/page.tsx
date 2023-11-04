@@ -23,14 +23,14 @@ export default async function Home() {
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://instagram.com/matt.kharrl/"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
               href="https://linkedin.com/in/mattkharrl/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
+            />
+            <SocialLink
+              href="https://instagram.com/matt.kharrl/"
+              aria-label="Follow on Instagram"
+              icon={InstagramIcon}
             />
             <SocialLink
               href="https://github.com/colbenkharrl/"
