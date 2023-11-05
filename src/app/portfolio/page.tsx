@@ -18,7 +18,7 @@ export default function Portfolio() {
       intro="I've been building software since 2012 and went professional in 2017. Though I specialize in building cloud-based web applications, I have dabbled in many technical disciplines across the stack and throughout the software development lifecycle."
     >
       <Button
-        href="/matt-kharrl-resume-11-2023.pdf"
+        href="/resume.pdf"
         target="_blank"
         variant="secondary"
         className="group w-full sm:w-80"
