@@ -2,6 +2,7 @@ import { Card } from '@/components/Card';
 import logoSpec from '@/images/logos/spec.svg';
 import logoPortfolio from '@/images/logos/portfolio.png';
 import logoConfluence from '@/images/logos/confluence.svg';
+import logoAtlassian from '@/images/logos/atlassian.svg';
 import logoAlexa from '@/images/logos/alexa.png';
 import logoSynergy from '@/images/logos/synergy.png';
 import logoThreatMetrix from '@/images/logos/threatmetrix.png';
@@ -13,19 +14,29 @@ const projects = [
   {
     name: 'Trust Cloud',
     description:
-      "Spec's Trust Cloud is a real-time security defense platform that is currently protecting the web traffic of some of the largest brands in the world. I designed and developed their enterprise-grade web application, then went on to lead the entire engineering organization.",
+      "Spec's Trust Cloud is a real-time security defense platform that is currently protecting the web traffic of some of the largest brands in the world. I designed and developed their enterprise-grade web application, then went on to lead the entire engineering and compliance organizations.",
     link: { href: 'https://specprotected.com/', label: 'specprotected.com' },
     logo: logoSpec,
   },
   {
     name: 'Confluence',
     description:
-      'Confluence, an Atlassian product, is the most widely-used workplace documentation product in the world. I worked on the core navigation and discoverability features for their cloud-based web application, spending a lot of time with their design system team.',
+      'Confluence, an Atlassian product, is the most widely-used workplace documentation product in the world. I worked on the core navigation and discoverability features for their cloud-based web application, and also designed and built their automated, interactive, and multi-stage release pipeline.',
     link: {
       href: 'https://www.atlassian.com/software/confluence',
       label: 'atlassian.com',
     },
     logo: logoConfluence,
+  },
+  {
+    name: 'Atlassian Navigation',
+    description:
+      'Atlassian Navigation is a core component of the Atlassian design system, which is utilized across all of their cloud products. I worked with a special project team to research, design, develop, and integrate this navigation experience and all associated components.',
+    link: {
+      href: 'https://atlassian.design/components/atlassian-navigation/examples',
+      label: 'atlassian.design',
+    },
+    logo: logoAtlassian,
   },
   {
     name: 'Echo Show',

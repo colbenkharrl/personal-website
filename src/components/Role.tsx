@@ -1,4 +1,5 @@
 import Image, { ImageProps } from 'next/image';
+import Link from 'next/link';
 
 export interface Role {
   company: string;
@@ -6,6 +7,7 @@ export interface Role {
   logo: ImageProps['src'];
   start: string | { label: string; dateTime: string };
   end: string | { label: string; dateTime: string };
+  url: string;
 }
 
 export function Role({ role }: { role: Role }) {
@@ -18,22 +20,31 @@ export function Role({ role }: { role: Role }) {
   const endDate = typeof role.end === 'string' ? role.end : role.end.dateTime;
 
   return (
-    <li className="flex gap-4">
+    <li className="group relative flex items-start gap-2 sm:gap-4">
       <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-        <Image src={role.logo} alt="" className="h-7 w-7" unoptimized />
+        <Image
+          src={role.logo}
+          alt=""
+          className="relative z-10 h-7 w-7"
+          unoptimized
+        />
       </div>
       <dl className="flex flex-auto flex-wrap gap-x-2">
         <dt className="sr-only">Company</dt>
-        <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+        <dd className="relative z-10 w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
           {role.company}
         </dd>
         <dt className="sr-only">Role</dt>
         <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-          {role.title}
+          <div className="absolute -inset-x-2 -inset-y-2 z-0 scale-95 rounded-lg bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50" />
+          <Link href={role.url}>
+            <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl" />
+            <span className="relative z-10">{role.title}</span>
+          </Link>
         </dd>
         <dt className="sr-only">Date</dt>
         <dd
-          className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
+          className="relative z-10 ml-auto text-xs text-zinc-400 dark:text-zinc-500"
           aria-label={`${startLabel} until ${endLabel}`}
         >
           <time dateTime={startDate}>{startLabel}</time>{' '}
