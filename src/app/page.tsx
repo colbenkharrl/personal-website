@@ -7,6 +7,12 @@ import {
 } from '@/components/Icons';
 import { Photos } from '@/components/Photos';
 import { SocialLink } from '@/components/SocialLink';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Home',
+  description: 'I’m Matt Kharrl: engineer, athlete, and dad.',
+};
 
 export default async function Home() {
   return (
