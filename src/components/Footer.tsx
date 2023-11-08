@@ -1,6 +1,10 @@
+'use client';
+
 import Link from 'next/link';
 
 import { ContainerInner, ContainerOuter } from '@/components/Container';
+import React, { useCallback, useState } from 'react';
+import { SnackBar } from './SnackBar';
 
 function NavLink({
   href,
@@ -20,8 +24,14 @@ function NavLink({
 }
 
 export function Footer() {
+  const [isSnackBarShowing, setSnackBarShowing] = useState(true);
+
+  const handleCloseSnackBar = useCallback(() => {
+    setSnackBarShowing(false);
+  }, []);
+
   return (
-    <footer className="mt-32 flex-none">
+    <footer className={`mt-32 flex-none ${isSnackBarShowing ? 'pb-20' : ''}`}>
       <ContainerOuter>
         <div className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
           <ContainerInner>
@@ -40,6 +50,15 @@ export function Footer() {
           </ContainerInner>
         </div>
       </ContainerOuter>
+      <SnackBar onClose={handleCloseSnackBar}>
+        <Link href="https://github.com/colbenkharrl/website">
+          <strong className="font-semibold">
+            This site is designed and developed by me.
+          </strong>{' '}
+          View the the source on my GitHub.{' '}
+          <span aria-hidden="true">&rarr;</span>
+        </Link>
+      </SnackBar>
     </footer>
   );
 }
