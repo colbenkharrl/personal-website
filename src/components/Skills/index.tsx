@@ -1,12 +1,14 @@
 import { BadgeIcon } from '@/components/Icons';
 
-const skillCategories: {
+export type Skill = {
   category: string;
   skills: {
     name: string;
     proficiency: 'high' | 'medium' | 'low';
   }[];
-}[] = [
+};
+
+const skillCategories: Skill[] = [
   {
     category: 'Programming Languages',
     skills: [
@@ -507,7 +509,10 @@ const skillCategories: {
 
 export function Skills() {
   return (
-    <div className="mt-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+    <div
+      className="mt-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+      data-testid="Skills"
+    >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BadgeIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Skills</span>

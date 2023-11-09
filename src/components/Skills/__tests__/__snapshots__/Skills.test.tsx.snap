@@ -1,0 +1,674 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills matches snapshot (regression test): Full component snapshot. 1`] = `
+<div
+  class="mt-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+  data-testid="Skills"
+>
+  <h2
+    class="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100"
+  >
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 flex-none"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
+      viewBox="0 0 24 24"
+    >
+      <path
+        class="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+        d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"
+      />
+    </svg>
+    <span
+      class="ml-3"
+    >
+      Skills
+    </span>
+  </h2>
+  <h3
+    class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+  >
+    Programming Languages
+  </h3>
+  <div
+    class="mt-2"
+  >
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      TypeScript
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      JavaScript
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Java
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      C#
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      SQL
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Python
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Swift
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      PHP
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Bash
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Ruby
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      C++
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Objective-C
+    </span>
+  </div>
+  <h3
+    class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+  >
+    Frontend Technologies
+  </h3>
+  <div
+    class="mt-2"
+  >
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      HTML
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      CSS
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      React
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Design Systems
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      D3.js
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Storybook
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Figma
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Next.js
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Tailwind CSS
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Bootstrap
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      jQuery
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      MDX
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      GraphQL
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Apollo Client
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Angular
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Redux
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Gatsby
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Vue
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Backbone
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      PHP
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Svelte
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Ionic
+    </span>
+  </div>
+  <h3
+    class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+  >
+    Backend Technologies
+  </h3>
+  <div
+    class="mt-2"
+  >
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Node.js
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Express.js
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Next.js
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Apollo Server
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      REST APIs
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      GraphQL APIs
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Nginx
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Serverless
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Kafka
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      .NET
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Ruby on Rails
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Spring
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Django
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Flask
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Tomcat
+    </span>
+  </div>
+  <h3
+    class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+  >
+    Database Technologies
+  </h3>
+  <div
+    class="mt-2"
+  >
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      PostgreSQL
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      MySQL
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      DynamoDB
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      MongoDB
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Microsoft SQL Server
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Firebase
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Oracle Database
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Cassandra
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Redis
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Elasticsearch
+    </span>
+  </div>
+  <h3
+    class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+  >
+    Build, Test, & Deploy Tools
+  </h3>
+  <div
+    class="mt-2"
+  >
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      NPM
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Yarn
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Jest
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Enzyme
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Testing Library
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      GitHub Actions
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      GitLab
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      CircleCI
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Bamboo
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Webpack
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Babel
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      ESlint
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Docker
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Kubernetes
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Terraform
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      AWS CloudFormation
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Cypress
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Selenium
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Bitbucket Pipelines
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Vite
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Travis CI
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Jenkins
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      AWS CodeDeploy
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Maven
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Gradle
+    </span>
+  </div>
+  <h3
+    class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+  >
+    Cloud Infrastructure
+  </h3>
+  <div
+    class="mt-2"
+  >
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Amazon Web Services
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Cloudflare
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Akamai
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Fastly
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Heroku
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      DigitalOcean
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Vercel
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Microsoft Azure
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Google Cloud Platform
+    </span>
+  </div>
+  <h3
+    class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+  >
+    Management & Leadership
+  </h3>
+  <div
+    class="mt-2"
+  >
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Engineering Management
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Technology Strategy
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Agile Development
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Employee Development
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Technical Recruiting
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Headcount Planning
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Project Management
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Vendor Management
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Compliance
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Product Management
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Investor Relations
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Employee Experience
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Budget Management
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Mergers & Acquisitions
+    </span>
+  </div>
+  <h3
+    class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+  >
+    Communication
+  </h3>
+  <div
+    class="mt-2"
+  >
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Verbal Communication
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Technical Documentation
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Knowledgebase Management
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Public Speaking
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Fundraising
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+    >
+      Sales Engagements
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+    >
+      Podcasts
+    </span>
+  </div>
+</div>
+`;

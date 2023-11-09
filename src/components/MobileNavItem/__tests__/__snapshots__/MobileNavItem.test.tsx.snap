@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MobileNavItem matches snapshot (regression test): Full component snapshot. 1`] = `
+<a
+  aria-expanded="false"
+  class="block py-2"
+  data-headlessui-state=""
+  data-testid="MobileNavItem"
+  href="https://www.example.com"
+  id="headlessui-popover-button-:r0:"
+>
+  I am a link.
+</a>
+`;

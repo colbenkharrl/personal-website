@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogLayout matches snapshot (regression test): Full component snapshot. 1`] = `
+<div
+  class="sm:px-8 mt-16 lg:mt-32"
+  data-testid="Container"
+>
+  <div
+    class="mx-auto w-full max-w-7xl lg:px-8"
+  >
+    <div
+      class="relative px-4 sm:px-8 lg:px-12"
+    >
+      <div
+        class="mx-auto max-w-2xl lg:max-w-5xl"
+      >
+        <div
+          class="xl:relative"
+        >
+          <div
+            class="mx-auto max-w-2xl"
+          >
+            <article>
+              <header
+                class="flex flex-col"
+              >
+                <h1
+                  class="mt-6 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl"
+                >
+                  Test BlogLayout
+                </h1>
+                <time
+                  class="order-first flex items-center text-base text-zinc-400 dark:text-zinc-500"
+                  datetime="2023-11-09"
+                >
+                  <span
+                    class="h-4 w-0.5 rounded-full bg-zinc-200 dark:bg-zinc-500"
+                  />
+                  <span
+                    class="ml-3"
+                  >
+                    November 9, 2023
+                  </span>
+                </time>
+              </header>
+              <div
+                class="mt-8 prose dark:prose-invert"
+                data-mdx-content="true"
+              >
+                <p>
+                  Test blog content
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

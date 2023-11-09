@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Role matches snapshot (regression test): Full component snapshot. 1`] = `
+<li
+  class="group relative flex items-start gap-2 sm:gap-4"
+  data-testid="Role"
+>
+  <div
+    class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+  >
+    <img
+      alt=""
+      class="relative z-10 h-7 w-7"
+      data-nimg="1"
+      decoding="async"
+      height="40"
+      loading="lazy"
+      src="/img.jpg"
+      style="color: transparent;"
+      width="40"
+    />
+  </div>
+  <dl
+    class="flex flex-auto flex-wrap gap-x-2"
+  >
+    <dt
+      class="sr-only"
+    >
+      Company
+    </dt>
+    <dd
+      class="relative z-10 w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100"
+    >
+      Spec
+    </dd>
+    <dt
+      class="sr-only"
+    >
+      Role
+    </dt>
+    <dd
+      class="text-xs text-zinc-500 dark:text-zinc-400"
+    >
+      <div
+        class="absolute -inset-x-2 -inset-y-2 z-0 scale-95 rounded-lg bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50"
+      />
+      <a
+        href="https://specprotected.com/"
+      >
+        <span
+          class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+        />
+        <span
+          class="relative z-10  group-hover:text-orange-500"
+        >
+          VP of Engineering
+        </span>
+      </a>
+    </dd>
+    <dt
+      class="sr-only"
+    >
+      Date
+    </dt>
+    <dd
+      aria-label="2020 until 2023"
+      class="relative z-10 ml-auto text-xs text-zinc-400 dark:text-zinc-500"
+    >
+      <time
+        datetime="2020"
+      >
+        2020
+      </time>
+       
+      <span
+        aria-hidden="true"
+      >
+        —
+      </span>
+       
+      <time
+        datetime="2023"
+      >
+        2023
+      </time>
+    </dd>
+  </dl>
+</li>
+`;

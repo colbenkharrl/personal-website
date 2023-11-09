@@ -126,6 +126,7 @@ export function Header() {
           height: 'var(--header-height)',
           marginBottom: 'var(--header-mb)',
         }}
+        data-testid="Header"
       >
         {isHomePage && (
           <>
@@ -142,6 +143,7 @@ export function Header() {
             >
               <div
                 className="top-[var(--avatar-top,theme(spacing.3))] w-full"
+                data-testid="Header-home-avatar"
                 style={{
                   position:
                     'var(--header-inner-position)' as React.CSSProperties['position'],
@@ -183,7 +185,7 @@ export function Header() {
             <div className="relative flex gap-4">
               <div className="flex flex-1">
                 {!isHomePage && (
-                  <AvatarContainer>
+                  <AvatarContainer data-testid="Header-non-home-avatar">
                     <Avatar />
                   </AvatarContainer>
                 )}
@@ -205,6 +207,7 @@ export function Header() {
         <div
           className="flex-none"
           style={{ height: 'var(--content-offset)' }}
+          data-testid="Header-home-placeholder"
         />
       )}
     </>

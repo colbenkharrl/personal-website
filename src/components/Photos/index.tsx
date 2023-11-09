@@ -7,7 +7,7 @@ import image4 from '@/images/photos/image-4.jpg';
 
 export function Photos() {
   return (
-    <div className="mt-16 sm:mt-20">
+    <div className="mt-16 sm:mt-20" data-testid="Photos">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
         {[image2, image3, image4].map((image, imageIndex) => (
           <div
