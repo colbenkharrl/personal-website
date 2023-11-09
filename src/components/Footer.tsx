@@ -12,7 +12,7 @@ function NavLink({
   return (
     <Link
       href={href}
-      className="transition hover:text-sky-500 dark:hover:text-sky-400"
+      className="transition hover:text-orange-500 dark:hover:text-orange-400"
     >
       {children}
     </Link>
@@ -29,8 +29,8 @@ export function Footer() {
               <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
                 <NavLink href="/">Home</NavLink>
                 <NavLink href="/about">About</NavLink>
-                <NavLink href="/articles">Articles</NavLink>
-                <NavLink href="/projects">Projects</NavLink>
+                <NavLink href="/portfolio">Portfolio</NavLink>
+                <NavLink href="/blogs">Blog</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
                 &copy; {new Date().getFullYear()} Matt Kharrl. All rights

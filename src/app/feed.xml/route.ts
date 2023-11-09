@@ -3,18 +3,18 @@ import * as cheerio from 'cheerio';
 import { Feed } from 'feed';
 
 export async function GET(req: Request) {
-  let siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
   if (!siteUrl) {
     throw Error('Missing NEXT_PUBLIC_SITE_URL environment variable');
   }
 
-  let author = {
+  const author = {
     name: 'Matt Kharrl',
     email: 'matt@kharrl.com',
   };
 
-  let feed = new Feed({
+  const feed = new Feed({
     title: author.name,
     description: "Matt Kharrl's personal blog.",
     author,
@@ -28,22 +28,22 @@ export async function GET(req: Request) {
     },
   });
 
-  let articleIds = require
-    .context('../articles', true, /\/page\.mdx$/)
+  const blogIds = require
+    .context('../blogs', true, /\/page\.mdx$/)
     .keys()
     .filter((key) => key.startsWith('./'))
     .map((key) => key.slice(2).replace(/\/page\.mdx$/, ''));
 
-  for (let id of articleIds) {
-    let url = String(new URL(`/articles/${id}`, req.url));
-    let html = await (await fetch(url)).text();
-    let $ = cheerio.load(html);
+  for (const id of blogIds) {
+    const url = String(new URL(`/blogs/${id}`, req.url));
+    const html = await (await fetch(url)).text();
+    const $ = cheerio.load(html);
 
-    let publicUrl = `${siteUrl}/articles/${id}`;
-    let article = $('article').first();
-    let title = article.find('h1').first().text();
-    let date = article.find('time').first().attr('datetime');
-    let content = article.find('[data-mdx-content]').first().html();
+    const publicUrl = `${siteUrl}/blogs/${id}`;
+    const blog = $('blog').first();
+    const title = blog.find('h1').first().text();
+    const date = blog.find('time').first().attr('datetime');
+    const content = blog.find('[data-mdx-content]').first().html();
 
     assert(typeof title === 'string');
     assert(typeof date === 'string');

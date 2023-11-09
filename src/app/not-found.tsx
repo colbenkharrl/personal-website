@@ -1,6 +1,13 @@
 import { Button } from '@/components/Button';
 import { Container } from '@/components/Container';
 
+import { type Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Not Found',
+  description: 'Sorry, we couldn’t find the page you’re looking for.',
+};
+
 export default function NotFound() {
   return (
     <Container className="flex h-full items-center pt-16 sm:pt-32">
