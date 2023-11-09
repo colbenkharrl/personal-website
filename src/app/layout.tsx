@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: '%s - Matt Kharrl',
     default: 'Matt Kharrl',
   },
-  description: 'Personal website and professional portfolio for Matt Kharrl.',
+  description: 'I’m Matt Kharrl: engineer, athlete, and dad.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
