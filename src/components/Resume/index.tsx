@@ -4,8 +4,8 @@ import logoAmazon from '@/images/logos/amazon.png';
 import logoThreatMetrix from '@/images/logos/threatmetrix.png';
 import logoEdupoint from '@/images/logos/synergy.png';
 import logoApple from '@/images/logos/apple.png';
-import { Role } from './Role';
-import { BriefcaseIcon } from './Icons';
+import { Role } from '@/components/Role';
+import { BriefcaseIcon } from '@/components/Icons';
 
 const resume: Array<Role> = [
   {

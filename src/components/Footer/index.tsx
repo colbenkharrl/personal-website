@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 import { ContainerInner, ContainerOuter } from '@/components/Container';
 import React, { useCallback, useState } from 'react';
-import { SnackBar } from './SnackBar';
+import { SnackBar } from '@/components/SnackBar';
 
 function NavLink({
   href,

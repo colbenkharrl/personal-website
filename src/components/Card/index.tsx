@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import clsx from 'clsx';
-import { ChevronRightIcon } from './Icons';
+import { ChevronRightIcon } from '@/components/Icons';
 
 export function Card<T extends React.ElementType = 'div'>({
   as,
