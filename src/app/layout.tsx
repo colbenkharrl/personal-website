@@ -14,6 +14,7 @@ export const metadata: Metadata = {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
     },
   },
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
 };
 
 export default function RootLayout({
