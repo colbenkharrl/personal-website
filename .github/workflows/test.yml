@@ -1,6 +1,7 @@
 name: CI
 on: push
 jobs:
+  name: Tests
   build:
     runs-on: ubuntu-latest
     steps:
