@@ -75,7 +75,7 @@ exports[`Footer matches snapshot (regression test): Full component snapshot. 1`]
         class="z-50 text-sm leading-6 text-zinc-800 dark:text-zinc-100"
       >
         <a
-          href="https://github.com/colbenkharrl/website"
+          href="https://github.com/colbenkharrl/personal-website"
         >
           <strong
             class="font-semibold"

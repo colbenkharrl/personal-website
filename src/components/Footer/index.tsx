@@ -54,7 +54,7 @@ export function Footer() {
         </div>
       </ContainerOuter>
       <SnackBar onClose={handleCloseSnackBar}>
-        <Link href="https://github.com/colbenkharrl/website">
+        <Link href="https://github.com/colbenkharrl/personal-website">
           <strong className="font-semibold">
             This site is designed and developed by me.
           </strong>{' '}
