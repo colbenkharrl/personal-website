@@ -1,0 +1,119 @@
+import { BlogLayout } from '@/components/BlogLayout';
+import Image from 'next/image';
+import teamPhoto from '@/app/blog/reflecting-on-spec/spec-team.jpg';
+import executivePhoto from '@/app/blog/reflecting-on-spec/executive-team.jpg';
+import familyPhoto from '@/app/blog/reflecting-on-spec/family-photo.jpg';
+
+export const blog = {
+  author: 'Matt Kharrl',
+  date: '2023-11-06',
+  title: 'Spec: Reflecting On My Startup Journey',
+  description:
+    'After three great years, I have made the tough decision to part ways with Spec. I want to take an opportunity to pause and reflect on my startup journey.',
+};
+
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+};
+
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+After three great years, I have made the tough decision to part ways with Spec. I want to take an opportunity to pause and reflect on my startup journey.
+
+<Image src={teamPhoto} alt="image of Spec employees" />
+
+## The Beginning
+
+What is now the Company Spec, who recently announced their $15 million Series A fundraising round, all started at a dinner in San Jose with my brother Nate Kharrl, our long-time friend and colleague Patrick Chen, and myself. Together, over a flight of whiskey, we decided that we were going to take the leap and create the unifying fraud defense platform that we had dreamed about for years prior. It's strange thinking about your startup as a startup when it is effectively just a WhatsApp group chat and a couple of Google Docs. You have to hold that vision at the forefront of your mind, lest it fall by the wayside or get lost in ambiguity. For the three of us, the focus was strong, and we took our early roles seriously.
+
+During the first few months of harnessing, documenting, and organizing ideas and plans, I was going through some significant life events in my personal life. I decided to leave the Bay Area and move back to Phoenix to live with my girlfriend, to whom I then proposed. In the rush of rediscovering my life in a new state, making large strides in my love life, and now planning a wedding, I realized that I didn't have the time to devote to being a startup founder as well. Rather than lacking in presence as a founder to Spec or a partner to my fiancee, I decided to step away from Spec, let them find a more available technical founder, and prioritize my time and focus on my budding marriage. Also, weddings are expensive, and I couldn't justify the financial leap of going without income for an unknown period.
+
+## The Comeback
+
+I told Nate and Patrick before I left:
+
+> "I would love to be your first employee, but I can't be your co-founder."
+
+Well, they took me up on that offer. About six months later, Nate approached me that they had made strides in a functional prototype, had pulled in a friends and family round of fundraising, and wanted me to rejoin as their first employee and lead engineer to design and build their enterprise-grade web application. I was content working at Atlassian, but I had always dreamed of building a technology company from the ground up, and the opportunity to do that with my brother and without the financial risk of a founder was too good to pass up.
+
+A month later, I was staring a blank slate and got to work designing, building, and launching what was then called the SpecTrust Hub. I was excited to be the founding engineer for what we hoped would be an industry-changing enterprise product that would one day have dozens of engineers. I took that role seriously, focusing on developer experience, testing, CI/CD automation, etc., more than was likely necessary for a one-person operation.
+
+Those first six months at Spec were an absolute blur of rapid development. What we lacked in rigid product requirements, designs, or customers, we made up for in sheer willpower. In two months, I had a deployed web application featuring:
+
+- a Postgres database for various app experiences.
+- a GraphQL API built with Node.js and Apollo.
+- a React web application with multiple screens and data visualizations.
+- a secure authentication and user management experience.
+- a consistent developer experience using Storybook and Jest for rapid implementation and testing.
+- an AWS cloud infrastructure for hosting the deployed product.
+- a redesigned and rebranded marketing website to put our product and company out there.
+
+We landed our first two production customers in late 2020 and spent a lot of time talking with them to understand how they perceived the product and how we could make it better for them. It was a time when you felt the needle moving every hour of every day, and we had an absolute blast.
+
+## The Call-Up
+
+<Image src={executivePhoto} alt="image of early Spec executives" />
+
+I was genuinely happy as an individual contributor for Spec and imagined a future as a lead architect and engineering mentor for others as the company grew. However, in a pre-seed round startup, you have to go where you are needed. We were all already wearing many hats, in my case serving as engineer, product manager, and designer. As we set out to raise our first round of VC funding, we felt a growing vacuum in executive-level technology leadership. After a few long conversations with Nate and Patrick, they shared their support to have me take on a new role as Spec's VP of Engineering with an immediate focus on establishing and staffing our first engineering team.
+
+I had never managed people, so this felt like skipping a step. However, I knew that through sheer determination and the support of those around me, I could succeed and do my part to push Spec into the next growth phase. I took the call-up and immediately started focusing on building an engineering organization that could support the talent we needed to attract, hire, motivate, and lead towards our vision.
+
+Building the early engineering organization was a surreal and challenging experience. With support from founders, investors, and advisors, I found my confidence and assembled a truly incredible team of people to develop our platform. We had:
+
+- backend engineers building high-performance, real-time attack detection and prevention services at the edge of the internet using Rust.
+- web engineers building a first-of-its-kind user experience for visualizing and managing fraud defenses using modern web frameworks.
+- devops engineers building an automated, scalable, and secure cloud infrastructure that needed to withstand the traffic of the largest enterprises.
+- project managers assisting me with procuring formal attestations for SOC 2 Type 2 and PCI-DSS Level 1 compliance.
+
+Being an executive comes with many duties, but there was no duty I took more seriously or toiled over more than my duty to our employees. They constantly rose (and still do rise) above and beyond to do amazing things for Spec. I wanted to return that energy with a commitment to providing a positive and generative culture and overall employee experience. I said this often internally, and I will repeat it here for anyone to read:
+
+Of all the things I am proud of at Spec, none is greater than the team of truly unique and talented people that we were able to assemble. We accomplished so many great things together and with half the headcount that those successes warranted.
+
+## The Rapid Growth
+
+Growth is fuel for a startup and the metric that everyone craves. Lack of growth will eventually put you out of business. As stressful as that sounds, I would say the pressure that comes with positive growth is _at least_ equal to that of stagnation.
+
+Growth means you get to hire, which is great! It also means:
+
+- you need to build a hiring pipeline.
+- you need to conduct dozens of interviews.
+- you need to start planning an expanding organization of people.
+- you need to define and enhance your employee experience.
+- you need to establish and streamline payroll, health insurance, benefits, etc.
+- you need to put human resources programs in place.
+- you need to be more structured about vision and goals.
+- you need to design, document, and enhance your development process.
+- you need to create flexible communication and collaboration channels between growing teams.
+- you need to procure a lot more tools.
+
+Growth means you have more customers, which is great! It also means:
+
+- you need to define your customer support experience.
+- you need to make yourself available for customer needs.
+- you need to improve your external documentation.
+- you need to create an on-call and incident response program.
+- you need to expand and enhance your feedback channels.
+- you need to work with lawyers and wrestle with contracts.
+
+All the while, you also need to continue building, selling, fundraising, and marketing to grow even more and as soon as possible.
+
+Riding these waves of external and internal growth often felt overwhelming to me, a new technology leader in their first startup experience. Thankfully, I had support and encouragement in every direction and could normalize the experience and gain confidence in making decisions and taking action as growth opportunities presented themselves. Sometimes the saying really is true, that the reward for good work is more work, so we leaned on each other and found ways to keep it fun as we pushed our way through.
+
+Over the following years, Spec would continue to grow. What started as an engineering team of, well, me, is now a multi-disciplined engineering organization developing technology across three separate arms of the platform. We also have our first engineering manager (the birth of middle management) and a Director of Compliance. We have tried many different processes and have developed some great products. We support many enterprise customers, some of which are among the largest and most recognizable brands on the planet. Thinking about how much we do now, how much we did three years ago, and what it took to get from A to B is enough to make me dizzy.
+
+## The Hard Decision
+
+Everything changes eventually, given enough time. As you might expect, Spec in 2023 is a very different company than Spec in 2020 (besides the fact that in 2020, we were named "SpecTrust"). Our customers and competitors have been taking us more and more seriously, and my role as an executive has been naturally asking more of me in ways I have been struggling to provide. Working remotely from Phoenix and limiting my travel means I miss some opportunities Spec needs to capitalize on. I am far from our customers, far from our teams, and far from our industry.
+
+Another change happened for me personally when my wife shared that she was pregnant with our first child. I have long been excited to be a father and to build a family with my wife, and now was my time to experience those joys to their fullest. In August of 2023, our son Quinn was born. These first few months with him have changed my brain chemistry and given me a new perspective on what I prioritize most, which is my family. Anything I can do to enable myself to be a more present and available husband and father, I will do, and in that, I will be happy.
+
+Many other changes occurred and played a part in my decision-making, but those were the two elephants in the room. Spec needed and deserved more from me. My family needed and deserved more from me. I knew I couldn't play both roles at the caliber I wanted, so I made my most challenging career choice yet and notified Spec that I would be parting ways and focusing on my life in Arizona. I built and executed a many-month-long transition plan, and as of November 8th, I will close the Spec chapter of my career.
+
+I love Spec's people. I love Spec's product. I have loved being a part of Spec's story since the founding dinner between Nate, Patrick, and myself in 2019. I love Spec's values and the commitment that individuals and teams show in truly living them, even when unpopular. I love celebrating all the fantastic things Spec has done together thus far throughout our many challenges. I love how much this experience has forced me to grow, even when I might not have wanted to or wasn't ready. Truly, I love Spec. I am so grateful for this experience and know that it will make me better as a professional and person for the rest of my life.
+
+## The Next Step
+
+When it comes to what is next for me, the honest answer is that I don't yet know! Engineering is a vast domain, but my passion has always been building web experiences that users love. I imagine where I end up next will align well with that. In the meantime, I am spending all my time and focus on Alex and Quinn as we figure out this whole "family" thing. It's been my most formidable challenge to date, and I wouldn't have it any other way.
+
+<Image src={familyPhoto} alt="image of Matt, Alex, and Quinn" />
