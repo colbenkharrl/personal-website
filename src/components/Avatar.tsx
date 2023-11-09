@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import Image from 'next/image';
 import Link from 'next/link';
-import avatarImage from '@/images/avatar.jpg';
+import avatarImage from '@/images/avatar_512.jpg';
 
 export function Avatar({
   large = false,

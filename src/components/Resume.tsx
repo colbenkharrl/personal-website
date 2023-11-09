@@ -1,7 +1,9 @@
-import logoAirbnb from '@/images/logos/airbnb.svg';
-import logoFacebook from '@/images/logos/facebook.svg';
-import logoPlanetaria from '@/images/logos/planetaria.svg';
-import logoStarbucks from '@/images/logos/starbucks.svg';
+import logoAtlassian from '@/images/logos/atlassian.svg';
+import logoSpec from '@/images/logos/spec.svg';
+import logoAmazon from '@/images/logos/amazon.png';
+import logoThreatMetrix from '@/images/logos/threatmetrix.png';
+import logoEdupoint from '@/images/logos/synergy.png';
+import logoApple from '@/images/logos/apple.png';
 import { Role } from './Role';
 import { ArrowDownIcon, BriefcaseIcon } from './Icons';
 import { Button } from './Button';
@@ -11,40 +13,44 @@ export function Resume() {
     {
       company: 'Spec',
       title: 'VP of Engineering',
-      logo: logoPlanetaria,
+      logo: logoSpec,
       start: '2020',
-      end: {
-        label: 'Present',
-        dateTime: new Date().getFullYear().toString(),
-      },
+      end: '2023',
     },
     {
       company: 'Atlassian',
       title: 'Software Engineer',
-      logo: logoAirbnb,
+      logo: logoAtlassian,
       start: '2018',
       end: '2020',
     },
     {
       company: 'Amazon',
       title: 'Software Engineering Intern',
-      logo: logoFacebook,
+      logo: logoAmazon,
       start: '2018',
       end: '2018',
     },
     {
       company: 'ThreatMetrix',
       title: 'Software Engineer',
-      logo: logoStarbucks,
+      logo: logoThreatMetrix,
       start: '2017',
       end: '2018',
     },
     {
       company: 'Edupoint',
       title: 'Software Engineering Intern',
-      logo: logoStarbucks,
+      logo: logoEdupoint,
       start: '2017',
       end: '2017',
+    },
+    {
+      company: 'Apple',
+      title: 'Technical Advisor',
+      logo: logoApple,
+      start: '2015',
+      end: '2016',
     },
   ];
 
