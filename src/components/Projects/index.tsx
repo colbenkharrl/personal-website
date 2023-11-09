@@ -92,7 +92,10 @@ const projects = [
 
 export function Projects() {
   return (
-    <div className="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+    <div
+      className="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+      data-testid="Projects"
+    >
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <RocketIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Projects & Products</span>

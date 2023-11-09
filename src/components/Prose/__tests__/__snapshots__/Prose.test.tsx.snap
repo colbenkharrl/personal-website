@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prose matches snapshot (regression test): Full component snapshot. 1`] = `
+<div
+  class="prose dark:prose-invert"
+  data-testid="Prose"
+>
+  Text.
+</div>
+`;

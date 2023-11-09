@@ -1,0 +1,541 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects matches snapshot (regression test): Full component snapshot. 1`] = `
+<div
+  class="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+  data-testid="Projects"
+>
+  <h2
+    class="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100"
+  >
+    <svg
+      aria-hidden="true"
+      class="h-6 w-6 flex-none"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="1.5"
+      viewBox="0 0 24 24"
+    >
+      <path
+        class="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+        d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
+      />
+    </svg>
+    <span
+      class="ml-3"
+    >
+      Projects & Products
+    </span>
+  </h2>
+  <ul
+    class="mt-8 grid grid-cols-1 gap-x-12 gap-y-16 p-4 sm:grid-cols-2 lg:grid-cols-3"
+    role="list"
+  >
+    <li
+      class="group relative flex flex-col items-start"
+      data-testid="Card"
+    >
+      <div
+        class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+      >
+        <img
+          alt=""
+          class="h-8 w-8"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/img.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <h2
+        class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+      >
+        <div
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+        />
+        <a
+          href="https://specprotected.com/"
+        >
+          <span
+            class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+          />
+          <span
+            class="relative z-10"
+          >
+            Trust Cloud
+          </span>
+        </a>
+      </h2>
+      <p
+        class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+      >
+        Spec's Trust Cloud is a real-time security defense platform that is currently protecting the web traffic of some of the largest brands in the world. I designed and developed their enterprise-grade web application, then went on to lead the entire engineering and compliance organizations.
+      </p>
+      <p
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-6 w-6 flex-none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="ml-2"
+        >
+          specprotected.com
+        </span>
+      </p>
+    </li>
+    <li
+      class="group relative flex flex-col items-start"
+      data-testid="Card"
+    >
+      <div
+        class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+      >
+        <img
+          alt=""
+          class="h-8 w-8"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/img.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <h2
+        class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+      >
+        <div
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+        />
+        <a
+          href="https://www.atlassian.com/software/confluence"
+        >
+          <span
+            class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+          />
+          <span
+            class="relative z-10"
+          >
+            Confluence
+          </span>
+        </a>
+      </h2>
+      <p
+        class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+      >
+        Confluence, an Atlassian product, is the most widely-used workplace documentation product in the world. I worked on the core navigation and discoverability features for their cloud-based web application, and also designed and built their automated, interactive, and multi-stage release pipeline.
+      </p>
+      <p
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-6 w-6 flex-none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="ml-2"
+        >
+          atlassian.com
+        </span>
+      </p>
+    </li>
+    <li
+      class="group relative flex flex-col items-start"
+      data-testid="Card"
+    >
+      <div
+        class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+      >
+        <img
+          alt=""
+          class="h-8 w-8"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/img.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <h2
+        class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+      >
+        <div
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+        />
+        <a
+          href="https://atlassian.design/components/atlassian-navigation/examples"
+        >
+          <span
+            class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+          />
+          <span
+            class="relative z-10"
+          >
+            Atlassian Navigation
+          </span>
+        </a>
+      </h2>
+      <p
+        class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+      >
+        Atlassian Navigation is a core component of the Atlassian design system, which is utilized across all of their cloud products. I worked with a special project team to research, design, develop, and integrate this navigation experience and all associated components.
+      </p>
+      <p
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-6 w-6 flex-none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="ml-2"
+        >
+          atlassian.design
+        </span>
+      </p>
+    </li>
+    <li
+      class="group relative flex flex-col items-start"
+      data-testid="Card"
+    >
+      <div
+        class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+      >
+        <img
+          alt=""
+          class="h-8 w-8"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/img.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <h2
+        class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+      >
+        <div
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+        />
+        <a
+          href="https://www.amazon.com/echo/s?k=echo+show"
+        >
+          <span
+            class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+          />
+          <span
+            class="relative z-10"
+          >
+            Echo Show
+          </span>
+        </a>
+      </h2>
+      <p
+        class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+      >
+        Amazon's Echo Show is their only Alexa-enabled household device with a screen. I developed an internal web application which enabled marketers and brand partners to create, schedule, and deploy advertising campaigns to devices worldwide in the form of custom camera filters.
+      </p>
+      <p
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-6 w-6 flex-none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="ml-2"
+        >
+          amazon.com
+        </span>
+      </p>
+    </li>
+    <li
+      class="group relative flex flex-col items-start"
+      data-testid="Card"
+    >
+      <div
+        class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+      >
+        <img
+          alt=""
+          class="h-8 w-8"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/img.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <h2
+        class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+      >
+        <div
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+        />
+        <a
+          href="https://risk.lexisnexis.com/products/threatmetrix"
+        >
+          <span
+            class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+          />
+          <span
+            class="relative z-10"
+          >
+            ThreatMetrix ID
+          </span>
+        </a>
+      </h2>
+      <p
+        class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+      >
+        ThreatMetrix ID was the fraud industry's first dynamic representation of digital identities on the internet. I designed and developed an interactive graph visualization which allows fraud analysts to inspect the complex history of user behavior on the web across many websites and devices.
+      </p>
+      <p
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-6 w-6 flex-none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="ml-2"
+        >
+          lexisnexis.com
+        </span>
+      </p>
+    </li>
+    <li
+      class="group relative flex flex-col items-start"
+      data-testid="Card"
+    >
+      <div
+        class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+      >
+        <img
+          alt=""
+          class="h-8 w-8"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/img.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <h2
+        class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+      >
+        <div
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+        />
+        <a
+          href="https://github.com/colbenkharrl/website"
+        >
+          <span
+            class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+          />
+          <span
+            class="relative z-10"
+          >
+            Personal Portfolio
+          </span>
+        </a>
+      </h2>
+      <p
+        class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+      >
+        The website you are browsing right now was built by me using modern web technologies. Over time I will likely test out new libraries in this very over-engineered project. You can view the source code on my Github profile.
+      </p>
+      <p
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-6 w-6 flex-none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="ml-2"
+        >
+          github.com
+        </span>
+      </p>
+    </li>
+    <li
+      class="group relative flex flex-col items-start"
+      data-testid="Card"
+    >
+      <div
+        class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+      >
+        <img
+          alt=""
+          class="h-8 w-8"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/img.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <h2
+        class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+      >
+        <div
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+        />
+        <a
+          href="https://edupoint.com/Products/Student-Information-Management"
+        >
+          <span
+            class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+          />
+          <span
+            class="relative z-10"
+          >
+            Synergy SIS
+          </span>
+        </a>
+      </h2>
+      <p
+        class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+      >
+        The Synergy Student Information Platform, developed by Edupoint, provides end-to-end educational management services for K-12 schools across the United States. I worked on their .NET platform and focused on enhancements to their administrative reporting framework.
+      </p>
+      <p
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-6 w-6 flex-none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="ml-2"
+        >
+          edupoint.com
+        </span>
+      </p>
+    </li>
+    <li
+      class="group relative flex flex-col items-start"
+      data-testid="Card"
+    >
+      <div
+        class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+      >
+        <img
+          alt=""
+          class="h-8 w-8"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/img.jpg"
+          style="color: transparent;"
+          width="40"
+        />
+      </div>
+      <h2
+        class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+      >
+        <div
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+        />
+        <a
+          href="https://blitzracingcc.com/"
+        >
+          <span
+            class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+          />
+          <span
+            class="relative z-10"
+          >
+            Blitz Racing Cycling Club
+          </span>
+        </a>
+      </h2>
+      <p
+        class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+      >
+        Blitz Racing is the cycling club for which I race bikes. I developed a simple landing page for our team where we can share information about our events, sponsors, and results.
+      </p>
+      <p
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+      >
+        <svg
+          aria-hidden="true"
+          class="h-6 w-6 flex-none"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="ml-2"
+        >
+          blitzracingcc.com
+        </span>
+      </p>
+    </li>
+  </ul>
+</div>
+`;

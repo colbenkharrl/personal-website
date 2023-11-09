@@ -20,7 +20,10 @@ export function Role({ role }: { role: Role }) {
   const endDate = typeof role.end === 'string' ? role.end : role.end.dateTime;
 
   return (
-    <li className="group relative flex items-start gap-2 sm:gap-4">
+    <li
+      className="group relative flex items-start gap-2 sm:gap-4"
+      data-testid="Role"
+    >
       <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
         <Image
           src={role.logo}

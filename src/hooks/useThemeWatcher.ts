@@ -1,9 +1,7 @@
-'use client';
-
-import { useEffect, FC } from 'react';
+import { useEffect } from 'react';
 import { useTheme } from 'next-themes';
 
-export const ThemeWatcher: FC = () => {
+export const useThemeWatcher = () => {
   const { resolvedTheme, setTheme } = useTheme();
 
   useEffect(() => {
@@ -23,6 +21,4 @@ export const ThemeWatcher: FC = () => {
       media.removeEventListener('change', onMediaChange);
     };
   }, [resolvedTheme, setTheme]);
-
-  return null;
 };

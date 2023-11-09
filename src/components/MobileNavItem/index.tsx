@@ -10,7 +10,12 @@ export function MobileNavItem({
 }) {
   return (
     <li>
-      <Popover.Button as={Link} href={href} className="block py-2">
+      <Popover.Button
+        as={Link}
+        href={href}
+        className="block py-2"
+        data-testid="MobileNavItem"
+      >
         {children}
       </Popover.Button>
     </li>

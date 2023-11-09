@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavItem matches snapshot (regression test): Full component snapshot. 1`] = `
+<a
+  class="relative block px-3 py-2 transition hover:text-orange-500 dark:hover:text-orange-400"
+  data-testid="NavItem"
+  href="https://www.example.com"
+>
+  I am a link.
+</a>
+`;

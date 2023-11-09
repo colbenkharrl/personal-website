@@ -15,6 +15,7 @@ export function Card<T extends React.ElementType = 'div'>({
   return (
     <Component
       className={clsx(className, 'group relative flex flex-col items-start')}
+      data-testid="Card"
     >
       {children}
     </Component>

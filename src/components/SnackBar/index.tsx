@@ -3,7 +3,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 
 export type SnackBarProps = React.ComponentPropsWithoutRef<'div'> & {
-  onClose: () => void;
+  onClose?: () => void;
 };
 
 export function SnackBar({ onClose, children }: SnackBarProps) {
@@ -31,7 +31,10 @@ export function SnackBar({ onClose, children }: SnackBarProps) {
   }, [handleClose]);
 
   return isOpen ? (
-    <div className="pointer-events-none fixed inset-x-0 bottom-0 z-50 sm:flex sm:justify-center sm:px-6 sm:pb-5 lg:px-8">
+    <div
+      className="pointer-events-none fixed inset-x-0 bottom-0 z-50 sm:flex sm:justify-center sm:px-6 sm:pb-5 lg:px-8"
+      data-testid="SnackBar"
+    >
       <div
         className={`${
           isCloseAnimation ? 'opacity-0' : 'opacity-100'
@@ -44,6 +47,7 @@ export function SnackBar({ onClose, children }: SnackBarProps) {
           type="button"
           className="z-50 -m-1.5 flex-none  p-1.5"
           onClick={handleClose}
+          data-testid="SnackBar-close-icon"
         >
           <span className="sr-only">Dismiss</span>
           <svg

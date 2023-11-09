@@ -21,6 +21,7 @@ export function NavItem({
             ? 'text-orange-500 dark:text-orange-400'
             : 'hover:text-orange-500 dark:hover:text-orange-400',
         )}
+        data-testid="NavItem"
       >
         {children}
         {isActive && (

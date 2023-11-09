@@ -31,7 +31,10 @@ export function Footer() {
   }, []);
 
   return (
-    <footer className={`mt-32 flex-none ${isSnackBarShowing ? 'pb-20' : ''}`}>
+    <footer
+      className={`mt-32 flex-none ${isSnackBarShowing ? 'pb-20' : ''}`}
+      data-testid="Footer"
+    >
       <ContainerOuter>
         <div className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
           <ContainerInner>
