@@ -63,7 +63,7 @@ const projects = [
     description:
       'The website you are browsing right now was built by me using modern web technologies. Over time I will likely test out new libraries in this very over-engineered project. You can view the source code on my Github profile.',
     link: {
-      href: 'https://github.com/colbenkharrl/website',
+      href: 'https://github.com/colbenkharrl/personal-website',
       label: 'github.com',
     },
     logo: logoPortfolio,
