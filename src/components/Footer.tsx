@@ -55,8 +55,7 @@ export function Footer() {
           <strong className="font-semibold">
             This site is designed and developed by me.
           </strong>{' '}
-          View the the source on my GitHub.{' '}
-          <span aria-hidden="true">&rarr;</span>
+          View the the source on GitHub. <span aria-hidden="true">&rarr;</span>
         </Link>
       </SnackBar>
     </footer>
