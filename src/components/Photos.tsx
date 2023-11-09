@@ -1,11 +1,9 @@
 import Image from 'next/image';
 import clsx from 'clsx';
 
-import image1 from '@/images/photos/image-1.jpg';
 import image2 from '@/images/photos/image-2.jpg';
 import image3 from '@/images/photos/image-3.jpg';
 import image4 from '@/images/photos/image-4.jpg';
-import image5 from '@/images/photos/image-5.jpg';
 
 const rotations = [
   'rotate-2',
@@ -19,11 +17,11 @@ export function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {[image2, image3, image4].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
-              'relative aspect-[9/10] w-32 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-44 sm:rounded-2xl',
+              'relative aspect-[9/10] w-28 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-40 sm:rounded-2xl md:w-48 lg:w-56 xl:w-64 2xl:w-72',
               rotations[imageIndex % rotations.length],
             )}
           >

@@ -5,7 +5,7 @@ import { formatDate } from '@/util/formatDate';
 export function Blog({ blog }: { blog: BlogWithSlug }) {
   return (
     <Card as="article">
-      <Card.Title href={`/blogs/${blog.slug}`}>{blog.title}</Card.Title>
+      <Card.Title href={`/blog/${blog.slug}`}>{blog.title}</Card.Title>
       <Card.Eyebrow as="time" dateTime={blog.date} decorate>
         {formatDate(blog.date)}
       </Card.Eyebrow>

@@ -29,17 +29,17 @@ export async function GET(req: Request) {
   });
 
   const blogIds = require
-    .context('../blogs', true, /\/page\.mdx$/)
+    .context('../blog', true, /\/page\.mdx$/)
     .keys()
     .filter((key) => key.startsWith('./'))
     .map((key) => key.slice(2).replace(/\/page\.mdx$/, ''));
 
   for (const id of blogIds) {
-    const url = String(new URL(`/blogs/${id}`, req.url));
+    const url = String(new URL(`/blog/${id}`, req.url));
     const html = await (await fetch(url)).text();
     const $ = cheerio.load(html);
 
-    const publicUrl = `${siteUrl}/blogs/${id}`;
+    const publicUrl = `${siteUrl}/blog/${id}`;
     const blog = $('blog').first();
     const title = blog.find('h1').first().text();
     const date = blog.find('time').first().attr('datetime');
