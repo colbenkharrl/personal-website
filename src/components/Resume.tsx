@@ -5,8 +5,7 @@ import logoThreatMetrix from '@/images/logos/threatmetrix.png';
 import logoEdupoint from '@/images/logos/synergy.png';
 import logoApple from '@/images/logos/apple.png';
 import { Role } from './Role';
-import { ArrowDownIcon, BriefcaseIcon } from './Icons';
-import { Button } from './Button';
+import { BriefcaseIcon } from './Icons';
 
 const resume: Array<Role> = [
   {
@@ -15,6 +14,7 @@ const resume: Array<Role> = [
     logo: logoSpec,
     start: '2020',
     end: '2023',
+    url: 'https://specprotected.com/',
   },
   {
     company: 'Atlassian',
@@ -22,6 +22,7 @@ const resume: Array<Role> = [
     logo: logoAtlassian,
     start: '2018',
     end: '2020',
+    url: 'https://atlassian.com/',
   },
   {
     company: 'Amazon',
@@ -29,6 +30,7 @@ const resume: Array<Role> = [
     logo: logoAmazon,
     start: '2018',
     end: '2018',
+    url: 'https://amazon.com/',
   },
   {
     company: 'ThreatMetrix',
@@ -36,6 +38,7 @@ const resume: Array<Role> = [
     logo: logoThreatMetrix,
     start: '2017',
     end: '2018',
+    url: 'https://risk.lexisnexis.com/products/threatmetrix',
   },
   {
     company: 'Edupoint',
@@ -43,6 +46,7 @@ const resume: Array<Role> = [
     logo: logoEdupoint,
     start: '2017',
     end: '2017',
+    url: 'https://www.edupoint.com/',
   },
   {
     company: 'Apple',
@@ -50,6 +54,7 @@ const resume: Array<Role> = [
     logo: logoApple,
     start: '2015',
     end: '2016',
+    url: 'https://apple.com/',
   },
 ];
 
@@ -60,20 +65,11 @@ export function Resume() {
         <BriefcaseIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Work</span>
       </h2>
-      <ol className="mt-6 space-y-4">
+      <ol className="mt-6 space-y-4" role="list">
         {resume.map((role, roleIndex) => (
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-      <Button
-        href="/matt-kharrl-resume-11-2023.pdf"
-        target="_blank"
-        variant="secondary"
-        className="group mt-6 w-full"
-      >
-        Download CV
-        <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
-      </Button>
     </div>
   );
 }
