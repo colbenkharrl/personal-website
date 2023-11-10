@@ -71,7 +71,7 @@ const projects = [
   {
     name: 'Synergy SIS',
     description:
-      'The Synergy Student Information Platform, developed by Edupoint, provides end-to-end educational management services for K-12 schools across the United States. I worked on their .NET platform and focused on enhancements to their administrative reporting framework.',
+      'The Synergy Student Information System, developed by Edupoint, provides end-to-end educational management services for K-12 schools across the United States. I worked on their .NET platform and focused on enhancements to their administrative reporting framework.',
     link: {
       href: 'https://edupoint.com/Products/Student-Information-Management',
       label: 'edupoint.com',
