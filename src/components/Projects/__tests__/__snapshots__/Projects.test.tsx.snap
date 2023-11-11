@@ -451,7 +451,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
       <p
         class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
       >
-        The Synergy Student Information Platform, developed by Edupoint, provides end-to-end educational management services for K-12 schools across the United States. I worked on their .NET platform and focused on enhancements to their administrative reporting framework.
+        The Synergy Student Information System, developed by Edupoint, provides end-to-end educational management services for K-12 schools across the United States. I worked on their .NET platform and focused on enhancements to their administrative reporting framework.
       </p>
       <p
         class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
