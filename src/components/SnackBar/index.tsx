@@ -31,14 +31,11 @@ export function SnackBar({ onClose, children }: SnackBarProps) {
   }, [handleClose]);
 
   return isOpen ? (
-    <div
-      className="pointer-events-none fixed inset-x-0 bottom-0 z-50 sm:flex sm:justify-center sm:px-6 sm:pb-5 lg:px-8"
-      data-testid="SnackBar"
-    >
+    <div className="fixed inset-x-0 bottom-0" data-testid="SnackBar">
       <div
         className={`${
           isCloseAnimation ? 'opacity-0' : 'opacity-100'
-        } pointer-events-auto flex items-center justify-between gap-x-6 bg-white bg-opacity-90 px-6 py-2.5 outline outline-2 outline-orange-500 transition-opacity duration-500 ease-out dark:bg-zinc-900 dark:bg-opacity-90 dark:outline-orange-400 sm:rounded-xl sm:py-3 sm:pl-4 sm:pr-3.5`}
+        } flex items-center gap-x-6 bg-white bg-opacity-90 px-6 py-2.5 outline outline-2 outline-orange-500 transition-opacity duration-500 ease-out dark:bg-zinc-900 dark:bg-opacity-90 dark:outline-orange-400 sm:px-3.5 sm:before:flex-1 sm:after:flex-1 `}
       >
         <p className="z-50 text-sm leading-6 text-zinc-800 dark:text-zinc-100">
           {children}
