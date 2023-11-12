@@ -14,7 +14,7 @@ The core technologies used in this project are:
 
 #### Frontend Libraries
 
-- [React](about:blank)
+- [React](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [MDX](https://mdxjs.com/)
 
