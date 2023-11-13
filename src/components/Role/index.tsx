@@ -45,16 +45,23 @@ export function Role({ role }: { role: Role }) {
             <span className="relative z-10  group-hover:text-orange-500">
               {role.title}
             </span>
+            <br />
+            <time
+              className="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+              dateTime={startDate}
+            >
+              {startLabel}
+            </time>{' '}
+            <span className="relative z-10" aria-hidden="true">
+              —
+            </span>{' '}
+            <time
+              className="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+              dateTime={endDate}
+            >
+              {endLabel}
+            </time>
           </Link>
-        </dd>
-        <dt className="sr-only">Date</dt>
-        <dd
-          className="relative z-10 ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-          aria-label={`${startLabel} until ${endLabel}`}
-        >
-          <time dateTime={startDate}>{startLabel}</time>{' '}
-          <span aria-hidden="true">—</span>{' '}
-          <time dateTime={endDate}>{endLabel}</time>
         </dd>
       </dl>
     </li>

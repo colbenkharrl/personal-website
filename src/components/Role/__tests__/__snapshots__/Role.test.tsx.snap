@@ -55,34 +55,28 @@ exports[`Role matches snapshot (regression test): Full component snapshot. 1`] =
         >
           VP of Engineering
         </span>
+        <br />
+        <time
+          class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+          datetime="2020"
+        >
+          2020
+        </time>
+         
+        <span
+          aria-hidden="true"
+          class="relative z-10"
+        >
+          —
+        </span>
+         
+        <time
+          class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+          datetime="2023"
+        >
+          2023
+        </time>
       </a>
-    </dd>
-    <dt
-      class="sr-only"
-    >
-      Date
-    </dt>
-    <dd
-      aria-label="2020 until 2023"
-      class="relative z-10 ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-    >
-      <time
-        datetime="2020"
-      >
-        2020
-      </time>
-       
-      <span
-        aria-hidden="true"
-      >
-        —
-      </span>
-       
-      <time
-        datetime="2023"
-      >
-        2023
-      </time>
     </dd>
   </dl>
 </li>
