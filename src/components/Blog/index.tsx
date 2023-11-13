@@ -17,7 +17,7 @@ export function Blog({ blog }: BlogProps) {
         {formatDate(blog.date)}
       </Card.Eyebrow>
       <Card.Description>{blog.description}</Card.Description>
-      <Card.Cta>Read blog post</Card.Cta>
+      <Card.CTA>Read blog post</Card.CTA>
     </Card>
   );
 }
