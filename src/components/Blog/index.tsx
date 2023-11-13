@@ -2,7 +2,12 @@ import { type BlogWithSlug } from '@/util/blogs';
 import { Card } from '@/components/Card';
 import { formatDate } from '@/util/formatDate';
 
-export type BlogProps = { blog: BlogWithSlug };
+export type BlogProps = {
+  /**
+   * Blog object specifying component content.
+   */
+  blog: BlogWithSlug;
+};
 
 export function Blog({ blog }: BlogProps) {
   return (
