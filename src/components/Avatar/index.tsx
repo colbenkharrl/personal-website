@@ -3,13 +3,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 import avatarImage from '@/images/avatar_512.jpg';
 
-export function Avatar({
-  large = false,
-  className,
-  ...props
-}: Omit<React.ComponentPropsWithoutRef<typeof Link>, 'href'> & {
+export type AvatarProps = Omit<
+  React.ComponentPropsWithoutRef<typeof Link>,
+  'href'
+> & {
+  /**
+   * Toggle for large button styles.
+   */
   large?: boolean;
-}) {
+};
+
+export function Avatar({ large = false, className, ...props }: AvatarProps) {
   return (
     <Link
       href="/"
