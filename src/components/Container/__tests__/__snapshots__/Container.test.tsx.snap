@@ -14,7 +14,9 @@ exports[`Container matches snapshot (regression test): Full component snapshot. 
       <div
         class="mx-auto max-w-2xl lg:max-w-5xl"
       >
-        Contents
+        <p>
+          This is some content.
+        </p>
       </div>
     </div>
   </div>

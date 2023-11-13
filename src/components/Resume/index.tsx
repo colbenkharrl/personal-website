@@ -10,7 +10,7 @@ import { BriefcaseIcon } from '@/components/Icons';
 const resume: Array<Role> = [
   {
     company: 'Spec',
-    title: 'VP of Engineering',
+    title: 'Founding Engineer, Head of Engineering',
     logo: logoSpec,
     start: '2020',
     end: '2023',

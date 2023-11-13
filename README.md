@@ -10,20 +10,26 @@ This is the code project behind my [personal website and professional portfolio]
 
 The core technologies used in this project are:
 
-| Category                 | Technology                                                                                                                                                  |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Programming Language** | - [TypeScript](https://www.typescriptlang.org/)                                                                                                             |
-| **Frontend Libraries**   | - [React](https://react.dev/)<br>- [Tailwind CSS](https://tailwindcss.com/)<br>- [MDX](https://mdxjs.com/)                                                  |
-| **Web Frameworks**       | - [Next.js](https://nextjs.org/)<br>- [Node.js](https://nodejs.org/en)                                                                                      |
-| **Developer Experience** | - [Storybook](https://storybook.js.org/)<br>- [ESLint](https://eslint.org/)<br>- [Prettier](https://prettier.io/)<br>- [NVM](https://github.com/nvm-sh/nvm) |
-| **Test Libraries**       | - [Jest](https://jestjs.io/)<br>- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)                                    |
-| **Build Tools**          | - [Yarn](https://yarnpkg.com/)<br>- [Webpack](https://webpack.js.org/)<br>- [Babel](https://babeljs.io/)                                                    |
-| **CI/CD**                | - [GitHub Actions](https://github.com/features/actions)                                                                                                     |
-| **Hosting**              | - [Vercel](https://vercel.com/home)                                                                                                                         |
+| Category                 | Technology                                                                                                                                    |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Programming Language** | [TypeScript](https://www.typescriptlang.org/)                                                                                                 |
+| **Frontend Libraries**   | [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/), [MDX](https://mdxjs.com/)                                              |
+| **Web Frameworks**       | [Next.js](https://nextjs.org/), [Node.js](https://nodejs.org/en)                                                                              |
+| **Developer Experience** | [Storybook](https://storybook.js.org/), [ESLint](https://eslint.org/), [Prettier](https://prettier.io/), [NVM](https://github.com/nvm-sh/nvm) |
+| **Test Libraries**       | [Jest](https://jestjs.io/), [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)                            |
+| **Build Tools**          | [Yarn](https://yarnpkg.com/), [Webpack](https://webpack.js.org/), [Babel](https://babeljs.io/)                                                |
+| **CI/CD**                | [GitHub Actions](https://github.com/features/actions)                                                                                         |
+| **Hosting**              | [Vercel](https://vercel.com/home)                                                                                                             |
 
 ## Developing
 
-There are two local servers available during development. Both support active reload for rapid iteration.
+### Node Version
+
+There is an `.nvmrc` file at the root of this repository which will inform [NVM](https://github.com/nvm-sh/nvm) of which Node version to load for this project. You can simply run (after installing NVM):
+
+```bash
+$ nvm use
+```
 
 ### Local Development Server
 

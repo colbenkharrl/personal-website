@@ -2,14 +2,25 @@ import Link from 'next/link';
 import clsx from 'clsx';
 import { ChevronRightIcon } from '@/components/Icons';
 
+export type CardProps<T extends React.ElementType> = Omit<
+  React.ComponentPropsWithoutRef<T>,
+  'as' | 'className'
+> & {
+  /**
+   * HTML element tag type used to render the container.
+   */
+  as?: T;
+  /**
+   * Additional classes to append to the container.
+   */
+  className?: string;
+};
+
 export function Card<T extends React.ElementType = 'div'>({
   as,
   className,
   children,
-}: Omit<React.ComponentPropsWithoutRef<T>, 'as' | 'className'> & {
-  as?: T;
-  className?: string;
-}) {
+}: CardProps<T>) {
   const Component = as ?? 'div';
 
   return (
@@ -22,10 +33,9 @@ export function Card<T extends React.ElementType = 'div'>({
   );
 }
 
-Card.Link = function CardLink({
-  children,
-  ...props
-}: React.ComponentPropsWithoutRef<typeof Link>) {
+export type CardLinkProps = React.ComponentPropsWithoutRef<typeof Link>;
+
+Card.Link = function CardLink({ children, ...props }: CardLinkProps) {
   return (
     <>
       <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl" />
@@ -37,14 +47,25 @@ Card.Link = function CardLink({
   );
 };
 
+export type CardTitleProps<T extends React.ElementType> = Omit<
+  React.ComponentPropsWithoutRef<T>,
+  'as' | 'href'
+> & {
+  /**
+   * HTML element tag type used to render the title text.
+   */
+  as?: T;
+  /**
+   * Optional URL which will wrap the title with a link.
+   */
+  href?: string;
+};
+
 Card.Title = function CardTitle<T extends React.ElementType = 'h2'>({
   as,
   href,
   children,
-}: Omit<React.ComponentPropsWithoutRef<T>, 'as' | 'href'> & {
-  as?: T;
-  href?: string;
-}) {
+}: CardTitleProps<T>) {
   const Component = as ?? 'h2';
 
   return (
@@ -54,11 +75,16 @@ Card.Title = function CardTitle<T extends React.ElementType = 'h2'>({
   );
 };
 
+export type CardDescriptionProps = {
+  /**
+   * React node for children content.
+   */
+  children: React.ReactNode;
+};
+
 Card.Description = function CardDescription({
   children,
-}: {
-  children: React.ReactNode;
-}) {
+}: CardDescriptionProps) {
   return (
     <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">
       {children}
@@ -66,7 +92,14 @@ Card.Description = function CardDescription({
   );
 };
 
-Card.Cta = function CardCta({ children }: { children: React.ReactNode }) {
+export type CardCTAProps = {
+  /**
+   * React node for children content.
+   */
+  children: React.ReactNode;
+};
+
+Card.CTA = function CardCTA({ children }: CardCTAProps) {
   return (
     <div
       aria-hidden="true"
@@ -78,16 +111,27 @@ Card.Cta = function CardCta({ children }: { children: React.ReactNode }) {
   );
 };
 
+export type CardEyebrowProps<T extends React.ElementType> = Omit<
+  React.ComponentPropsWithoutRef<T>,
+  'as' | 'decorate'
+> & {
+  /**
+   * HTML element tag type used to render the eyebrow text.
+   */
+  as?: T;
+  /**
+   * Toggle for optional theme styles.
+   */
+  decorate?: boolean;
+};
+
 Card.Eyebrow = function CardEyebrow<T extends React.ElementType = 'p'>({
   as,
   decorate = false,
   className,
   children,
   ...props
-}: Omit<React.ComponentPropsWithoutRef<T>, 'as' | 'decorate'> & {
-  as?: T;
-  decorate?: boolean;
-}) {
+}: CardEyebrowProps<T>) {
   const Component = as ?? 'p';
 
   return (

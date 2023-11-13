@@ -20,8 +20,6 @@ export type ButtonProps = {
 
 /**
  * Standard UI button with two themed style variants.
- * @param param0
- * @returns
  */
 export function Button({
   variant = 'primary',

@@ -32,14 +32,14 @@ export default async function Home() {
               icon={LinkedInIcon}
             />
             <SocialLink
-              href="https://instagram.com/matt.kharrl/"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
               href="https://github.com/colbenkharrl/"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
+            />
+            <SocialLink
+              href="https://instagram.com/matt.kharrl/"
+              aria-label="Follow on Instagram"
+              icon={InstagramIcon}
             />
             <SocialLink
               href="https://www.strava.com/athletes/41283083"

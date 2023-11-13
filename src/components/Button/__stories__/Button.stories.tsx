@@ -21,6 +21,7 @@ export const Primary: Story = {
   args: {
     variant: 'primary',
     children: 'Primary Button',
+    onClick: () => {},
   },
 };
 
@@ -28,5 +29,14 @@ export const Secondary: Story = {
   args: {
     variant: 'secondary',
     children: 'Secondary Button',
+    onClick: () => {},
+  },
+};
+
+export const Link: Story = {
+  args: {
+    variant: 'primary',
+    children: 'Link Button',
+    href: 'https://www.example.com/',
   },
 };

@@ -5,7 +5,7 @@ it('Icons matches snapshot (regression test)', () => {
   render(
     <div data-testid="Icons">
       {Object.values(icons).map((IconComponent) => (
-        <IconComponent />
+        <IconComponent key={IconComponent.name} />
       ))}
     </div>,
   );

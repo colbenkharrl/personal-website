@@ -1,17 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import { Blog } from '../';
-import { BlogWithSlug } from '@/util/blogs';
+import meta from '../__stories__/Blog.stories';
 
 it('Blog matches snapshot (regression test)', () => {
-  const testBlog: BlogWithSlug = {
-    slug: 'test-blog',
-    title: 'Test Blog',
-    description: 'Test blog description.',
-    author: 'Matt Kharrl',
-    date: '2023-11-09',
-  };
-
-  render(<Blog blog={testBlog} />);
+  render(<Blog {...meta.args} />);
   expect(screen.getByTestId('Card')).toMatchSnapshot(
     'Full component snapshot.',
   );
