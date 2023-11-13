@@ -10,12 +10,6 @@ This is the code project behind my [personal website and professional portfolio]
 
 The core technologies used in this project are:
 
-<style>
-    table {
-        width: 100%;
-    }
-</style>
-
 | Category                 | Technology                                                                                                                                                  |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Programming Language** | - [TypeScript](https://www.typescriptlang.org/)                                                                                                             |
