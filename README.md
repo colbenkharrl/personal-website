@@ -55,7 +55,7 @@ Stories are detected and rendered in the UI when they exist within a standard St
 
 ## Testing
 
-This application uses Jest for unit tests and enforces code coverage requirements.
+This application uses Jest and React Testing Library for unit tests and enforces code coverage requirements.
 
 Jest tests are detected and executed when they exist within a standard Jest `/__tests__/` directory.
 
