@@ -9,13 +9,11 @@ it('Footer matches snapshot (regression test)', () => {
 });
 
 it('should close snackbar', async () => {
-  const { rerender } = render(<Footer />);
+  render(<Footer />);
 
   fireEvent.click(screen.getByTestId('SnackBar-close-icon'));
 
   jest.advanceTimersByTime(1000);
-
-  //   rerender(<Footer />);
 
   await waitFor(() =>
     expect(screen.queryByTestId('SnackBar-close-icon')).toBeNull(),
