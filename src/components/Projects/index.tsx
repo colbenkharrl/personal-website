@@ -14,7 +14,7 @@ const projects = [
   {
     name: 'Trust Cloud',
     description:
-      "Spec's Trust Cloud is a real-time security defense platform that is currently protecting the web traffic of some of the largest brands in the world. I designed and developed their enterprise-grade web application, then went on to lead the entire engineering and compliance organizations.",
+      "Spec's Trust Cloud is a real-time security defense platform that is currently protecting the web traffic of some of the largest brands in the world. As the founding engineer, I designed and developed their enterprise security defense web application, then went on to build and lead the entire engineering and compliance organizations.",
     link: { href: 'https://specprotected.com/', label: 'specprotected.com' },
     logo: logoSpec,
   },

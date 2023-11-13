@@ -184,7 +184,7 @@ const skillCategories: Skill[] = [
       },
       {
         name: 'Nginx',
-        proficiency: 'medium',
+        proficiency: 'high',
       },
       {
         name: 'Serverless',
@@ -281,6 +281,10 @@ const skillCategories: Skill[] = [
         proficiency: 'high',
       },
       {
+        name: 'Cypress',
+        proficiency: 'high',
+      },
+      {
         name: 'Enzyme',
         proficiency: 'high',
       },
@@ -306,15 +310,15 @@ const skillCategories: Skill[] = [
       },
       {
         name: 'Webpack',
-        proficiency: 'medium',
+        proficiency: 'high',
       },
       {
         name: 'Babel',
-        proficiency: 'medium',
+        proficiency: 'high',
       },
       {
         name: 'ESlint',
-        proficiency: 'medium',
+        proficiency: 'high',
       },
       {
         name: 'Docker',
@@ -330,10 +334,6 @@ const skillCategories: Skill[] = [
       },
       {
         name: 'AWS CloudFormation',
-        proficiency: 'medium',
-      },
-      {
-        name: 'Cypress',
         proficiency: 'medium',
       },
       {
@@ -379,15 +379,19 @@ const skillCategories: Skill[] = [
       },
       {
         name: 'Cloudflare',
-        proficiency: 'medium',
+        proficiency: 'high',
       },
       {
         name: 'Akamai',
-        proficiency: 'medium',
+        proficiency: 'high',
       },
       {
         name: 'Fastly',
-        proficiency: 'medium',
+        proficiency: 'high',
+      },
+      {
+        name: 'Vercel',
+        proficiency: 'high',
       },
       {
         name: 'Heroku',
@@ -395,10 +399,6 @@ const skillCategories: Skill[] = [
       },
       {
         name: 'DigitalOcean',
-        proficiency: 'medium',
-      },
-      {
-        name: 'Vercel',
         proficiency: 'medium',
       },
       {
@@ -488,15 +488,15 @@ const skillCategories: Skill[] = [
         proficiency: 'high',
       },
       {
+        name: 'Sales Engagements',
+        proficiency: 'high',
+      },
+      {
         name: 'Public Speaking',
         proficiency: 'medium',
       },
       {
         name: 'Fundraising',
-        proficiency: 'medium',
-      },
-      {
-        name: 'Sales Engagements',
         proficiency: 'medium',
       },
       {
@@ -517,6 +517,27 @@ export function Skills() {
         <BadgeIcon className="h-6 w-6 flex-none" />
         <span className="ml-3">Skills</span>
       </h2>
+      <h3 className="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100">
+        Legend
+      </h3>
+      <div className="mt-2">
+        <span
+          className={`mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-700 ring-1 ring-inset ring-emerald-600/20 dark:bg-emerald-500/10 dark:text-emerald-400 dark:ring-emerald-300/20`}
+        >
+          High Proficiency
+        </span>
+        <span
+          className={`mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 px-2 py-1 text-xs font-medium text-sky-700 ring-1 ring-inset ring-sky-600/20 dark:bg-sky-500/10 dark:text-sky-400 dark:ring-sky-300/20`}
+        >
+          Some Experience
+        </span>
+        <span
+          className={`mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 px-2 py-1 text-xs font-medium text-amber-700 ring-1 ring-inset ring-amber-600/20 dark:bg-amber-500/10 dark:text-amber-400 dark:ring-amber-300/20`}
+        >
+          Some Exposure
+        </span>
+      </div>
+      <hr className="mt-5" />
       {skillCategories.map((category) => (
         <>
           <h3

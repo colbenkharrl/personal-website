@@ -11,7 +11,7 @@ export function SnackBar({ onClose, children }: SnackBarProps) {
   const [isCloseAnimation, setIsCloseAnimation] = useState(false);
 
   const handleClose = useCallback(() => {
-    if (!isCloseAnimation) {
+    if (onClose && !isCloseAnimation) {
       setIsCloseAnimation(true);
 
       setTimeout(() => {
@@ -23,7 +23,7 @@ export function SnackBar({ onClose, children }: SnackBarProps) {
   }, [isCloseAnimation, onClose]);
 
   useEffect(() => {
-    const timeout = setTimeout(() => handleClose(), 5000);
+    const timeout = setTimeout(() => handleClose(), 10000);
 
     return () => {
       clearTimeout(timeout);
@@ -40,22 +40,24 @@ export function SnackBar({ onClose, children }: SnackBarProps) {
         <p className="z-50 text-sm leading-6 text-zinc-800 dark:text-zinc-100">
           {children}
         </p>
-        <button
-          type="button"
-          className="z-50 -m-1.5 flex-none  p-1.5"
-          onClick={handleClose}
-          data-testid="SnackBar-close-icon"
-        >
-          <span className="sr-only">Dismiss</span>
-          <svg
-            className="h-5 w-5 text-zinc-800 dark:text-zinc-100"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-            aria-hidden="true"
+        {onClose ? (
+          <button
+            type="button"
+            className="z-50 -m-1.5 flex-none  p-1.5"
+            onClick={handleClose}
+            data-testid="SnackBar-close-icon"
           >
-            <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
-          </svg>
-        </button>
+            <span className="sr-only">Dismiss</span>
+            <svg
+              className="h-5 w-5 text-zinc-800 dark:text-zinc-100"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+            </svg>
+          </button>
+        ) : null}
       </div>
     </div>
   ) : null;

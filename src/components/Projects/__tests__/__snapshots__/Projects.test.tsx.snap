@@ -73,7 +73,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
       <p
         class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
       >
-        Spec's Trust Cloud is a real-time security defense platform that is currently protecting the web traffic of some of the largest brands in the world. I designed and developed their enterprise-grade web application, then went on to lead the entire engineering and compliance organizations.
+        Spec's Trust Cloud is a real-time security defense platform that is currently protecting the web traffic of some of the largest brands in the world. As the founding engineer, I designed and developed their enterprise security defense web application, then went on to build and lead the entire engineering and compliance organizations.
       </p>
       <p
         class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"

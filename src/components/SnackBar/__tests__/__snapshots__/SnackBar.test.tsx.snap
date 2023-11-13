@@ -13,27 +13,6 @@ exports[`SnackBar matches snapshot (regression test): Full component snapshot. 1
     >
       I am a button.
     </p>
-    <button
-      class="z-50 -m-1.5 flex-none  p-1.5"
-      data-testid="SnackBar-close-icon"
-      type="button"
-    >
-      <span
-        class="sr-only"
-      >
-        Dismiss
-      </span>
-      <svg
-        aria-hidden="true"
-        class="h-5 w-5 text-zinc-800 dark:text-zinc-100"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-      >
-        <path
-          d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z"
-        />
-      </svg>
-    </button>
   </div>
 </div>
 `;

@@ -15,7 +15,7 @@ export default function Portfolio() {
   return (
     <SimpleLayout
       title="A glimpse into my professional experience."
-      intro="I've been building software since 2012 and went professional in 2017. Though I specialize in building cloud-based web applications, I have dabbled in many technical disciplines across the stack and throughout the software development lifecycle."
+      intro="I've been building software since 2012. Though I specialize in building cloud-based web applications, I have dabbled in many technical disciplines across the stack and throughout the software development lifecycle."
     >
       <Button
         href="/resume.pdf"

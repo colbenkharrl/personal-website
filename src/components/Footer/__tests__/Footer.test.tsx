@@ -13,7 +13,7 @@ it('should close snackbar', async () => {
 
   fireEvent.click(screen.getByTestId('SnackBar-close-icon'));
 
-  jest.advanceTimersByTime(1000);
+  jest.advanceTimersByTime(100000);
 
   await waitFor(() =>
     expect(screen.queryByTestId('SnackBar-close-icon')).toBeNull(),

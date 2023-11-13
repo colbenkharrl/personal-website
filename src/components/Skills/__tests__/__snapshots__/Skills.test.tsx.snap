@@ -31,6 +31,33 @@ exports[`Skills matches snapshot (regression test): Full component snapshot. 1`]
   <h3
     class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
   >
+    Legend
+  </h3>
+  <div
+    class="mt-2"
+  >
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-700 ring-1 ring-inset ring-emerald-600/20 dark:bg-emerald-500/10 dark:text-emerald-400 dark:ring-emerald-300/20"
+    >
+      High Proficiency
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 px-2 py-1 text-xs font-medium text-sky-700 ring-1 ring-inset ring-sky-600/20 dark:bg-sky-500/10 dark:text-sky-400 dark:ring-sky-300/20"
+    >
+      Some Experience
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 px-2 py-1 text-xs font-medium text-amber-700 ring-1 ring-inset ring-amber-600/20 dark:bg-amber-500/10 dark:text-amber-400 dark:ring-amber-300/20"
+    >
+      Some Exposure
+    </span>
+  </div>
+  <hr
+    class="mt-5"
+  />
+  <h3
+    class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+  >
     Programming Languages
   </h3>
   <div
@@ -255,7 +282,7 @@ exports[`Skills matches snapshot (regression test): Full component snapshot. 1`]
       GraphQL APIs
     </span>
     <span
-      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
     >
       Nginx
     </span>
@@ -385,6 +412,11 @@ exports[`Skills matches snapshot (regression test): Full component snapshot. 1`]
     <span
       class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
     >
+      Cypress
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
       Enzyme
     </span>
     <span
@@ -413,17 +445,17 @@ exports[`Skills matches snapshot (regression test): Full component snapshot. 1`]
       Bamboo
     </span>
     <span
-      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
     >
       Webpack
     </span>
     <span
-      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
     >
       Babel
     </span>
     <span
-      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
     >
       ESlint
     </span>
@@ -446,11 +478,6 @@ exports[`Skills matches snapshot (regression test): Full component snapshot. 1`]
       class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
     >
       AWS CloudFormation
-    </span>
-    <span
-      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
-    >
-      Cypress
     </span>
     <span
       class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
@@ -507,19 +534,24 @@ exports[`Skills matches snapshot (regression test): Full component snapshot. 1`]
       Amazon Web Services
     </span>
     <span
-      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
     >
       Cloudflare
     </span>
     <span
-      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
     >
       Akamai
     </span>
     <span
-      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
     >
       Fastly
+    </span>
+    <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Vercel
     </span>
     <span
       class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
@@ -530,11 +562,6 @@ exports[`Skills matches snapshot (regression test): Full component snapshot. 1`]
       class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
     >
       DigitalOcean
-    </span>
-    <span
-      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
-    >
-      Vercel
     </span>
     <span
       class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
@@ -650,6 +677,11 @@ exports[`Skills matches snapshot (regression test): Full component snapshot. 1`]
       Knowledgebase Management
     </span>
     <span
+      class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+    >
+      Sales Engagements
+    </span>
+    <span
       class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
     >
       Public Speaking
@@ -658,11 +690,6 @@ exports[`Skills matches snapshot (regression test): Full component snapshot. 1`]
       class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
     >
       Fundraising
-    </span>
-    <span
-      class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
-    >
-      Sales Engagements
     </span>
     <span
       class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
