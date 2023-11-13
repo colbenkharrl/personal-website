@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import { Header } from '..';
+import { composeStories } from '@storybook/react';
+import * as stories from '../__stories__/Header.stories';
 
-jest.mock('next/navigation', () => ({
-  usePathname: () => '/test',
-}));
+const { Homepage, NonHomepage } = composeStories(stories);
+
 jest.mock('../../Avatar', () => ({
   Avatar: () => <p>Avatar</p>,
 }));
@@ -17,15 +17,29 @@ jest.mock('../../DesktopNavigation', () => ({
   DesktopNavigation: () => <p>DesktopNavigation</p>,
 }));
 
+it('Header matches snapshot (homepage) (regression test)', () => {
+  render(<Homepage />);
+
+  expect(screen.getByTestId('Header')).toMatchSnapshot(
+    'Full component snapshot.',
+  );
+});
+
+it('Header renders special avatar on homepage', () => {
+  render(<Homepage />);
+
+  screen.getByTestId('Header-home-avatar');
+});
+
 it('Header matches snapshot (non-homepage) (regression test)', () => {
-  render(<Header />);
+  render(<NonHomepage />);
   expect(screen.getByTestId('Header')).toMatchSnapshot(
     'Full component snapshot.',
   );
 });
 
 it("Header doesn't renders special avatar on non-homepage", () => {
-  render(<Header />);
+  render(<NonHomepage />);
 
   expect(screen.queryByTestId('Header-home-avatar')).toBeNull();
   screen.getByTestId('Header-non-home-avatar');

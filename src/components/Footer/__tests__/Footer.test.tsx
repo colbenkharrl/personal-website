@@ -1,5 +1,13 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react';
+import {
+  act,
+  fireEvent,
+  render,
+  screen,
+  waitFor,
+} from '@testing-library/react';
 import { Footer } from '../';
+
+jest.useFakeTimers();
 
 it('Footer matches snapshot (regression test)', () => {
   render(<Footer />);
@@ -13,7 +21,9 @@ it('should close snackbar', async () => {
 
   fireEvent.click(screen.getByTestId('SnackBar-close-icon'));
 
-  jest.advanceTimersByTime(100000);
+  act(() => {
+    jest.advanceTimersByTime(100000);
+  });
 
   await waitFor(() =>
     expect(screen.queryByTestId('SnackBar-close-icon')).toBeNull(),
