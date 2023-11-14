@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import { MobileNavItem } from '..';
+import { Popover } from '@headlessui/react';
 
 const meta = {
   title: 'Components/MobileNavItem',
@@ -19,4 +20,11 @@ export const Basic: Story = {
     href: 'https://www.example.com/',
     children: 'Example Link',
   },
+  decorators: [
+    (Story) => (
+      <Popover>
+        <Story />
+      </Popover>
+    ),
+  ],
 };

@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "yarn build-storybook-docs && next build",
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch --coverage=false",
     "test:ci": "jest --ci",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook-docs": "storybook build -o public/storybook --docs"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
