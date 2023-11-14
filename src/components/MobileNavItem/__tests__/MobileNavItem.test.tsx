@@ -1,11 +1,14 @@
 import { render, screen } from '@testing-library/react';
-import { MobileNavItem } from '../';
+import * as stories from '../__stories__/MobileNavItem.stories';
+import { composeStories } from '@storybook/react';
 import { Popover } from '@headlessui/react';
+
+const { Basic } = composeStories(stories);
 
 it('MobileNavItem matches snapshot (regression test)', () => {
   render(
     <Popover>
-      <MobileNavItem href="https://www.example.com">I am a link.</MobileNavItem>
+      <Basic />
     </Popover>,
   );
   expect(screen.getByTestId('MobileNavItem')).toMatchSnapshot(

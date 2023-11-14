@@ -1,9 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import { Container } from '../';
-import meta from '../__stories__/Container.stories';
+import * as stories from '../__stories__/Container.stories';
+import { composeStories } from '@storybook/react';
+
+const { Basic } = composeStories(stories);
 
 it('Container matches snapshot (regression test)', () => {
-  render(<Container {...meta.args} />);
+  render(<Basic />);
 
   screen.getByText('This is some content.');
 

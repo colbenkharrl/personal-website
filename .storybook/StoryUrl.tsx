@@ -1,6 +1,7 @@
 import { SnackBar } from '@/components/SnackBar';
 import { StoryContext } from '@storybook/react';
 import { usePathname } from 'next/navigation';
+import { ThemeToggle } from '@/components/ThemeToggle';
 import { FC } from 'react';
 
 export type StoryURLProps = {
@@ -14,7 +15,13 @@ export const StoryURL: FC<StoryURLProps> = () => {
     <>
       <div className="h-20" />
       <SnackBar>
-        <strong className="font-semibold">URL:</strong> {pathname}
+        <div className="fle-row items-center justify-center">
+          <p className="mb-2">
+            <strong className="font-semibold">URL:</strong> {pathname}
+          </p>
+          <div className="flex-grow" />
+          <ThemeToggle />
+        </div>
       </SnackBar>
     </>
   );

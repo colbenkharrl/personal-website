@@ -53,7 +53,7 @@ export function Footer() {
           </ContainerInner>
         </div>
       </ContainerOuter>
-      <SnackBar onClose={handleCloseSnackBar}>
+      <SnackBar onClose={handleCloseSnackBar} closeMs={10000}>
         <Link href="https://github.com/colbenkharrl/personal-website">
           <strong className="font-semibold">
             This site is designed and developed by me.

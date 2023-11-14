@@ -24,7 +24,9 @@ const preview: Preview = {
   decorators: [
     (Story, context) => (
       <Providers>
-        <Story />
+        <div className="bg-zinc-50 p-5 dark:bg-black">
+          <Story />
+        </div>
         {context.viewMode !== 'docs' ? <StoryURL context={context} /> : null}
       </Providers>
     ),

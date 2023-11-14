@@ -5,19 +5,22 @@ import {
   screen,
   waitFor,
 } from '@testing-library/react';
-import { Footer } from '../';
+import * as stories from '../__stories__/Footer.stories';
+import { composeStories } from '@storybook/react';
+
+const { Basic } = composeStories(stories);
 
 jest.useFakeTimers();
 
 it('Footer matches snapshot (regression test)', () => {
-  render(<Footer />);
+  render(<Basic />);
   expect(screen.getByTestId('Footer')).toMatchSnapshot(
     'Full component snapshot.',
   );
 });
 
 it('should close snackbar', async () => {
-  render(<Footer />);
+  render(<Basic />);
 
   fireEvent.click(screen.getByTestId('SnackBar-close-icon'));
 

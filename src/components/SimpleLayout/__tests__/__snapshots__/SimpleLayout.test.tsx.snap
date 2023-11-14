@@ -25,7 +25,7 @@ exports[`SimpleLayout matches snapshot (regression test): Full component snapsho
           <p
             class="mt-6 text-base text-zinc-600 dark:text-zinc-400"
           >
-            Test intro.
+            This is the intro text.
           </p>
         </header>
         <div

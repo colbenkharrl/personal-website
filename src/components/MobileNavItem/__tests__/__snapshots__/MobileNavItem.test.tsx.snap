@@ -6,9 +6,9 @@ exports[`MobileNavItem matches snapshot (regression test): Full component snapsh
   class="block py-2"
   data-headlessui-state=""
   data-testid="MobileNavItem"
-  href="https://www.example.com"
+  href="https://www.example.com/"
   id="headlessui-popover-button-:r0:"
 >
-  I am a link.
+  Example Link
 </a>
 `;

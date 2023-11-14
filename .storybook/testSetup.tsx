@@ -2,7 +2,6 @@ import { setProjectAnnotations } from '@storybook/react';
 import globalStorybookConfig from './preview.tsx';
 import { AppRouterMock } from './AppRouterProviderMock.tsx';
 import { Providers } from '@/app/providers.tsx';
-import { StoryURL } from './StoryUrl.tsx';
 
 globalStorybookConfig.decorators = [
   (Story, context) => (
@@ -12,7 +11,6 @@ globalStorybookConfig.decorators = [
     >
       <Providers>
         <Story />
-        {context.viewMode !== 'docs' ? <StoryURL context={context} /> : null}
       </Providers>
     </AppRouterMock>
   ),

@@ -11,7 +11,7 @@ exports[`SnackBar matches snapshot (regression test): Full component snapshot. 1
     <p
       class="z-50 text-sm leading-6 text-zinc-800 dark:text-zinc-100"
     >
-      I am a button.
+      SnackBar Content
     </p>
   </div>
 </div>

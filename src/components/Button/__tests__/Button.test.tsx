@@ -1,12 +1,14 @@
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
-import { Button } from '../';
-import { Primary, Secondary, Link } from '../__stories__/Button.stories';
+import * as stories from '../__stories__/Button.stories';
+import { composeStories } from '@storybook/react';
+
+const { Primary, Secondary, Link } = composeStories(stories);
 
 it('Button matches snapshot (regression test)', () => {
   render(
     <div data-testid="Button">
-      <Button {...Primary.args} />
-      <Button {...Secondary.args} />
+      <Primary />
+      <Secondary />
     </div>,
   );
   expect(screen.getByTestId('Button')).toMatchSnapshot(
@@ -15,14 +17,14 @@ it('Button matches snapshot (regression test)', () => {
 });
 
 it('should render a <button> element if no href', () => {
-  const { container } = render(<Button {...Primary.args} />);
+  const { container } = render(<Primary />);
 
   expect(container.querySelector('button')).not.toBeNull();
   expect(container.querySelector('a')).toBeNull();
 });
 
 it('should render a <a> element if href present', () => {
-  const { container } = render(<Button {...Link.args} />);
+  const { container } = render(<Link />);
 
   expect(container.querySelector('button')).toBeNull();
   expect(container.querySelector('a')).not.toBeNull();
@@ -31,7 +33,7 @@ it('should render a <a> element if href present', () => {
 it('should execute onClick prop when clicked', async () => {
   const spy = jest.fn();
 
-  render(<Button {...Primary.args} data-testid="Button" onClick={spy} />);
+  render(<Primary data-testid="Button" onClick={spy} />);
 
   fireEvent.click(screen.getByTestId('Button'));
 
