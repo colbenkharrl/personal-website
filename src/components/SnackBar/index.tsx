@@ -4,9 +4,10 @@ import React, { useCallback, useEffect, useState } from 'react';
 
 export type SnackBarProps = React.ComponentPropsWithoutRef<'div'> & {
   onClose?: () => void;
+  closeMs?: number;
 };
 
-export function SnackBar({ onClose, children }: SnackBarProps) {
+export function SnackBar({ onClose, closeMs, children }: SnackBarProps) {
   const [isOpen, setIsOpen] = useState(true);
   const [isCloseAnimation, setIsCloseAnimation] = useState(false);
 
@@ -23,12 +24,14 @@ export function SnackBar({ onClose, children }: SnackBarProps) {
   }, [isCloseAnimation, onClose]);
 
   useEffect(() => {
-    const timeout = setTimeout(() => handleClose(), 10000);
+    if (closeMs) {
+      const timeout = setTimeout(() => handleClose(), closeMs);
 
-    return () => {
-      clearTimeout(timeout);
-    };
-  }, [handleClose]);
+      return () => {
+        clearTimeout(timeout);
+      };
+    }
+  }, [handleClose, closeMs]);
 
   return isOpen ? (
     <div className="fixed inset-x-0 bottom-0  z-50" data-testid="SnackBar">

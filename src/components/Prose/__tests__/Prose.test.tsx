@@ -1,8 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import { Prose } from '../';
+import * as stories from '../__stories__/Prose.stories';
+import { composeStories } from '@storybook/react';
+
+const { Basic } = composeStories(stories);
 
 it('Prose matches snapshot (regression test)', () => {
-  render(<Prose data-testid="Prose">Text.</Prose>);
+  render(<Basic data-testid="Prose" />);
   expect(screen.getByTestId('Prose')).toMatchSnapshot(
     'Full component snapshot.',
   );

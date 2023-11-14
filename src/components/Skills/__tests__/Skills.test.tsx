@@ -1,8 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import { Skills } from '../';
+import * as stories from '../__stories__/Skills.stories';
+import { composeStories } from '@storybook/react';
+
+const { Basic } = composeStories(stories);
 
 it('Skills matches snapshot (regression test)', () => {
-  render(<Skills />);
+  render(<Basic />);
   expect(screen.getByTestId('Skills')).toMatchSnapshot(
     'Full component snapshot.',
   );

@@ -1,17 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import { SocialLink } from '../';
-import { LinkedInIcon } from '@/components/Icons';
+import * as stories from '../__stories__/SocialLink.stories';
+import { composeStories } from '@storybook/react';
+
+const { Basic } = composeStories(stories);
 
 it('SocialLink matches snapshot (regression test)', () => {
-  render(
-    <SocialLink
-      icon={LinkedInIcon}
-      href="https://www.example.com"
-      data-testid="SocialLink"
-    >
-      LinkedIn Link
-    </SocialLink>,
-  );
+  render(<Basic data-testid="SocialLink" />);
 
   expect(screen.getByTestId('SocialLink')).toMatchSnapshot(
     'Full component snapshot.',

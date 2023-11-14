@@ -1,5 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import { Layout } from '../';
+import * as stories from '../__stories__/Layout.stories';
+import { composeStories } from '@storybook/react';
+
+const { Basic } = composeStories(stories);
 
 jest.mock('../../Header', () => ({
   Header: () => <p>Header</p>,
@@ -13,9 +16,7 @@ it('Layout matches snapshot (regression test)', async () => {
 
   render(
     <div data-testid="Layout">
-      <Layout>
-        <p>{content}</p>
-      </Layout>
+      <Basic />
     </div>,
   );
 

@@ -43,6 +43,8 @@ Then, open [http://localhost:3000](http://localhost:3000) with your browser to s
 
 ### Local Storybook Server
 
+![storybook UI](/src/images/storybook.png)
+
 Run the local storybook server to view, develop, and test React components in isolation:
 
 ```bash
@@ -53,9 +55,28 @@ Then, open [http://localhost:6006](http://localhost:6006) with your browser to u
 
 Stories are detected and rendered in the UI when they exist within a standard Storybook `<filename>.stories.<filetype>` file.
 
+### Directory Structure
+
+Components, contexts, hooks, and other code modules typiclly follow this directory convention for organizing correlated code, stories, and tests as needed.
+
+```bash
+/Component/
+    __stories__/
+        Component.stories.tsx
+    __tests__/
+        __snapshots__/
+            Component.test.tsx.snap
+        Component.test.tsx
+    index.tsx
+```
+
+### App Router
+
+This application uses the latest version of Next.js (14.x) and the new [App Router](https://nextjs.org/docs/app). All website pages are organized within the `src/app` directory.
+
 ## Testing
 
-This application uses Jest and React Testing Library for unit tests and enforces code coverage requirements.
+This application uses Jest and React Testing Library for unit tests. Tests render stories directly from Storybook.
 
 Jest tests are detected and executed when they exist within a standard Jest `/__tests__/` directory.
 
@@ -76,6 +97,8 @@ $ yarn test:ci
 ## Deploying
 
 This website is deployed as a Next.js application using [Vercel](https://nextjs.org/docs/deployment). The connection to this repository is automated through GitHub authentication.
+
+![vercel deployments](/src/images/vercel.png)
 
 1. Pull requests create a staging environment for testing and validation. These environments are automatically linked to the pull request.
 2. Upon merge to `main`, a deployment automatically triggers in the production environment.

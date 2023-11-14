@@ -1,8 +1,11 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { ThemeToggle } from '../';
+import * as stories from '../__stories__/ThemeToggle.stories';
+import { composeStories } from '@storybook/react';
+
+const { Basic } = composeStories(stories);
 
 it('ThemeToggle matches snapshot (default) (regression test)', async () => {
-  render(<ThemeToggle />);
+  render(<Basic />);
 
   expect(screen.getByTestId('ThemeToggle')).toMatchSnapshot(
     'Full component snapshot.',
@@ -10,7 +13,7 @@ it('ThemeToggle matches snapshot (default) (regression test)', async () => {
 });
 
 it('ThemeToggle matches snapshot (toggled) (regression test)', async () => {
-  render(<ThemeToggle data-testid="ThemeToggle" />);
+  render(<Basic />);
 
   fireEvent.click(screen.getByTestId('ThemeToggle'));
 

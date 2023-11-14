@@ -1,18 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import { Role } from '../';
-import logoSpec from '@/images/logos/spec.svg';
+import * as stories from '../__stories__/Role.stories';
+import { composeStories } from '@storybook/react';
+
+const { Basic } = composeStories(stories);
 
 it('Role matches snapshot (regression test)', () => {
-  const testRole: Role = {
-    company: 'Spec',
-    title: 'VP of Engineering',
-    logo: logoSpec,
-    start: '2020',
-    end: '2023',
-    url: 'https://specprotected.com/',
-  };
-
-  render(<Role role={testRole} />);
+  render(<Basic />);
   expect(screen.getByTestId('Role')).toMatchSnapshot(
     'Full component snapshot.',
   );

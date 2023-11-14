@@ -1,14 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import * as icons from '../';
+import * as stories from '../__stories__/Icons.stories';
+import { composeStories } from '@storybook/react';
+
+const { Basic } = composeStories(stories);
 
 it('Icons matches snapshot (regression test)', () => {
-  render(
-    <div data-testid="Icons">
-      {Object.values(icons).map((IconComponent) => (
-        <IconComponent key={IconComponent.name} />
-      ))}
-    </div>,
-  );
+  render(<Basic />);
 
   expect(screen.getByTestId('Icons')).toMatchSnapshot(
     "'Full component snapshot.'",

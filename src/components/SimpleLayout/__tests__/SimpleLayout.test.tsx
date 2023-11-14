@@ -1,12 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import { SimpleLayout } from '../';
+import * as stories from '../__stories__/SimpleLayout.stories';
+import { composeStories } from '@storybook/react';
+
+const { Basic } = composeStories(stories);
 
 it('SimpleLayout matches snapshot (regression test)', () => {
-  render(
-    <SimpleLayout title="Test title." intro="Test intro.">
-      Text.
-    </SimpleLayout>,
-  );
+  render(<Basic />);
   expect(screen.getByTestId('Container')).toMatchSnapshot(
     'Full component snapshot.',
   );
