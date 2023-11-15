@@ -1,0 +1,169 @@
+import { BlogLayout } from '@/components/BlogLayout';
+import { MdxImage } from '@/components/MdxImage';
+import orgDesignImage from './opengraph-image.jpg';
+
+export const blog = {
+  author: 'Matt Kharrl',
+  date: '2023-11-15',
+  title: 'Designing a Technology Organization',
+  description:
+    'Organization design is hard, but worth the effort and vital for the success of your technology teams.',
+};
+
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+};
+
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+## Forward
+
+While serving as the VP of Engineering at Spec, I scaled the engineering organization from a single engineer (me) to a collection of multi-disciplined and cross-functional technology teams developing one of the world's most sophisticated and performant real-time defense platforms. There were many growth phases and strategic decisions to get from A to B, so in this blog, I want to share a bit about the process that goes into how I approach organization design.
+
+**Note:** The content of this blog is adapted from a strategy document that I wrote and shared with my engineering teams at Spec. In that document I used the strategies outlined on this page to assess and plan our engineering organization.
+
+<MdxImage
+  src={orgDesignImage}
+  alt="image of a hand drawing a company organizational chart"
+/>
+
+## Org Design Is Hard
+
+One of the most complex and consequential duties faced by a leader of a technology organization has less to do with the technology and more to do with the organization: **organization design ("org design")**. Org design is tricky for many reasons:
+
+- **It has a direct company-wide impact** on ownership, communication, collaboration, bureaucracy, efficiency, growth, and culture.
+- **It affects how you manage, develop, and promote individuals** from within your existing teams.
+- **It affects how your products, services, and platforms grow and develop** over time.
+- **It has significant financial implications** since headcount drives payroll, and payroll will likely always be your heaviest expenditure.
+- **It affects how you hire talent**:
+  - It informs the elevation, seniority, and responsibilities of talent you need to recruit.
+  - It informs the order in which you hire and the responsibilities of each position at each step.
+- **It is impossible to formulate**. You must synthesize the many signals (research, media, advisors, etc.), compare their learnings to your current organization and needs, and determine what suits you.
+- **It has no "correct" answers**. Every decision is a compromise.
+
+Engineering leaders take this responsibility very seriously. While you can't assume that you will be able to solve all future organizational problems today, you still have to make your best effort given the available information. Like OKRs, **org design is a set of well-thought-out and aspirational goals you can align and drive toward**, but will likely have to revisit and reassess as circumstances change.
+
+## Evaluating An Organization
+
+Before you dive into org design, it is important to first understand a few key categories that you can use for evaluation:
+
+| Category                  | Important Questions                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Ownership**             | What does a given group wholly own?<br />What does a given group share ownership of with other groups?<br />What affects a given group over which they have no ownership?<br />Are responsibilities allocated to the groups best fit to own them?                                                                                                                  |
+| **Communication**         | How does a given group communicate internally?<br />With what external groups does a given group communicate?<br />How and when do individuals communicate within or across groups?                                                                                                                                                                                |
+| **Collaboration**         | How often do members of a group collaborate compared to working individually?<br />How often do different groups come together to collaborate?<br />How do ownership and communication drive collaboration?                                                                                                                                                        |
+| **Focus**                 | How many initiatives is a given group focusing on at once?<br />How many individual members are working on a given focus area at once?<br />What external factors drive the focus and priority of a given group?                                                                                                                                                   |
+| **Vision**                | What is the vision and purpose of a given group?<br />How much of the team's vision originates from within rather than being dictated by external sources?<br />How does the vision and purpose of a given group align with their organization's?<br />What opportunities does an individual or group have to drive innovation?                                    |
+| **Cross-Functionality**   | How are the cross-functional needs of a group met across internal and external members?<br />What cross-functional needs of a group require blocking outreach to other groups?                                                                                                                                                                                     |
+| **Process**               | What external processes impact the team? How do different processes impact different group members?<br />What processes does the team own and operate internally?<br />How do differing team processes converge or conflict?<br />How do processes affect the ability of individuals to work with or in other groups?                                              |
+| **Capacity**              | How large is a given group?<br />How does the size of a group impact ownership, focus, vision, and culture?<br />How is personnel split across functions or disciplines within a group?<br />How many individuals report to a given group manager?                                                                                                                 |
+| **Architecture**          | How does the organization of groups and individuals drive the architecture and integration of products, platforms, and processes?<br />What cross-team data contracts shape the way products and systems are architected and developed?                                                                                                                            |
+| **Depth**                 | How efficiently does strategy, direction, vision, ownership, innovation, and culture travel from individual contributors to executive leadership and back?<br />How much value does each level of management add?                                                                                                                                                  |
+| **Specialization**        | How can individuals specialize in specific skills, disciplines, or product areas?<br />How can a given specialization area's members collaborate, learn, and grow together?                                                                                                                                                                                        |
+| **Diversity & Inclusion** | How diverse are group members' voices, skills, cultures, and backgrounds?<br />How is the diversity within a group leveraged to improve decision-making?<br />How do various experience levels impact ownership, communication, and collaboration within the group?                                                                                                |
+| **Culture**               | How does a given group maintain its own internal culture?<br />How is the culture of a group impacted by the culture of other groups or the organization?                                                                                                                                                                                                          |
+| **Growth**                | What opportunities are available for individuals to grow in their current or other roles?<br />How organically can a given group scale over time?<br />How do capacity, focus, collaboration, and culture affect growth opportunities?<br />Who is the hiring manager for various positions within a group?<br />How many individuals can a group onboard at once? |
+| **Adaptability**          | How flexible are organizational structures in adapting to an ever-changing world?                                                                                                                                                                                                                                                                                  |
+
+Acknowledging and planning for success in these categories becomes more important as you scale. While there may not be deep answers to these questions early on, **knowing that these questions are coming down the line sets you up to plan better and with more confidence**.
+
+## Distributing Responsibilities
+
+A technology organization comprises many responsibilities based on its size and stage. **You should factor in the distribution of these responsibilities as you think about how to design your organization**. These are just some top-level categories, each containing many sub-responsibilities:
+
+<div className="flex">
+  <ul className="flex-grow">
+    <li className="my-1">Software Development</li>
+    <li className="my-1">Software Delivery</li>
+    <li className="my-1">Application Architecture</li>
+    <li className="my-1">Platform Architecture</li>
+    <li className="my-1">Data Architecture</li>
+    <li className="my-1">Pipeline Architecture</li>
+    <li className="my-1">Cloud Infrastructure</li>
+    <li className="my-1">Developer Experience</li>
+    <li className="my-1">Quality Assurance</li>
+    <li className="my-1">Change Management</li>
+    <li className="my-1">Engineering Philosophy & Culture</li>
+    <li className="my-1">Information Security</li>
+    <li className="my-1">Application Security</li>
+    <li className="my-1">Compliance & Regulation</li>
+    <li className="my-1">Information Technology</li>
+    <li className="my-1">Technical Operations</li>
+    <li className="my-1">Reliability & Performance</li>
+  </ul>
+  <ul className="flex-grow">
+    <li className="my-1">Observability & Monitoring</li>
+    <li className="my-1">Incident Response & On-Call</li>
+    <li className="my-1">Technical Sales Engagements</li>
+    <li className="my-1">Investor/Board Engagements</li>
+    <li className="my-1">Industry Engagements</li>
+    <li className="my-1">Customer Support</li>
+    <li className="my-1">Open-Source Programs</li>
+    <li className="my-1">Recruiting & Onboarding</li>
+    <li className="my-1">Learning & Development</li>
+    <li className="my-1">People Management</li>
+    <li className="my-1">Organization Planning</li>
+    <li className="my-1">Financial Planning</li>
+    <li className="my-1">Technology Partnerships</li>
+    <li className="my-1">Technology Acquisitions</li>
+    <li className="my-1">Vendor Management</li>
+    <li className="my-1">Business Objective Planning</li>
+  </ul>
+</div>
+
+Once again, many of these responsibilities won't present themselves until you have unlocked a certain amount of growth. However, thinking about how you will direct these responsibilities in your organization is a very insightful exercise.
+
+## Plan Two Steps Forward, Then One Step Back
+
+I have found it effective to engage in this org design problem with a three-step motion:
+
+### 1. Understand Your Org Today
+
+You can only make good decisions about scaling your organization after analyzing your current composition to understand what is working and what you need to improve.
+
+**The best data and signals you can get to understand what your technology organization needs come from talking directly to the members of your technology organization!**
+
+Schedule one-on-ones, put out surveys, analyze throughput, and then synthesize all of these signals into a summary of the health of your teams. Then, show this summary to your organization and solicit more feedback!
+
+Even if you aren't actively planning for major organizational growth, this exercise is vital to keeping a pulse on the success of your teams.
+
+### 2. Plan Your Org At Scale
+
+You need to consider how you want your organization to function at the next major scale step so that you have some vision on which to align and execute.
+
+Rather than picking arbitrary numbers, **work with your leadership and executive teams to understand your growth strategy, product roadmap, financial plans, upcoming fundraising, etc.** Build out a few key scenarios based on different projections or situations, then plan how you might utilize resources over time to accomplish your goals.
+
+It is important to be realistic when projecting and planning the future. If you have ten headcount, you are likely not going to hire ten engineers the month that the budget becomes available to you. This is for many reasons:
+
+- Hiring takes a lot of time and effort from you and your teams. You will have to dole this out over time so that you and your people can continue to build technology while actively recruiting.
+- Finding the right people takes a lot of time, especially in the early stages, where every engineer is effectively a founding engineer and a major driver of culture.
+- Onboarding new employees takes a lot of time away from you and your teams as they try to get people up to speed. Combined with continued hiring and development, you run out of time very quickly.
+
+You will need to factor these truths into your projections for how you will scale your organization over time and how that will put pressure on everything else your teams are working to accomplish.
+
+### 3. Work Backward Until Your Next Step
+
+You should grow one step at a time and allow space for healthy transitions. Starting from scratch every time you have to grow will lead to a lot of confusion and likely some employee churn. This is another reason to think diligently about org design: to give your employees reasonable expectations for how things will change and opportunities will arise over time.
+
+You should work backward from your vision in achievable increments until you land on your next step. For example:
+
+- You can't support five separate product and infrastructure development teams until you break apart responsibilities and ownership.
+- Your five teams can't be self-directing until they have enough dedicated staff to support their individual needs and owned products/services.
+- You can't hire the appropriate talent to staff a dedicated team without a dedicated manager to build and lead said team.
+
+In this overly simple example, we have worked backward to arrive at the idea that we probably need to hire engineering managers first and then guide them to build out the teams we envision in your future.
+
+## Organizations Are Stronger Together
+
+It is vital to work through these exercises with input from and collaboration with other leaders and executives within your company. So much about the composition and hiring strategy of your technology organization is directly impacted by the composition and hiring strategy of the product organization, design organization, support organization, etc.
+
+**The quality and longevity of your org design strategy hinge on effective communication and collaboration with every other leader around you.**
+
+Invite them into your process, get their feedback, and factor that into your plans. Not only will this improve the eventual design of your organization, but it will also give you a lot more insight into the needs and goals of partner organizations, as well as strengthen your bonds with those individuals.
+
+## Conclusion
+
+Org design is complex, risky, and, unfortunately, comes with no "correct" answers. It directly affects the DNA of the company, from internal culture to business success. Even with all this planning and consideration, you will occasionally find holes and have to reassess your strategy.
+
+That being said, designing and building an organization of people is one of the most engaging and rewarding experiences a technology leader can have. Looking back on all of the people who have believed in your mission and joined your cause will give you a sense of pride that few people get in their careers. It is a lot of hard work, but it is worth the effort, and I wish any technology leader reading this blog the best of luck in their journey.
