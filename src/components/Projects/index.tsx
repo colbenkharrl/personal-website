@@ -9,6 +9,7 @@ import logoThreatMetrix from '@/images/logos/threatmetrix.png';
 import logoBlitz from '@/images/logos/blitz.png';
 import { LinkIcon, RocketIcon } from '@/components/Icons';
 import Image from 'next/image';
+import { PortfolioSection } from '../PortfolioSection';
 
 const projects = [
   {
@@ -92,14 +93,7 @@ const projects = [
 
 export function Projects() {
   return (
-    <div
-      className="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
-      data-testid="Projects"
-    >
-      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <RocketIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Projects & Products</span>
-      </h2>
+    <PortfolioSection title="Projects & Products" Icon={RocketIcon}>
       <ul
         role="list"
         className="mt-8 grid grid-cols-1 gap-x-12 gap-y-16 p-4 sm:grid-cols-2 lg:grid-cols-3"
@@ -125,6 +119,6 @@ export function Projects() {
           </Card>
         ))}
       </ul>
-    </div>
+    </PortfolioSection>
   );
 }

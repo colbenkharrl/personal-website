@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Resume matches snapshot (regression test): Full component snapshot. 1`] = `
+exports[`PortfolioSection matches snapshot (regression test): Full component snapshot. 1`] = `
 <div
   class="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
   data-testid="PortfolioSection"
@@ -29,31 +29,13 @@ exports[`Resume matches snapshot (regression test): Full component snapshot. 1`]
     <span
       class="ml-3"
     >
-      Work
+      Portfolio Section
     </span>
   </h2>
-  <ol
-    class="mt-6 space-y-4"
-    role="list"
+  <h1
+    class="m-2"
   >
-    <p>
-      Founding Engineer, Head of Engineering
-    </p>
-    <p>
-      Software Engineer
-    </p>
-    <p>
-      Software Engineering Intern
-    </p>
-    <p>
-      Software Engineer
-    </p>
-    <p>
-      Software Engineering Intern
-    </p>
-    <p>
-      Technical Advisor
-    </p>
-  </ol>
+    Here is some content.
+  </h1>
 </div>
 `;

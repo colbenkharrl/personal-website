@@ -6,6 +6,7 @@ import logoEdupoint from '@/images/logos/synergy.png';
 import logoApple from '@/images/logos/apple.png';
 import { Role } from '@/components/Role';
 import { BriefcaseIcon } from '@/components/Icons';
+import { PortfolioSection } from '../PortfolioSection';
 
 const resume: Array<Role> = [
   {
@@ -60,19 +61,12 @@ const resume: Array<Role> = [
 
 export function Resume() {
   return (
-    <div
-      className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
-      data-testid="Resume"
-    >
-      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
-      </h2>
+    <PortfolioSection title="Work" Icon={BriefcaseIcon}>
       <ol className="mt-6 space-y-4" role="list">
         {resume.map((role, roleIndex) => (
           <Role key={roleIndex} role={role} />
         ))}
       </ol>
-    </div>
+    </PortfolioSection>
   );
 }
