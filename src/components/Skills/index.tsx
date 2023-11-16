@@ -1,4 +1,6 @@
 import { BadgeIcon } from '@/components/Icons';
+import { PortfolioSection } from '../PortfolioSection';
+import { Fragment } from 'react';
 
 export type Skill = {
   category: string;
@@ -509,14 +511,7 @@ const skillCategories: Skill[] = [
 
 export function Skills() {
   return (
-    <div
-      className="mt-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
-      data-testid="Skills"
-    >
-      <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        <BadgeIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Skills</span>
-      </h2>
+    <PortfolioSection title="Skills" Icon={BadgeIcon}>
       <h3 className="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100">
         Legend
       </h3>
@@ -539,7 +534,7 @@ export function Skills() {
       </div>
       <hr className="mt-5" />
       {skillCategories.map((category) => (
-        <>
+        <Fragment key={category.category}>
           <h3
             key={category.category}
             className="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
@@ -576,8 +571,8 @@ export function Skills() {
               );
             })}
           </div>
-        </>
+        </Fragment>
       ))}
-    </div>
+    </PortfolioSection>
   );
 }

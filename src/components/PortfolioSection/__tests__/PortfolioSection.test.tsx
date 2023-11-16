@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
-import * as stories from '../__stories__/Projects.stories';
+import * as stories from '../__stories__/PortfolioSection.stories';
 import { composeStories } from '@storybook/react';
 
 const { Basic } = composeStories(stories);
 
-it('Projects matches snapshot (regression test)', () => {
+it('PortfolioSection matches snapshot (regression test)', () => {
   render(<Basic />);
   expect(screen.getByTestId('PortfolioSection')).toMatchSnapshot(
     'Full component snapshot.',

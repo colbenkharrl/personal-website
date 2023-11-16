@@ -11,7 +11,7 @@ jest.mock('../../Role', () => ({
 
 it('Resume matches snapshot (regression test)', () => {
   render(<Basic />);
-  expect(screen.getByTestId('Resume')).toMatchSnapshot(
+  expect(screen.getByTestId('PortfolioSection')).toMatchSnapshot(
     'Full component snapshot.',
   );
 });

@@ -2,8 +2,8 @@
 
 exports[`Skills matches snapshot (regression test): Full component snapshot. 1`] = `
 <div
-  class="mt-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
-  data-testid="Skills"
+  class="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+  data-testid="PortfolioSection"
 >
   <h2
     class="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100"

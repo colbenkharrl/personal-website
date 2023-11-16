@@ -6,7 +6,7 @@ const { Basic } = composeStories(stories);
 
 it('Skills matches snapshot (regression test)', () => {
   render(<Basic />);
-  expect(screen.getByTestId('Skills')).toMatchSnapshot(
+  expect(screen.getByTestId('PortfolioSection')).toMatchSnapshot(
     'Full component snapshot.',
   );
 });

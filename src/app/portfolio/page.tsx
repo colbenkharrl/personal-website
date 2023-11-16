@@ -6,6 +6,7 @@ import { Button } from '@/components/Button';
 import { ArrowDownIcon, MailIcon } from '@/components/Icons';
 import { Skills } from '@/components/Skills';
 import { InlineBadge } from '@/components/InlineBadge';
+import { References } from '@/components/References';
 
 export const metadata: Metadata = {
   title: 'Portfolio',
@@ -53,6 +54,7 @@ export default function Portfolio() {
       <Projects />
       <Resume />
       <Skills />
+      <References />
     </SimpleLayout>
   );
 }
