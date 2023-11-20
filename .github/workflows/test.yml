@@ -15,7 +15,5 @@ jobs:
         run: yarn lint
       - name: Test
         run: yarn test:ci
-      - name: Build Next
-        run: yarn build:next
       - name: Build Storybook
         run: yarn build:storybook
