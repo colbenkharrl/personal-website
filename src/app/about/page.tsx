@@ -10,9 +10,11 @@ import {
   LinkedInIcon,
   MailIcon,
   StravaIcon,
+  TrophyIcon,
 } from '@/components/Icons';
 import portraitImage from '@/images/portrait.jpg';
 import { InlineBadge } from '@/components/InlineBadge';
+import { IconLink, IconLinkProps } from '@/components/IconLink';
 
 function SocialLink({
   className,
@@ -43,6 +45,34 @@ export const metadata: Metadata = {
   description: 'I’m Matt Kharrl: engineer, athlete, and dad.',
 };
 
+const raceResults: IconLinkProps[] = [
+  {
+    text: '1st - AZ TTT Championship',
+    Icon: TrophyIcon,
+    href: 'https://legacy.usacycling.org/results/index.php?permit=2023-9995',
+  },
+  {
+    text: '1st - David Gomez Road Race',
+    Icon: TrophyIcon,
+    href: 'https://legacy.usacycling.org/results/index.php?permit=2023-9543',
+  },
+  {
+    text: '1st - Flapjack Flats ITT',
+    Icon: TrophyIcon,
+    href: 'https://legacy.usacycling.org/results/index.php?permit=2023-9336',
+  },
+  {
+    text: '2nd - AZ ITT Championship',
+    Icon: TrophyIcon,
+    href: 'https://legacy.usacycling.org/results/index.php?permit=2023-10667',
+  },
+  {
+    text: '2nd - AZ Road Race Championship',
+    Icon: TrophyIcon,
+    href: 'https://results.raceroster.com/v2/en-US/results/vrav9hjwkkbdtfem/results',
+  },
+];
+
 export default function About() {
   return (
     <Container className="mt-16 sm:mt-32">
@@ -60,7 +90,9 @@ export default function About() {
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
             I’m Matt Kharrl: <br />{' '}
-            <span className="text-amber-500 dark:text-amber-400">engineer</span>
+            <span className="text-orange-500 dark:text-orange-400">
+              engineer
+            </span>
             , <span className="text-sky-500 dark:text-sky-400">athlete</span>,
             and{' '}
             <span className="text-emerald-500 dark:text-emerald-400">dad</span>.
@@ -73,7 +105,7 @@ export default function About() {
             </p>
             <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
               I build{' '}
-              <span className="text-amber-500 dark:text-amber-400">
+              <span className="text-orange-500 dark:text-orange-400">
                 software
               </span>
               .
@@ -123,6 +155,19 @@ export default function About() {
               race with Blitz Racing and spend much of my free time training and
               riding with teammates and friends.
             </p>
+            <h2 className="text-md sm:text-md font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
+              Recent results:
+            </h2>
+            <ol>
+              {raceResults.map((result) => (
+                <li key={result.text}>
+                  <IconLink
+                    {...result}
+                    className="stroke-sky-500 hover:text-sky-500 dark:stroke-sky-400 dark:hover:text-sky-400"
+                  />
+                </li>
+              ))}
+            </ol>
             <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
               I love my{' '}
               <span className="text-emerald-500 dark:text-emerald-400">
@@ -142,6 +187,12 @@ export default function About() {
               our time laughing. I aspire to master the art of dad jokes at the
               expense of my wife and son&apos;s sanity.
             </p>
+            <IconLink
+              Icon={InstagramIcon}
+              text="Keep up with us on Instagram."
+              href="https://www.instagram.com/matt.kharrl/"
+              className="fill-emerald-500 hover:text-emerald-500 dark:fill-emerald-400 dark:hover:text-emerald-400"
+            />
           </div>
         </div>
         <div className="lg:pl-20">
