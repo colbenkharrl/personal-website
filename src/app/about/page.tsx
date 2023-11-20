@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   description: 'I’m Matt Kharrl: engineer, athlete, and dad.',
 };
 
-export const raceResults: IconLinkProps[] = [
+const raceResults: IconLinkProps[] = [
   {
     text: '1st - AZ TTT Championship',
     Icon: TrophyIcon,
