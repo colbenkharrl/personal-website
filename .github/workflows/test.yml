@@ -1,7 +1,5 @@
 name: CI
 on: push
-runs:
-  using: 'node20'
 jobs:
   test:
     name: Lint, Test, & Build
