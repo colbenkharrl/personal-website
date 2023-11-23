@@ -20,7 +20,9 @@ it('expands the text when show more and reduces text when show less', () => {
     ),
   ).toBeNull();
 
-  fireEvent.click(screen.getByText('Read More'));
+  const buttons = screen.getAllByText('Read More');
+
+  fireEvent.click(buttons[buttons.length - 1]);
 
   screen.getByText(
     "I'm very impressed with Matt, and give him my strongest recommendation for roles which require intelligence, persistence and a positive attitude.",
