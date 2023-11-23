@@ -85,11 +85,11 @@ export const Reference: FC<{ reference: Reference }> = ({ reference }) => {
 
   return (
     <li
-      className="flex-column text-sm text-zinc-900 dark:text-zinc-100"
+      className="flex-column mb-4 text-sm text-zinc-900 dark:text-zinc-100"
       key={reference.author}
     >
       <div className="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5">
-        <a href={reference.authorLinkedIn}>
+        <a href={reference.authorLinkedIn} className="min-w-fit">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             className="h-12 w-12 flex-none rounded-full bg-gray-50"
@@ -137,7 +137,7 @@ export const Reference: FC<{ reference: Reference }> = ({ reference }) => {
 export const References: FC = () => {
   return (
     <PortfolioSection title="References" Icon={ChatIcon}>
-      <ul role="list" className="divide-y divide-gray-100">
+      <ul role="list" className="divide-y divide-gray-500">
         {references.map((reference) => (
           <Reference reference={reference} key={reference.author} />
         ))}
