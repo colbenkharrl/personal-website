@@ -13,7 +13,6 @@ import {
   TrophyIcon,
 } from '@/components/Icons';
 import portraitImage from '@/images/portrait.jpg';
-import { InlineBadge } from '@/components/InlineBadge';
 import { IconLink, IconLinkProps } from '@/components/IconLink';
 
 function SocialLink({
@@ -123,22 +122,6 @@ export default function About() {
               the happiest when creating web experiences as close to end users
               as possible.
             </p>
-            <Link href="/portfolio">
-              <InlineBadge className="mt-4">
-                <span className="relative mr-1.5 flex h-2.5 w-2.5">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-orange-300 opacity-75"></span>
-                  <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-orange-400"></span>
-                </span>
-                <div className="flex items-center justify-center">
-                  <p className="whitespace-nowrap">
-                    Searching For Opportunities{' '}
-                    <span className="ml-1" aria-hidden="true">
-                      &rarr;
-                    </span>
-                  </p>
-                </div>
-              </InlineBadge>
-            </Link>
             <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
               I race{' '}
               <span className="text-sky-500 dark:text-sky-400">bikes</span>.
