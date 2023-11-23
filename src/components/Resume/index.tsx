@@ -19,7 +19,7 @@ const resume: Array<Role> = [
       label: 'Present',
       dateTime: new Date().getFullYear().toString(),
     },
-    url: 'https://catio.tech/',
+    url: 'https://www.linkedin.com/company/catiotech/',
   },
   {
     company: 'Spec',
