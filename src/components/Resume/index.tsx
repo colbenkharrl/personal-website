@@ -4,11 +4,23 @@ import logoAmazon from '@/images/logos/amazon.png';
 import logoThreatMetrix from '@/images/logos/threatmetrix.png';
 import logoEdupoint from '@/images/logos/synergy.png';
 import logoApple from '@/images/logos/apple.png';
+import logoCatio from '@/images/logos/catio.png';
 import { Role } from '@/components/Role';
 import { BriefcaseIcon } from '@/components/Icons';
 import { PortfolioSection } from '../PortfolioSection';
 
 const resume: Array<Role> = [
+  {
+    company: 'Catio',
+    title: 'Lead Fullstack Engineer',
+    logo: logoCatio,
+    start: '2023',
+    end: {
+      label: 'Present',
+      dateTime: new Date().getFullYear().toString(),
+    },
+    url: 'https://catio.tech/',
+  },
   {
     company: 'Spec',
     title: 'Founding Engineer, Head of Engineering',
