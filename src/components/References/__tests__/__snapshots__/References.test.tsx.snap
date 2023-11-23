@@ -39,6 +39,183 @@ exports[`References matches snapshot (regression test): Full component snapshot.
         class="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5"
       >
         <a
+          href="https://www.linkedin.com/in/justincwayne/"
+        >
+          <img
+            alt=""
+            class="h-12 w-12 flex-none rounded-full bg-gray-50"
+            src="https://media.licdn.com/dms/image/C5603AQFtIkHEhrCP0w/profile-displayphoto-shrink_400_400/0/1516528588963?e=1706140800&v=beta&t=wvFSdNqCRdpiScSUKAj2KXrPPOTtLADVY_lgBHLEsfY"
+          />
+        </a>
+        <div
+          class="min-w-0 flex-auto"
+        >
+          <p
+            class="text-sm leading-6"
+          >
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/in/justincwayne/"
+            >
+              Justin Wayne
+            </a>
+            , 
+            Senior Software Engineer
+             at
+             
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/company/specprotected/"
+            >
+              Spec
+            </a>
+          </p>
+          <p
+            class="mt-1 truncate  leading-5"
+          >
+            Written 
+            11/22/2023
+          </p>
+        </div>
+      </div>
+      <div>
+        <p
+          class="mb-2"
+        >
+          As a senior engineer in Matt's organization at Spec, I've watched him excel in leadership as a technical lead, Engineering Manager, and VP of Engineering. He established the processes we needed to scale up our team, provided the vision to coordinate our efforts, nurtured a strong engineering culture...
+        </p>
+      </div>
+      <button
+        class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+      >
+        Read More
+      </button>
+    </li>
+    <li
+      class="flex-column text-sm text-zinc-900 dark:text-zinc-100"
+    >
+      <div
+        class="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5"
+      >
+        <a
+          href="https://www.linkedin.com/in/gredfearn/"
+        >
+          <img
+            alt=""
+            class="h-12 w-12 flex-none rounded-full bg-gray-50"
+            src="https://media.licdn.com/dms/image/C4E03AQGW9Th9zrzfmA/profile-displayphoto-shrink_400_400/0/1533777100700?e=1706140800&v=beta&t=fiDCqtSHQszTSGDbovrlzu3DoWUSaHypnq37K5HG_nQ"
+          />
+        </a>
+        <div
+          class="min-w-0 flex-auto"
+        >
+          <p
+            class="text-sm leading-6"
+          >
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/in/gredfearn/"
+            >
+              Grant Redfearn
+            </a>
+            , 
+            Staff DevOps Engineer
+             at
+             
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/company/specprotected/"
+            >
+              Spec
+            </a>
+          </p>
+          <p
+            class="mt-1 truncate  leading-5"
+          >
+            Written 
+            11/17/2023
+          </p>
+        </div>
+      </div>
+      <div>
+        <p
+          class="mb-2"
+        >
+          Besides being absolutely prolific in producing process, documentation, and strategy — Matt has an innate ability to inspire. I was privileged to watch him grow a small team of senior engineers into a highly productive engineering organization with unmatched culture. Always leading by example, and ta...
+        </p>
+      </div>
+      <button
+        class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+      >
+        Read More
+      </button>
+    </li>
+    <li
+      class="flex-column text-sm text-zinc-900 dark:text-zinc-100"
+    >
+      <div
+        class="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5"
+      >
+        <a
+          href="https://www.linkedin.com/in/nate-kharrl/"
+        >
+          <img
+            alt=""
+            class="h-12 w-12 flex-none rounded-full bg-gray-50"
+            src="https://media.licdn.com/dms/image/C4D03AQEuwa7yiidTnw/profile-displayphoto-shrink_400_400/0/1613090699632?e=1706140800&v=beta&t=GR1Jm5tgbl-Wl5B_SMpp_JwLFOytU961j_QcEshGfZU"
+          />
+        </a>
+        <div
+          class="min-w-0 flex-auto"
+        >
+          <p
+            class="text-sm leading-6"
+          >
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/in/nate-kharrl/"
+            >
+              Nate Kharrl
+            </a>
+            , 
+            CEO
+             at
+             
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/company/specprotected/"
+            >
+              Spec
+            </a>
+          </p>
+          <p
+            class="mt-1 truncate  leading-5"
+          >
+            Written 
+            11/16/2023
+          </p>
+        </div>
+      </div>
+      <div>
+        <p
+          class="mb-2"
+        >
+          Matt was founder and engineer #1 at Spec. He's built prototypes, UX frameworks, deployment pipelines, and finished products that now serve Fortune 500 enterprises. Matt's a passionate "all-in" engineer who knows what it takes to prove it out, make it work, make it scale, and make it special. He's a ...
+        </p>
+      </div>
+      <button
+        class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+      >
+        Read More
+      </button>
+    </li>
+    <li
+      class="flex-column text-sm text-zinc-900 dark:text-zinc-100"
+    >
+      <div
+        class="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5"
+      >
+        <a
           href="https://www.linkedin.com/in/deanweinert/"
         >
           <img
