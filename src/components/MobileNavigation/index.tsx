@@ -54,6 +54,7 @@ export function MobileNavigation(
                 <MobileNavItem href="/about">About</MobileNavItem>
                 <MobileNavItem href="/portfolio">Portfolio</MobileNavItem>
                 <MobileNavItem href="/blog">Blog</MobileNavItem>
+                <MobileNavItem href="/contact">Contact</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>

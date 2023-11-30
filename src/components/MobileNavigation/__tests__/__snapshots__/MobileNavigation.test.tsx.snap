@@ -121,6 +121,9 @@ exports[`MobileNavigation matches snapshot while opened (regression test): Full 
           <p>
             MobileNavItem
           </p>
+          <p>
+            MobileNavItem
+          </p>
         </ul>
       </nav>
     </div>
