@@ -39,7 +39,132 @@ exports[`References matches snapshot (regression test): Full component snapshot.
         class="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5"
       >
         <a
-          class="min-w-fit"
+          class="flex min-w-fit items-center"
+          href="https://www.linkedin.com/in/doshay/"
+        >
+          <img
+            alt=""
+            class="h-12 w-12 flex-none rounded-full bg-gray-50"
+            src="https://media.licdn.com/dms/image/C5603AQGSMFSgLAucdg/profile-displayphoto-shrink_800_800/0/1651951117696?e=1706745600&v=beta&t=NgH7LoQYPgg26ZmIYvsRhHzZSp4NZNGDmI82yoTb9ZI"
+          />
+        </a>
+        <div
+          class="min-w-0 flex-auto"
+        >
+          <p
+            class="text-sm leading-6"
+          >
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/in/doshay/"
+            >
+              Heather Doshay
+            </a>
+            , 
+            Partner, People + Talent
+             at
+             
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/company/signalfire/"
+            >
+              SignalFire
+            </a>
+          </p>
+          <p
+            class="mt-1 truncate  leading-5"
+          >
+            Written 
+            11/29/2023
+          </p>
+        </div>
+      </div>
+      <div>
+        <p
+          class="mb-2"
+        >
+          I worked with Matt as VP Engineering for Spec as his VC Talent Partner, and was incredibly impressed with him. He brought a great balance of kindness and discipline to hire and manage his functional area intentionally. I've been hiring engineers for about a decade and worked with hundreds of enginee...
+        </p>
+      </div>
+      <button
+        class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+      >
+        Read More
+      </button>
+    </li>
+    <li
+      class="flex-column mb-4 text-sm text-zinc-900 dark:text-zinc-100"
+    >
+      <div
+        class="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5"
+      >
+        <a
+          class="flex min-w-fit items-center"
+          href="https://www.linkedin.com/in/anthony-micara/"
+        >
+          <img
+            alt=""
+            class="h-12 w-12 flex-none rounded-full bg-gray-50"
+            src="https://media.licdn.com/dms/image/C4D03AQGPFCZV7u-dcg/profile-displayphoto-shrink_400_400/0/1628123240070?e=1706745600&v=beta&t=Wa9w7w-XPFDPUnk1PR8z89lfpxomt_2ye_QypkAJmeU"
+          />
+        </a>
+        <div
+          class="min-w-0 flex-auto"
+        >
+          <p
+            class="text-sm leading-6"
+          >
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/in/anthony-micara/"
+            >
+              Anthony Micara
+            </a>
+            , 
+            VP of Product Success
+             at
+             
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/company/specprotected/"
+            >
+              Spec
+            </a>
+          </p>
+          <p
+            class="mt-1 truncate  leading-5"
+          >
+            Written 
+            11/28/2023
+          </p>
+        </div>
+      </div>
+      <div>
+        <p
+          class="mb-2"
+        >
+          It has been a rewarding experience working alongside Matt Kharrl for over two years at Spec, where he was the founding engineer. His evolution into a multifaceted leader was truly remarkable and a testament to his capabilities.
+        </p>
+        <p
+          class="mb-2"
+        >
+          Matt’s diverse skill set is a rare find and proved to be a cornerstone i...
+        </p>
+      </div>
+      <button
+        class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+      >
+        Read More
+      </button>
+    </li>
+    <li
+      class="flex-column mb-4 text-sm text-zinc-900 dark:text-zinc-100"
+    >
+      <div
+        class="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5"
+      >
+        <a
+          class="flex min-w-fit items-center"
           href="https://www.linkedin.com/in/justincwayne/"
         >
           <img
@@ -99,7 +224,7 @@ exports[`References matches snapshot (regression test): Full component snapshot.
         class="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5"
       >
         <a
-          class="min-w-fit"
+          class="flex min-w-fit items-center"
           href="https://www.linkedin.com/in/gredfearn/"
         >
           <img
@@ -159,7 +284,7 @@ exports[`References matches snapshot (regression test): Full component snapshot.
         class="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5"
       >
         <a
-          class="min-w-fit"
+          class="flex min-w-fit items-center"
           href="https://www.linkedin.com/in/nate-kharrl/"
         >
           <img
@@ -219,7 +344,7 @@ exports[`References matches snapshot (regression test): Full component snapshot.
         class="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5"
       >
         <a
-          class="min-w-fit"
+          class="flex min-w-fit items-center"
           href="https://www.linkedin.com/in/deanweinert/"
         >
           <img

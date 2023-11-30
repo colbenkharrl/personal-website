@@ -18,6 +18,30 @@ export type Reference = {
 
 export const references: Reference[] = [
   {
+    author: 'Heather Doshay',
+    title: 'Partner, People + Talent',
+    company: 'SignalFire',
+    authorLinkedIn: 'https://www.linkedin.com/in/doshay/',
+    companyLinkedIn: 'https://www.linkedin.com/company/signalfire/',
+    content:
+      "I worked with Matt as VP Engineering for Spec as his VC Talent Partner, and was incredibly impressed with him. He brought a great balance of kindness and discipline to hire and manage his functional area intentionally. I've been hiring engineers for about a decade and worked with hundreds of engineering organizations in that time, and his interview process was so great we shared it with other companies as a best practice model. Matt stands out to me as someone with a high degree of potential for engineering leadership, and I keenly look forward to what he does next.",
+    date: new Date('2023-11-29T12:00:00.000Z'),
+    authorAvatarURL:
+      'https://media.licdn.com/dms/image/C5603AQGSMFSgLAucdg/profile-displayphoto-shrink_800_800/0/1651951117696?e=1706745600&v=beta&t=NgH7LoQYPgg26ZmIYvsRhHzZSp4NZNGDmI82yoTb9ZI',
+  },
+  {
+    author: 'Anthony Micara',
+    title: 'VP of Product Success',
+    company: 'Spec',
+    authorLinkedIn: 'https://www.linkedin.com/in/anthony-micara/',
+    companyLinkedIn: 'https://www.linkedin.com/company/specprotected/',
+    content:
+      'It has been a rewarding experience working alongside Matt Kharrl for over two years at Spec, where he was the founding engineer. His evolution into a multifaceted leader was truly remarkable and a testament to his capabilities.\nMatt’s diverse skill set is a rare find and proved to be a cornerstone in our startup’s journey. As the creator of Spec’s MVP, he rapidly ascended to become the VP of Engineering. My close collaboration with Matt spanned various business areas including executive decision-making, sales engineering, delivery, customer success, and product development. His integral role across these functions was crucial to our early achievements, propelling Spec from its inception to a Series A-funded business.\nIn our venture to create a new market category, Matt adeptly handled myriad responsibilities. His leadership in recruiting, managing, and expanding the front-end, back-end, and DevOps teams was instrumental. Additionally, he established a robust InfoSec program tailored to Spec’s complex customer journey security platform. Matt’s organizational prowess shone through in laying Spec’s technical groundwork, formulating numerous processes, and generating comprehensive technical and business documentation. His commitment to fostering a positive work culture resonated with all, earning him universal respect and admiration.\nMatt Kharrl is an invaluable asset, bringing a transformative presence to any business or team. I eagerly look forward to the prospect of collaborating with him again.',
+    date: new Date('2023-11-28T12:00:00.000Z'),
+    authorAvatarURL:
+      'https://media.licdn.com/dms/image/C4D03AQGPFCZV7u-dcg/profile-displayphoto-shrink_400_400/0/1628123240070?e=1706745600&v=beta&t=Wa9w7w-XPFDPUnk1PR8z89lfpxomt_2ye_QypkAJmeU',
+  },
+  {
     author: 'Justin Wayne',
     title: 'Senior Software Engineer',
     company: 'Spec',
@@ -89,7 +113,10 @@ export const Reference: FC<{ reference: Reference }> = ({ reference }) => {
       key={reference.author}
     >
       <div className="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5">
-        <a href={reference.authorLinkedIn} className="min-w-fit">
+        <a
+          href={reference.authorLinkedIn}
+          className="flex min-w-fit items-center"
+        >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             className="h-12 w-12 flex-none rounded-full bg-gray-50"
