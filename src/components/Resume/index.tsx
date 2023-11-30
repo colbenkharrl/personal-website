@@ -23,7 +23,7 @@ const resume: Array<Role> = [
   },
   {
     company: 'Spec',
-    title: 'Founding Engineer, Head of Engineering',
+    title: 'Lead Software Engineer, VP of Engineering',
     logo: logoSpec,
     start: '2020',
     end: '2023',

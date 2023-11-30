@@ -29,9 +29,36 @@ exports[`Role matches snapshot (regression test): Full component snapshot. 1`] =
       Company
     </dt>
     <dd
-      class="relative z-10 w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100"
+      class="relative z-10 flex w-full text-sm font-medium text-zinc-900 dark:text-zinc-100"
     >
       Spec
+      <div
+        class="flex-grow"
+      />
+      <p
+        class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+      >
+        <time
+          class="relative z-10"
+          datetime="2020"
+        >
+          2020
+        </time>
+         
+        <span
+          aria-hidden="true"
+          class="relative z-10"
+        >
+          —
+        </span>
+         
+        <time
+          class="relative z-10"
+          datetime="2023"
+        >
+          2023
+        </time>
+      </p>
     </dd>
     <dt
       class="sr-only"
@@ -56,26 +83,6 @@ exports[`Role matches snapshot (regression test): Full component snapshot. 1`] =
           VP of Engineering
         </span>
         <br />
-        <time
-          class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
-          datetime="2020"
-        >
-          2020
-        </time>
-         
-        <span
-          aria-hidden="true"
-          class="relative z-10"
-        >
-          —
-        </span>
-         
-        <time
-          class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
-          datetime="2023"
-        >
-          2023
-        </time>
       </a>
     </dd>
   </dl>
