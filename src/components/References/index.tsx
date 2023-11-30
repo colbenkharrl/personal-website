@@ -109,10 +109,10 @@ export const Reference: FC<{ reference: Reference }> = ({ reference }) => {
 
   return (
     <li
-      className="flex-column mb-4 text-sm text-zinc-900 dark:text-zinc-100"
+      className="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
       key={reference.author}
     >
-      <div className="flex min-w-0 justify-between gap-x-4 gap-x-6 py-5">
+      <div className="flex min-w-0 justify-between gap-x-4 py-5">
         <a
           href={reference.authorLinkedIn}
           className="flex min-w-fit items-center"
@@ -132,7 +132,9 @@ export const Reference: FC<{ reference: Reference }> = ({ reference }) => {
             >
               {reference.author}
             </a>
-            , {reference.title} at{' '}
+          </p>
+          <p className="mt-1  leading-5">
+            {reference.title} at{' '}
             <a
               className="font-semibold underline"
               href={reference.companyLinkedIn}
@@ -140,14 +142,11 @@ export const Reference: FC<{ reference: Reference }> = ({ reference }) => {
               {reference.company}
             </a>
           </p>
-          <p className="mt-1 truncate  leading-5">
-            Written {reference.date.toLocaleDateString()}
-          </p>
         </div>
       </div>
       <div>
         {content.split('\n').map((text) => (
-          <p key={text} className="mb-2">
+          <p key={text} className="mb-4">
             {text}
           </p>
         ))}
@@ -164,7 +163,10 @@ export const Reference: FC<{ reference: Reference }> = ({ reference }) => {
 export const References: FC = () => {
   return (
     <PortfolioSection title="References" Icon={ChatIcon}>
-      <ul role="list" className="divide-y divide-gray-500">
+      <ul
+        role="list"
+        className="mt-4 divide-y divide-gray-200 dark:divide-gray-500"
+      >
         {references.map((reference) => (
           <Reference reference={reference} key={reference.author} />
         ))}

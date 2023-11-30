@@ -34,8 +34,20 @@ export function Role({ role }: { role: Role }) {
       </div>
       <dl className="flex flex-auto flex-wrap gap-x-2">
         <dt className="sr-only">Company</dt>
-        <dd className="relative z-10 w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
+        <dd className="relative z-10 flex w-full text-sm font-medium text-zinc-900 dark:text-zinc-100">
           {role.company}
+          <div className="flex-grow" />
+          <p className="relative z-10 text-xs text-zinc-400 dark:text-zinc-500">
+            <time className="relative z-10" dateTime={startDate}>
+              {startLabel}
+            </time>{' '}
+            <span className="relative z-10" aria-hidden="true">
+              —
+            </span>{' '}
+            <time className="relative z-10" dateTime={endDate}>
+              {endLabel}
+            </time>
+          </p>
         </dd>
         <dt className="sr-only">Role</dt>
         <dd className="text-xs text-zinc-500 dark:text-zinc-400">
@@ -46,21 +58,6 @@ export function Role({ role }: { role: Role }) {
               {role.title}
             </span>
             <br />
-            <time
-              className="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
-              dateTime={startDate}
-            >
-              {startLabel}
-            </time>{' '}
-            <span className="relative z-10" aria-hidden="true">
-              —
-            </span>{' '}
-            <time
-              className="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
-              dateTime={endDate}
-            >
-              {endLabel}
-            </time>
           </Link>
         </dd>
       </dl>

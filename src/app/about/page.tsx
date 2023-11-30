@@ -5,7 +5,9 @@ import clsx from 'clsx';
 
 import { Container } from '@/components/Container';
 import {
+  BriefcaseIcon,
   GitHubIcon,
+  GlobeIcon,
   InstagramIcon,
   LinkedInIcon,
   MailIcon,
@@ -14,6 +16,7 @@ import {
 } from '@/components/Icons';
 import portraitImage from '@/images/portrait.jpg';
 import { IconLink, IconLinkProps } from '@/components/IconLink';
+import { InlineBadge } from '@/components/InlineBadge';
 
 function SocialLink({
   className,
@@ -70,6 +73,11 @@ const raceResults: IconLinkProps[] = [
     Icon: TrophyIcon,
     href: 'https://results.raceroster.com/v2/en-US/results/vrav9hjwkkbdtfem/results',
   },
+  {
+    text: 'Biked the Circumference of Earth',
+    Icon: GlobeIcon,
+    href: 'https://www.strava.com/athletes/41283083',
+  },
 ];
 
 export default function About() {
@@ -122,6 +130,24 @@ export default function About() {
               the happiest when creating web experiences as close to end users
               as possible.
             </p>
+            <Link href="/portfolio">
+              <InlineBadge className="mt-4">
+                <BriefcaseIcon
+                  className="mr-1.5 h-5 w-5"
+                  pathProps={{
+                    className: 'stroke-orange-600 dark:stroke-orange-400',
+                  }}
+                />
+                <div className="flex items-center justify-center">
+                  <p className="whitespace-nowrap">
+                    View My Portfolio{' '}
+                    <span className="ml-1" aria-hidden="true">
+                      &rarr;
+                    </span>
+                  </p>
+                </div>
+              </InlineBadge>
+            </Link>
             <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
               I race{' '}
               <span className="text-sky-500 dark:text-sky-400">bikes</span>.
@@ -139,7 +165,7 @@ export default function About() {
               riding with teammates and friends.
             </p>
             <h2 className="text-md sm:text-md font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
-              Recent results:
+              Recent accomplishments:
             </h2>
             <ol>
               {raceResults.map((result) => (
