@@ -1,0 +1,2297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match page snapshot: page snapshot 1`] = `
+<div
+  class="sm:px-8 mt-16 sm:mt-32"
+  data-testid="Container"
+>
+  <div
+    class="mx-auto w-full max-w-7xl lg:px-8"
+  >
+    <div
+      class="relative px-4 sm:px-8 lg:px-12"
+    >
+      <div
+        class="mx-auto max-w-2xl lg:max-w-5xl"
+      >
+        <header
+          class="max-w-2xl"
+        >
+          <h1
+            class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl"
+          >
+            A glimpse into my professional experience.
+          </h1>
+          <p
+            class="mt-6 text-base text-zinc-600 dark:text-zinc-400"
+          >
+            I've been building software since 2012. Though I specialize in building cloud-based web applications, I have dabbled in many technical disciplines across the stack and throughout the software development lifecycle.
+          </p>
+        </header>
+        <div
+          class="mt-16 sm:mt-20"
+        >
+          <div
+            class="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+            data-testid="PortfolioSection"
+          >
+            <h2
+              class="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-6 w-6 flex-none"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  class="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+                  d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
+                />
+              </svg>
+              <span
+                class="ml-3"
+              >
+                Projects & Products
+              </span>
+            </h2>
+            <ul
+              class="mt-8 grid grid-cols-1 gap-x-12 gap-y-16 p-4 sm:grid-cols-2 lg:grid-cols-3"
+              role="list"
+            >
+              <li
+                class="group relative flex flex-col items-start"
+                data-testid="Card"
+              >
+                <div
+                  class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="h-8 w-8"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <h2
+                  class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+                >
+                  <div
+                    class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+                  />
+                  <a
+                    href="https://specprotected.com/"
+                  >
+                    <span
+                      class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                    />
+                    <span
+                      class="relative z-10"
+                    >
+                      Trust Cloud
+                    </span>
+                  </a>
+                </h2>
+                <p
+                  class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+                >
+                  Spec's Trust Cloud is a real-time security defense platform that is currently protecting the web traffic of some of the largest brands in the world. As the founding engineer, I designed and developed their enterprise security defense web application, then went on to build and lead the entire engineering and compliance organizations.
+                </p>
+                <p
+                  class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 flex-none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="ml-2"
+                  >
+                    specprotected.com
+                  </span>
+                </p>
+              </li>
+              <li
+                class="group relative flex flex-col items-start"
+                data-testid="Card"
+              >
+                <div
+                  class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="h-8 w-8"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <h2
+                  class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+                >
+                  <div
+                    class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+                  />
+                  <a
+                    href="https://www.atlassian.com/software/confluence"
+                  >
+                    <span
+                      class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                    />
+                    <span
+                      class="relative z-10"
+                    >
+                      Confluence
+                    </span>
+                  </a>
+                </h2>
+                <p
+                  class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+                >
+                  Confluence, an Atlassian product, is the most widely-used workplace documentation product in the world. I worked on the core navigation and discoverability features for their cloud-based web application, and also designed and built their automated, interactive, and multi-stage release pipeline.
+                </p>
+                <p
+                  class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 flex-none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="ml-2"
+                  >
+                    atlassian.com
+                  </span>
+                </p>
+              </li>
+              <li
+                class="group relative flex flex-col items-start"
+                data-testid="Card"
+              >
+                <div
+                  class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="h-8 w-8"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <h2
+                  class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+                >
+                  <div
+                    class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+                  />
+                  <a
+                    href="https://atlassian.design/components/atlassian-navigation/examples"
+                  >
+                    <span
+                      class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                    />
+                    <span
+                      class="relative z-10"
+                    >
+                      Atlassian Navigation
+                    </span>
+                  </a>
+                </h2>
+                <p
+                  class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+                >
+                  Atlassian Navigation is a core component of the Atlassian design system, which is utilized across all of their cloud products. I worked with a special project team to research, design, develop, and integrate this navigation experience and all associated components.
+                </p>
+                <p
+                  class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 flex-none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="ml-2"
+                  >
+                    atlassian.design
+                  </span>
+                </p>
+              </li>
+              <li
+                class="group relative flex flex-col items-start"
+                data-testid="Card"
+              >
+                <div
+                  class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="h-8 w-8"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <h2
+                  class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+                >
+                  <div
+                    class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+                  />
+                  <a
+                    href="https://www.amazon.com/echo/s?k=echo+show"
+                  >
+                    <span
+                      class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                    />
+                    <span
+                      class="relative z-10"
+                    >
+                      Echo Show
+                    </span>
+                  </a>
+                </h2>
+                <p
+                  class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+                >
+                  Amazon's Echo Show is their only Alexa-enabled household device with a screen. I developed an internal web application which enabled marketers and brand partners to create, schedule, and deploy advertising campaigns to devices worldwide in the form of custom camera filters.
+                </p>
+                <p
+                  class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 flex-none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="ml-2"
+                  >
+                    amazon.com
+                  </span>
+                </p>
+              </li>
+              <li
+                class="group relative flex flex-col items-start"
+                data-testid="Card"
+              >
+                <div
+                  class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="h-8 w-8"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <h2
+                  class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+                >
+                  <div
+                    class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+                  />
+                  <a
+                    href="https://risk.lexisnexis.com/products/threatmetrix"
+                  >
+                    <span
+                      class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                    />
+                    <span
+                      class="relative z-10"
+                    >
+                      ThreatMetrix ID
+                    </span>
+                  </a>
+                </h2>
+                <p
+                  class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+                >
+                  ThreatMetrix ID was the fraud industry's first dynamic representation of digital identities on the internet. I designed and developed an interactive graph visualization which allows fraud analysts to inspect the complex history of user behavior on the web across many websites and devices.
+                </p>
+                <p
+                  class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 flex-none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="ml-2"
+                  >
+                    lexisnexis.com
+                  </span>
+                </p>
+              </li>
+              <li
+                class="group relative flex flex-col items-start"
+                data-testid="Card"
+              >
+                <div
+                  class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="h-8 w-8"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <h2
+                  class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+                >
+                  <div
+                    class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+                  />
+                  <a
+                    href="https://github.com/colbenkharrl/personal-website"
+                  >
+                    <span
+                      class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                    />
+                    <span
+                      class="relative z-10"
+                    >
+                      Personal Portfolio
+                    </span>
+                  </a>
+                </h2>
+                <p
+                  class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+                >
+                  The website you are browsing right now was built by me using modern web technologies. Over time I will likely test out new libraries in this very over-engineered project. You can view the source code on my Github profile.
+                </p>
+                <p
+                  class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 flex-none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="ml-2"
+                  >
+                    github.com
+                  </span>
+                </p>
+              </li>
+              <li
+                class="group relative flex flex-col items-start"
+                data-testid="Card"
+              >
+                <div
+                  class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="h-8 w-8"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <h2
+                  class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+                >
+                  <div
+                    class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+                  />
+                  <a
+                    href="https://edupoint.com/Products/Student-Information-Management"
+                  >
+                    <span
+                      class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                    />
+                    <span
+                      class="relative z-10"
+                    >
+                      Synergy SIS
+                    </span>
+                  </a>
+                </h2>
+                <p
+                  class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+                >
+                  The Synergy Student Information System, developed by Edupoint, provides end-to-end educational management services for K-12 schools across the United States. I worked on their .NET platform and focused on enhancements to their administrative reporting framework.
+                </p>
+                <p
+                  class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 flex-none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="ml-2"
+                  >
+                    edupoint.com
+                  </span>
+                </p>
+              </li>
+              <li
+                class="group relative flex flex-col items-start"
+                data-testid="Card"
+              >
+                <div
+                  class="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="h-8 w-8"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <h2
+                  class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
+                >
+                  <div
+                    class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+                  />
+                  <a
+                    href="https://blitzracingcc.com/"
+                  >
+                    <span
+                      class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                    />
+                    <span
+                      class="relative z-10"
+                    >
+                      Blitz Racing Cycling Club
+                    </span>
+                  </a>
+                </h2>
+                <p
+                  class="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400"
+                >
+                  Blitz Racing is the cycling club for which I race bikes. I developed a simple landing page for our team where we can share information about our events, sponsors, and results.
+                </p>
+                <p
+                  class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-6 w-6 flex-none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.712 11.823a.75.75 0 1 0 1.06 1.06l-1.06-1.06Zm-4.95 1.768a.75.75 0 0 0 1.06-1.06l-1.06 1.06Zm-2.475-1.414a.75.75 0 1 0-1.06-1.06l1.06 1.06Zm4.95-1.768a.75.75 0 1 0-1.06 1.06l1.06-1.06Zm3.359.53-.884.884 1.06 1.06.885-.883-1.061-1.06Zm-4.95-2.12 1.414-1.415L12 6.344l-1.415 1.413 1.061 1.061Zm0 3.535a2.5 2.5 0 0 1 0-3.536l-1.06-1.06a4 4 0 0 0 0 5.656l1.06-1.06Zm4.95-4.95a2.5 2.5 0 0 1 0 3.535L17.656 12a4 4 0 0 0 0-5.657l-1.06 1.06Zm1.06-1.06a4 4 0 0 0-5.656 0l1.06 1.06a2.5 2.5 0 0 1 3.536 0l1.06-1.06Zm-7.07 7.07.176.177 1.06-1.06-.176-.177-1.06 1.06Zm-3.183-.353.884-.884-1.06-1.06-.884.883 1.06 1.06Zm4.95 2.121-1.414 1.414 1.06 1.06 1.415-1.413-1.06-1.061Zm0-3.536a2.5 2.5 0 0 1 0 3.536l1.06 1.06a4 4 0 0 0 0-5.656l-1.06 1.06Zm-4.95 4.95a2.5 2.5 0 0 1 0-3.535L6.344 12a4 4 0 0 0 0 5.656l1.06-1.06Zm-1.06 1.06a4 4 0 0 0 5.657 0l-1.061-1.06a2.5 2.5 0 0 1-3.535 0l-1.061 1.06Zm7.07-7.07-.176-.177-1.06 1.06.176.178 1.06-1.061Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="ml-2"
+                  >
+                    blitzracingcc.com
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+            data-testid="PortfolioSection"
+          >
+            <h2
+              class="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-6 w-6 flex-none"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  class="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+                  d="M2.75 9.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z"
+                />
+                <path
+                  class="stroke-zinc-400 dark:stroke-zinc-500"
+                  d="M3 14.25h6.249c.484 0 .952-.002 1.316.319l.777.682a.996.996 0 0 0 1.316 0l.777-.682c.364-.32.832-.319 1.316-.319H21M8.75 6.5V4.75a2 2 0 0 1 2-2h2.5a2 2 0 0 1 2 2V6.5"
+                />
+              </svg>
+              <span
+                class="ml-3"
+              >
+                Work
+              </span>
+            </h2>
+            <ol
+              class="mt-6 space-y-4"
+              role="list"
+            >
+              <li
+                class="group relative flex items-start gap-2 sm:gap-4"
+                data-testid="Role"
+              >
+                <div
+                  class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="relative z-10 h-7 w-7"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <dl
+                  class="flex flex-auto flex-wrap gap-x-2"
+                >
+                  <dt
+                    class="sr-only"
+                  >
+                    Company
+                  </dt>
+                  <dd
+                    class="relative z-10 flex w-full text-sm font-medium text-zinc-900 dark:text-zinc-100"
+                  >
+                    Catio
+                    <div
+                      class="flex-grow"
+                    />
+                    <p
+                      class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+                    >
+                      <time
+                        class="relative z-10"
+                        datetime="2023"
+                      >
+                        2023
+                      </time>
+                       
+                      <span
+                        aria-hidden="true"
+                        class="relative z-10"
+                      >
+                        —
+                      </span>
+                       
+                      <time
+                        class="relative z-10"
+                        datetime="2023"
+                      >
+                        Present
+                      </time>
+                    </p>
+                  </dd>
+                  <dt
+                    class="sr-only"
+                  >
+                    Role
+                  </dt>
+                  <dd
+                    class="text-xs text-zinc-500 dark:text-zinc-400"
+                  >
+                    <div
+                      class="absolute -inset-x-2 -inset-y-2 z-0 scale-95 rounded-lg bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50"
+                    />
+                    <a
+                      href="https://www.linkedin.com/company/catiotech/"
+                    >
+                      <span
+                        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                      />
+                      <span
+                        class="relative z-10  group-hover:text-orange-500"
+                      >
+                        Lead Fullstack Engineer
+                      </span>
+                      <br />
+                    </a>
+                  </dd>
+                </dl>
+              </li>
+              <li
+                class="group relative flex items-start gap-2 sm:gap-4"
+                data-testid="Role"
+              >
+                <div
+                  class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="relative z-10 h-7 w-7"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <dl
+                  class="flex flex-auto flex-wrap gap-x-2"
+                >
+                  <dt
+                    class="sr-only"
+                  >
+                    Company
+                  </dt>
+                  <dd
+                    class="relative z-10 flex w-full text-sm font-medium text-zinc-900 dark:text-zinc-100"
+                  >
+                    Spec
+                    <div
+                      class="flex-grow"
+                    />
+                    <p
+                      class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+                    >
+                      <time
+                        class="relative z-10"
+                        datetime="2020"
+                      >
+                        2020
+                      </time>
+                       
+                      <span
+                        aria-hidden="true"
+                        class="relative z-10"
+                      >
+                        —
+                      </span>
+                       
+                      <time
+                        class="relative z-10"
+                        datetime="2023"
+                      >
+                        2023
+                      </time>
+                    </p>
+                  </dd>
+                  <dt
+                    class="sr-only"
+                  >
+                    Role
+                  </dt>
+                  <dd
+                    class="text-xs text-zinc-500 dark:text-zinc-400"
+                  >
+                    <div
+                      class="absolute -inset-x-2 -inset-y-2 z-0 scale-95 rounded-lg bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50"
+                    />
+                    <a
+                      href="https://specprotected.com/"
+                    >
+                      <span
+                        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                      />
+                      <span
+                        class="relative z-10  group-hover:text-orange-500"
+                      >
+                        Lead Software Engineer, VP of Engineering
+                      </span>
+                      <br />
+                    </a>
+                  </dd>
+                </dl>
+              </li>
+              <li
+                class="group relative flex items-start gap-2 sm:gap-4"
+                data-testid="Role"
+              >
+                <div
+                  class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="relative z-10 h-7 w-7"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <dl
+                  class="flex flex-auto flex-wrap gap-x-2"
+                >
+                  <dt
+                    class="sr-only"
+                  >
+                    Company
+                  </dt>
+                  <dd
+                    class="relative z-10 flex w-full text-sm font-medium text-zinc-900 dark:text-zinc-100"
+                  >
+                    Atlassian
+                    <div
+                      class="flex-grow"
+                    />
+                    <p
+                      class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+                    >
+                      <time
+                        class="relative z-10"
+                        datetime="2018"
+                      >
+                        2018
+                      </time>
+                       
+                      <span
+                        aria-hidden="true"
+                        class="relative z-10"
+                      >
+                        —
+                      </span>
+                       
+                      <time
+                        class="relative z-10"
+                        datetime="2020"
+                      >
+                        2020
+                      </time>
+                    </p>
+                  </dd>
+                  <dt
+                    class="sr-only"
+                  >
+                    Role
+                  </dt>
+                  <dd
+                    class="text-xs text-zinc-500 dark:text-zinc-400"
+                  >
+                    <div
+                      class="absolute -inset-x-2 -inset-y-2 z-0 scale-95 rounded-lg bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50"
+                    />
+                    <a
+                      href="https://atlassian.com/"
+                    >
+                      <span
+                        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                      />
+                      <span
+                        class="relative z-10  group-hover:text-orange-500"
+                      >
+                        Software Engineer
+                      </span>
+                      <br />
+                    </a>
+                  </dd>
+                </dl>
+              </li>
+              <li
+                class="group relative flex items-start gap-2 sm:gap-4"
+                data-testid="Role"
+              >
+                <div
+                  class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="relative z-10 h-7 w-7"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <dl
+                  class="flex flex-auto flex-wrap gap-x-2"
+                >
+                  <dt
+                    class="sr-only"
+                  >
+                    Company
+                  </dt>
+                  <dd
+                    class="relative z-10 flex w-full text-sm font-medium text-zinc-900 dark:text-zinc-100"
+                  >
+                    Amazon
+                    <div
+                      class="flex-grow"
+                    />
+                    <p
+                      class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+                    >
+                      <time
+                        class="relative z-10"
+                        datetime="2018"
+                      >
+                        2018
+                      </time>
+                       
+                      <span
+                        aria-hidden="true"
+                        class="relative z-10"
+                      >
+                        —
+                      </span>
+                       
+                      <time
+                        class="relative z-10"
+                        datetime="2018"
+                      >
+                        2018
+                      </time>
+                    </p>
+                  </dd>
+                  <dt
+                    class="sr-only"
+                  >
+                    Role
+                  </dt>
+                  <dd
+                    class="text-xs text-zinc-500 dark:text-zinc-400"
+                  >
+                    <div
+                      class="absolute -inset-x-2 -inset-y-2 z-0 scale-95 rounded-lg bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50"
+                    />
+                    <a
+                      href="https://amazon.com/"
+                    >
+                      <span
+                        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                      />
+                      <span
+                        class="relative z-10  group-hover:text-orange-500"
+                      >
+                        Software Engineering Intern
+                      </span>
+                      <br />
+                    </a>
+                  </dd>
+                </dl>
+              </li>
+              <li
+                class="group relative flex items-start gap-2 sm:gap-4"
+                data-testid="Role"
+              >
+                <div
+                  class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="relative z-10 h-7 w-7"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <dl
+                  class="flex flex-auto flex-wrap gap-x-2"
+                >
+                  <dt
+                    class="sr-only"
+                  >
+                    Company
+                  </dt>
+                  <dd
+                    class="relative z-10 flex w-full text-sm font-medium text-zinc-900 dark:text-zinc-100"
+                  >
+                    ThreatMetrix
+                    <div
+                      class="flex-grow"
+                    />
+                    <p
+                      class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+                    >
+                      <time
+                        class="relative z-10"
+                        datetime="2017"
+                      >
+                        2017
+                      </time>
+                       
+                      <span
+                        aria-hidden="true"
+                        class="relative z-10"
+                      >
+                        —
+                      </span>
+                       
+                      <time
+                        class="relative z-10"
+                        datetime="2018"
+                      >
+                        2018
+                      </time>
+                    </p>
+                  </dd>
+                  <dt
+                    class="sr-only"
+                  >
+                    Role
+                  </dt>
+                  <dd
+                    class="text-xs text-zinc-500 dark:text-zinc-400"
+                  >
+                    <div
+                      class="absolute -inset-x-2 -inset-y-2 z-0 scale-95 rounded-lg bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50"
+                    />
+                    <a
+                      href="https://risk.lexisnexis.com/products/threatmetrix"
+                    >
+                      <span
+                        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                      />
+                      <span
+                        class="relative z-10  group-hover:text-orange-500"
+                      >
+                        Software Engineer
+                      </span>
+                      <br />
+                    </a>
+                  </dd>
+                </dl>
+              </li>
+              <li
+                class="group relative flex items-start gap-2 sm:gap-4"
+                data-testid="Role"
+              >
+                <div
+                  class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="relative z-10 h-7 w-7"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <dl
+                  class="flex flex-auto flex-wrap gap-x-2"
+                >
+                  <dt
+                    class="sr-only"
+                  >
+                    Company
+                  </dt>
+                  <dd
+                    class="relative z-10 flex w-full text-sm font-medium text-zinc-900 dark:text-zinc-100"
+                  >
+                    Edupoint
+                    <div
+                      class="flex-grow"
+                    />
+                    <p
+                      class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+                    >
+                      <time
+                        class="relative z-10"
+                        datetime="2017"
+                      >
+                        2017
+                      </time>
+                       
+                      <span
+                        aria-hidden="true"
+                        class="relative z-10"
+                      >
+                        —
+                      </span>
+                       
+                      <time
+                        class="relative z-10"
+                        datetime="2017"
+                      >
+                        2017
+                      </time>
+                    </p>
+                  </dd>
+                  <dt
+                    class="sr-only"
+                  >
+                    Role
+                  </dt>
+                  <dd
+                    class="text-xs text-zinc-500 dark:text-zinc-400"
+                  >
+                    <div
+                      class="absolute -inset-x-2 -inset-y-2 z-0 scale-95 rounded-lg bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50"
+                    />
+                    <a
+                      href="https://www.edupoint.com/"
+                    >
+                      <span
+                        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                      />
+                      <span
+                        class="relative z-10  group-hover:text-orange-500"
+                      >
+                        Software Engineering Intern
+                      </span>
+                      <br />
+                    </a>
+                  </dd>
+                </dl>
+              </li>
+              <li
+                class="group relative flex items-start gap-2 sm:gap-4"
+                data-testid="Role"
+              >
+                <div
+                  class="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0"
+                >
+                  <img
+                    alt=""
+                    class="relative z-10 h-7 w-7"
+                    data-nimg="1"
+                    decoding="async"
+                    height="40"
+                    loading="lazy"
+                    src="/img.jpg"
+                    style="color: transparent;"
+                    width="40"
+                  />
+                </div>
+                <dl
+                  class="flex flex-auto flex-wrap gap-x-2"
+                >
+                  <dt
+                    class="sr-only"
+                  >
+                    Company
+                  </dt>
+                  <dd
+                    class="relative z-10 flex w-full text-sm font-medium text-zinc-900 dark:text-zinc-100"
+                  >
+                    Apple
+                    <div
+                      class="flex-grow"
+                    />
+                    <p
+                      class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+                    >
+                      <time
+                        class="relative z-10"
+                        datetime="2015"
+                      >
+                        2015
+                      </time>
+                       
+                      <span
+                        aria-hidden="true"
+                        class="relative z-10"
+                      >
+                        —
+                      </span>
+                       
+                      <time
+                        class="relative z-10"
+                        datetime="2016"
+                      >
+                        2016
+                      </time>
+                    </p>
+                  </dd>
+                  <dt
+                    class="sr-only"
+                  >
+                    Role
+                  </dt>
+                  <dd
+                    class="text-xs text-zinc-500 dark:text-zinc-400"
+                  >
+                    <div
+                      class="absolute -inset-x-2 -inset-y-2 z-0 scale-95 rounded-lg bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50"
+                    />
+                    <a
+                      href="https://apple.com/"
+                    >
+                      <span
+                        class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
+                      />
+                      <span
+                        class="relative z-10  group-hover:text-orange-500"
+                      >
+                        Technical Advisor
+                      </span>
+                      <br />
+                    </a>
+                  </dd>
+                </dl>
+              </li>
+            </ol>
+          </div>
+          <div
+            class="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+            data-testid="PortfolioSection"
+          >
+            <h2
+              class="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-6 w-6 flex-none"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  class="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+                  d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"
+                />
+              </svg>
+              <span
+                class="ml-3"
+              >
+                Skills
+              </span>
+            </h2>
+            <h3
+              class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              Legend
+            </h3>
+            <div
+              class="mt-2"
+            >
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 px-2 py-1 text-xs font-medium text-emerald-700 ring-1 ring-inset ring-emerald-600/20 dark:bg-emerald-500/10 dark:text-emerald-400 dark:ring-emerald-300/20"
+              >
+                High Proficiency
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 px-2 py-1 text-xs font-medium text-sky-700 ring-1 ring-inset ring-sky-600/20 dark:bg-sky-500/10 dark:text-sky-400 dark:ring-sky-300/20"
+              >
+                Some Experience
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 px-2 py-1 text-xs font-medium text-amber-700 ring-1 ring-inset ring-amber-600/20 dark:bg-amber-500/10 dark:text-amber-400 dark:ring-amber-300/20"
+              >
+                Some Exposure
+              </span>
+            </div>
+            <hr
+              class="mt-5"
+            />
+            <h3
+              class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              Programming Languages
+            </h3>
+            <div
+              class="mt-2"
+            >
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                TypeScript
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                JavaScript
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Java
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                C#
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                SQL
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Python
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Swift
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                PHP
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Bash
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Ruby
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                C++
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Objective-C
+              </span>
+            </div>
+            <h3
+              class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              Frontend Technologies
+            </h3>
+            <div
+              class="mt-2"
+            >
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                HTML
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                CSS
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                React
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Design Systems
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                D3.js
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Storybook
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Figma
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Next.js
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Tailwind CSS
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Bootstrap
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                jQuery
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                MDX
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                GraphQL
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Apollo Client
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Angular
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Redux
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Gatsby
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Vue
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Backbone
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                PHP
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Svelte
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Ionic
+              </span>
+            </div>
+            <h3
+              class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              Backend Technologies
+            </h3>
+            <div
+              class="mt-2"
+            >
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Node.js
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Express.js
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Next.js
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Apollo Server
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                REST APIs
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                GraphQL APIs
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Nginx
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Serverless
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Kafka
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                .NET
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Ruby on Rails
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Spring
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Django
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Flask
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Tomcat
+              </span>
+            </div>
+            <h3
+              class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              Database Technologies
+            </h3>
+            <div
+              class="mt-2"
+            >
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                PostgreSQL
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                MySQL
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                DynamoDB
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                MongoDB
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Microsoft SQL Server
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Firebase
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Oracle Database
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Cassandra
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Redis
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Elasticsearch
+              </span>
+            </div>
+            <h3
+              class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              Build, Test, & Deploy Tools
+            </h3>
+            <div
+              class="mt-2"
+            >
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                NPM
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Yarn
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Jest
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Cypress
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Enzyme
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Testing Library
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                GitHub Actions
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                GitLab
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                CircleCI
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Bamboo
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Webpack
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Babel
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                ESlint
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Docker
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Kubernetes
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Terraform
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                AWS CloudFormation
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Selenium
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Bitbucket Pipelines
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Vite
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Travis CI
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Jenkins
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                AWS CodeDeploy
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Maven
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Gradle
+              </span>
+            </div>
+            <h3
+              class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              Cloud Infrastructure
+            </h3>
+            <div
+              class="mt-2"
+            >
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Amazon Web Services
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Cloudflare
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Akamai
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Fastly
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Vercel
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Heroku
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                DigitalOcean
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Microsoft Azure
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Google Cloud Platform
+              </span>
+            </div>
+            <h3
+              class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              Management & Leadership
+            </h3>
+            <div
+              class="mt-2"
+            >
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Engineering Management
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Technology Strategy
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Agile Development
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Employee Development
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Technical Recruiting
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Headcount Planning
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Project Management
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Vendor Management
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Compliance
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Product Management
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Investor Relations
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Employee Experience
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Budget Management
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Mergers & Acquisitions
+              </span>
+            </div>
+            <h3
+              class="mt-4 flex text-xs font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              Communication
+            </h3>
+            <div
+              class="mt-2"
+            >
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Verbal Communication
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Technical Documentation
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Knowledgebase Management
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-emerald-50 dark:bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-700 dark:text-emerald-400 ring-1 ring-inset ring-emerald-600/20 dark:ring-emerald-300/20"
+              >
+                Sales Engagements
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Public Speaking
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-sky-50 dark:bg-sky-500/10 px-2 py-1 text-xs font-medium text-sky-700 dark:text-sky-400 ring-1 ring-inset ring-sky-600/20 dark:ring-sky-300/20"
+              >
+                Fundraising
+              </span>
+              <span
+                class="mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 dark:bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-700 dark:text-amber-400 ring-1 ring-inset ring-amber-600/20 dark:ring-amber-300/20"
+              >
+                Podcasts
+              </span>
+            </div>
+          </div>
+          <div
+            class="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+            data-testid="PortfolioSection"
+          >
+            <h2
+              class="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              <svg
+                class="h-6 w-6 flex-none"
+                fill="none"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+                  d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="ml-3"
+              >
+                References
+              </span>
+            </h2>
+            <ul
+              class="mt-4 divide-y divide-gray-200 dark:divide-gray-500"
+              role="list"
+            >
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/doshay/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      src="https://media.licdn.com/dms/image/C5603AQGSMFSgLAucdg/profile-displayphoto-shrink_800_800/0/1651951117696?e=1706745600&v=beta&t=NgH7LoQYPgg26ZmIYvsRhHzZSp4NZNGDmI82yoTb9ZI"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/doshay/"
+                      >
+                        Heather Doshay
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      Partner, People + Talent
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/signalfire/"
+                      >
+                        SignalFire
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    I worked with Matt as VP Engineering for Spec as his VC Talent Partner, and was incredibly impressed with him. He brought a great balance of kindness and discipline to hire and manage his functional area intentionally. I've been hiring engineers for about a decade and worked with hundreds of enginee...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/anthony-micara/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      src="https://media.licdn.com/dms/image/C4D03AQGPFCZV7u-dcg/profile-displayphoto-shrink_400_400/0/1628123240070?e=1706745600&v=beta&t=Wa9w7w-XPFDPUnk1PR8z89lfpxomt_2ye_QypkAJmeU"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/anthony-micara/"
+                      >
+                        Anthony Micara
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      VP of Product Success
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/specprotected/"
+                      >
+                        Spec
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    It has been a rewarding experience working alongside Matt Kharrl for over two years at Spec, where he was the founding engineer. His evolution into a multifaceted leader was truly remarkable and a testament to his capabilities.
+                  </p>
+                  <p
+                    class="mb-4"
+                  >
+                    Matt’s diverse skill set is a rare find and proved to be a cornerstone i...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/justincwayne/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      src="https://media.licdn.com/dms/image/C5603AQFtIkHEhrCP0w/profile-displayphoto-shrink_400_400/0/1516528588963?e=1706140800&v=beta&t=wvFSdNqCRdpiScSUKAj2KXrPPOTtLADVY_lgBHLEsfY"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/justincwayne/"
+                      >
+                        Justin Wayne
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      Senior Software Engineer
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/specprotected/"
+                      >
+                        Spec
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    As a senior engineer in Matt's organization at Spec, I've watched him excel in leadership as a technical lead, Engineering Manager, and VP of Engineering. He established the processes we needed to scale up our team, provided the vision to coordinate our efforts, nurtured a strong engineering culture...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/gredfearn/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      src="https://media.licdn.com/dms/image/C4E03AQGW9Th9zrzfmA/profile-displayphoto-shrink_400_400/0/1533777100700?e=1706140800&v=beta&t=fiDCqtSHQszTSGDbovrlzu3DoWUSaHypnq37K5HG_nQ"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/gredfearn/"
+                      >
+                        Grant Redfearn
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      Staff DevOps Engineer
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/specprotected/"
+                      >
+                        Spec
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    Besides being absolutely prolific in producing process, documentation, and strategy — Matt has an innate ability to inspire. I was privileged to watch him grow a small team of senior engineers into a highly productive engineering organization with unmatched culture. Always leading by example, and ta...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/nate-kharrl/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      src="https://media.licdn.com/dms/image/C4D03AQEuwa7yiidTnw/profile-displayphoto-shrink_400_400/0/1613090699632?e=1706140800&v=beta&t=GR1Jm5tgbl-Wl5B_SMpp_JwLFOytU961j_QcEshGfZU"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/nate-kharrl/"
+                      >
+                        Nate Kharrl
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      CEO
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/specprotected/"
+                      >
+                        Spec
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    Matt was founder and engineer #1 at Spec. He's built prototypes, UX frameworks, deployment pipelines, and finished products that now serve Fortune 500 enterprises. Matt's a passionate "all-in" engineer who knows what it takes to prove it out, make it work, make it scale, and make it special. He's a ...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/deanweinert/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      src="https://media.licdn.com/dms/image/C5603AQFVgZM5cPo8zQ/profile-displayphoto-shrink_100_100/0/1581035120375?e=1705536000&v=beta&t=NzNXAKI6m9egMfLRF3ZOsuMXLc3kh67AGHOiowCF6cM"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/deanweinert/"
+                      >
+                        Dean Weinert
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      VP of Product Management
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/threatmetrix/"
+                      >
+                        ThreatMetrix
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    Matt fulfilled an internship at ThreatMetrix under my supervision during the summer of 2017. During that time, I developed a high regard for Matt based on the outstanding contributions he made on several high-profile projects.
+                  </p>
+                  <p
+                    class="mb-4"
+                  >
+                    He demonstrated that he is technically capable with a wide array of langu...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
