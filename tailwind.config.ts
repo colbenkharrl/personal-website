@@ -1,4 +1,5 @@
 import typographyPlugin from '@tailwindcss/typography';
+import formsPlugin from '@tailwindcss/forms';
 
 import typographyStyles from './typography';
 import type { Config } from 'tailwindcss';
@@ -10,7 +11,7 @@ const config: Config = {
     './.storybook/**/*.{js,jsx,ts,tsx}',
   ],
   darkMode: 'class',
-  plugins: [typographyPlugin],
+  plugins: [typographyPlugin, formsPlugin],
   theme: {
     fontSize: {
       xs: ['0.8125rem', { lineHeight: '1.5rem' }],

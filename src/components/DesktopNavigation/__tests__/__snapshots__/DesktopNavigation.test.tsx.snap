@@ -19,6 +19,9 @@ exports[`DesktopNavigation matches snapshot (regression test): Full component sn
     <p>
       NavItem
     </p>
+    <p>
+      NavItem
+    </p>
   </ul>
 </nav>
 `;

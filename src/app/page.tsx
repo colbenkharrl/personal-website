@@ -8,7 +8,7 @@ import {
 import { Photos } from '@/components/Photos';
 import { SocialLink } from '@/components/SocialLink';
 
-export default async function Home() {
+export default function Home() {
   return (
     <>
       <Container className="mt-9">
