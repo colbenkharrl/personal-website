@@ -1,6 +1,6 @@
 import { Card } from '@/components/Card';
 import logoSpec from '@/images/logos/spec.svg';
-import logoCatio from '@/images/logos/catio-blue.png';
+import logoCatio from '@/images/logos/catio.png';
 import logoPortfolio from '@/images/logos/portfolio.png';
 import logoConfluence from '@/images/logos/confluence.svg';
 import logoAtlassian from '@/images/logos/atlassian.svg';
