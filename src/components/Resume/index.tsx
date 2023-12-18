@@ -4,7 +4,7 @@ import logoAmazon from '@/images/logos/amazon.png';
 import logoThreatMetrix from '@/images/logos/threatmetrix.png';
 import logoEdupoint from '@/images/logos/synergy.png';
 import logoApple from '@/images/logos/apple.png';
-import logoCatio from '@/images/logos/catio.png';
+import logoCatio from '@/images/logos/catio-blue.png';
 import { Role } from '@/components/Role';
 import { BriefcaseIcon } from '@/components/Icons';
 import { PortfolioSection } from '../PortfolioSection';

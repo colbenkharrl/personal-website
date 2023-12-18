@@ -1,5 +1,6 @@
 import { Card } from '@/components/Card';
 import logoSpec from '@/images/logos/spec.svg';
+import logoCatio from '@/images/logos/catio-blue.png';
 import logoPortfolio from '@/images/logos/portfolio.png';
 import logoConfluence from '@/images/logos/confluence.svg';
 import logoAtlassian from '@/images/logos/atlassian.svg';
@@ -12,6 +13,13 @@ import Image from 'next/image';
 import { PortfolioSection } from '../PortfolioSection';
 
 const projects = [
+  {
+    name: 'Catio Console',
+    description:
+      'The Catio Console is the main user experience product for the Catio tech evaluation and improvement platform. As Lead Fullstack Engineer, I own the architecture and implementation of our Next.js web application and GraphQL API server.',
+    link: { href: 'https://catio.tech/', label: 'catio.tech' },
+    logo: logoCatio,
+  },
   {
     name: 'Trust Cloud',
     description:
