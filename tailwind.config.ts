@@ -6,9 +6,9 @@ import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}',
+    './src/**/*.{js,jsx,ts,tsx,mdx}',
     './mdx-components.tsx',
-    './.storybook/**/*.{js,jsx,ts,tsx}',
+    './.storybook/**/*.{js,jsx,ts,tsx,mdx}',
   ],
   darkMode: 'class',
   plugins: [typographyPlugin, formsPlugin],
