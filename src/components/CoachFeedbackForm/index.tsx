@@ -150,7 +150,6 @@ export const CoachFeedbackForm: FC = () => {
                 id="waterIntake"
                 min="0"
                 max="10000"
-                step="50"
               />
 
               <TextArea
@@ -166,7 +165,6 @@ export const CoachFeedbackForm: FC = () => {
                 id="caloriesConsumed"
                 min="0"
                 max="10000"
-                step="50"
               />
 
               <Input
@@ -176,7 +174,6 @@ export const CoachFeedbackForm: FC = () => {
                 id="carbsConsumed"
                 min="0"
                 max="2000"
-                step="10"
               />
 
               <Input
@@ -222,7 +219,6 @@ export const CoachFeedbackForm: FC = () => {
                 id="calories24h"
                 min="0"
                 max="10000"
-                step="100"
               />
 
               <Input
@@ -232,7 +228,6 @@ export const CoachFeedbackForm: FC = () => {
                 id="carbs24h"
                 min="0"
                 max="2000"
-                step="10"
               />
 
               <Input
