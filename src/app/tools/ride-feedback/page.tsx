@@ -5,7 +5,14 @@ import { Input } from '@/components/Input';
 import { Select } from '@/components/Select';
 import { SimpleLayout } from '@/components/SimpleLayout';
 import { TextArea } from '@/components/TextArea';
+import { Metadata } from 'next';
 import { FC, useCallback, useState } from 'react';
+
+export const metadata: Metadata = {
+  title: 'Coach Feedback Form',
+  description:
+    'Generate and copy feedback for your cycling coach on how your activity went.',
+};
 
 const formLabels: { [key: string]: string } = {
   ridingEnvironment: 'Riding Environment',
@@ -67,7 +74,7 @@ const RideFeedbackToolPage: FC = () => {
 
   return (
     <SimpleLayout
-      title="Coach activity feedback generator"
+      title="Coach Feedback Form"
       intro="Use the form below to generate and copy feedback for your cycling coach on how your activity went."
     >
       <p className="mb-8">
