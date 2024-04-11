@@ -79,7 +79,11 @@ export const CoachFeedbackForm: FC = () => {
       >
         <div className="space-y-12">
           <div className="border-b border-orange-500 pb-12 dark:border-orange-400">
-            <div className="mt-2 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-2 grid grid-cols-1 gap-x-6 gap-y-8 pt-2 sm:grid-cols-2 lg:grid-cols-3">
+              <h3 className="col-span-full text-lg font-semibold">
+                Environment
+              </h3>
+
               <Select
                 name="ridingEnvironment"
                 label="Riding Environment"
@@ -113,6 +117,10 @@ export const CoachFeedbackForm: FC = () => {
                 id="notableWeatherConditions"
               />
 
+              <h3 className="col-span-full text-lg font-semibold">
+                Performance
+              </h3>
+
               <Input
                 name="overallExertion"
                 label="Overall Perceived Exertion (1-10)"
@@ -143,38 +151,7 @@ export const CoachFeedbackForm: FC = () => {
                 id="powerOutputFeedback"
               ></TextArea>
 
-              <Input
-                name="waterIntake"
-                label="Water Intake (0-10000 mL)"
-                type="number"
-                id="waterIntake"
-                min="0"
-                max="10000"
-              />
-
-              <TextArea
-                name="nutrition"
-                label="Nutrition"
-                id="nutrition"
-              ></TextArea>
-
-              <Input
-                name="caloriesConsumed"
-                label="Calories Consumed (0-10000)"
-                type="number"
-                id="caloriesConsumed"
-                min="0"
-                max="10000"
-              />
-
-              <Input
-                name="carbsConsumed"
-                label="Carbs Consumed (0-2000 grams)"
-                type="number"
-                id="carbsConsumed"
-                min="0"
-                max="2000"
-              />
+              <h3 className="col-span-full text-lg font-semibold">Fatigue</h3>
 
               <Input
                 name="fatigueStart"
@@ -195,21 +172,47 @@ export const CoachFeedbackForm: FC = () => {
               />
 
               <Input
-                name="sleepHours"
-                label="Hours of Sleep (0-24)"
+                name="upcomingWorkoutsManageability"
+                label="Manageability of Upcoming Workouts (1-10)"
                 type="number"
-                id="sleepHours"
+                id="upcomingWorkoutsManageability"
+                min="1"
+                max="10"
+              />
+
+              <h3 className="col-span-full text-lg font-semibold">Fueling</h3>
+
+              <Input
+                name="waterIntake"
+                label="Water Intake (0-10000 mL)"
+                type="number"
+                id="waterIntake"
                 min="0"
-                max="24"
+                max="10000"
+              />
+
+              <TextArea
+                name="nutrition"
+                label="Nutrition Intake"
+                id="nutrition"
+              ></TextArea>
+
+              <Input
+                name="caloriesConsumed"
+                label="Calories Consumed (0-10000)"
+                type="number"
+                id="caloriesConsumed"
+                min="0"
+                max="10000"
               />
 
               <Input
-                name="sleepQuality"
-                label="Sleep Quality (1-10)"
+                name="carbsConsumed"
+                label="Carbs Consumed (0-2000 grams)"
                 type="number"
-                id="sleepQuality"
-                min="1"
-                max="10"
+                id="carbsConsumed"
+                min="0"
+                max="2000"
               />
 
               <Input
@@ -239,6 +242,28 @@ export const CoachFeedbackForm: FC = () => {
                 max="10"
               />
 
+              <h3 className="col-span-full text-lg font-semibold">Sleep</h3>
+
+              <Input
+                name="sleepHours"
+                label="Hours of Sleep (0-24)"
+                type="number"
+                id="sleepHours"
+                min="0"
+                max="24"
+              />
+
+              <Input
+                name="sleepQuality"
+                label="Sleep Quality (1-10)"
+                type="number"
+                id="sleepQuality"
+                min="1"
+                max="10"
+              />
+
+              <h3 className="col-span-full text-lg font-semibold">Mentality</h3>
+
               <Input
                 name="stressLevel"
                 label="Perceived Stress Level at Start (1-10)"
@@ -254,6 +279,10 @@ export const CoachFeedbackForm: FC = () => {
                 id="mentalState"
               />
 
+              <h3 className="col-span-full text-lg font-semibold">
+                Reflection
+              </h3>
+
               <TextArea
                 name="achievements"
                 label="Notable Achievements on This Ride"
@@ -266,19 +295,13 @@ export const CoachFeedbackForm: FC = () => {
                 id="areasOfImprovement"
               />
 
-              <Input
-                name="upcomingWorkoutsManageability"
-                label="Manageability of Upcoming Workouts (1-10)"
-                type="number"
-                id="upcomingWorkoutsManageability"
-                min="1"
-                max="10"
-              />
-
               <TextArea
                 name="additionalComments"
                 label="Additional Comments"
                 id="additionalComments"
+                containerProps={{
+                  style: { gridColumnStart: 1, gridColumnEnd: -1 },
+                }}
               />
             </div>
             <Button type="submit" className="mt-4 w-full">
@@ -290,31 +313,29 @@ export const CoachFeedbackForm: FC = () => {
 
       {output ? (
         <div>
-          <div className="flex items-center justify-center space-x-2 p-2">
+          <div className="flex items-stretch justify-stretch space-x-2 py-2">
             <Button
               type="submit"
               variant="secondary"
-              className="w-full"
+              className="w-1/2"
               onClick={onCopy}
             >
-              Copy to Clipboard
+              Copy
             </Button>
             <Button
               type="submit"
               variant="secondary"
-              className="w-full bg-[#005593] text-white hover:bg-blue-950 dark:bg-[#005593]"
+              className="w-1/2 bg-[#005593] text-white hover:bg-blue-950 dark:bg-[#005593]"
               onClick={onCopy}
               color="#005593"
               href="https://app.trainingpeaks.com/"
               target="_blank"
             >
-              <div className="flex h-6 items-center justify-center">
-                <Image
-                  src={trainingPeaksLogo}
-                  className="h-auto max-h-6 w-auto max-w-[12rem]"
-                  alt="training peaks"
-                />
-              </div>
+              <Image
+                src={trainingPeaksLogo}
+                className="h-auto max-h-4 w-auto"
+                alt="training peaks"
+              />
             </Button>
           </div>
           <pre className="overflow-x-auto rounded-md bg-slate-600 p-2 text-white shadow-md">
