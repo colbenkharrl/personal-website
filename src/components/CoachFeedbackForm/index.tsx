@@ -308,12 +308,13 @@ export const CoachFeedbackForm: FC = () => {
               href="https://app.trainingpeaks.com/"
               target="_blank"
             >
-              <Image
-                src={trainingPeaksLogo}
-                className="mr-2 h-6 w-6"
-                alt="training peaks"
-              />
-              Open TrainingPeaks
+              <div className="flex h-6 items-center justify-center">
+                <Image
+                  src={trainingPeaksLogo}
+                  className="h-auto max-h-6 w-auto max-w-[12rem]"
+                  alt="training peaks"
+                />
+              </div>
             </Button>
           </div>
           <pre className="overflow-x-auto rounded-md bg-slate-600 p-2 text-white shadow-md">
