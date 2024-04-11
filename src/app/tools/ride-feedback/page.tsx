@@ -5,8 +5,35 @@ import { Input } from '@/components/Input';
 import { Select } from '@/components/Select';
 import { SimpleLayout } from '@/components/SimpleLayout';
 import { TextArea } from '@/components/TextArea';
-import { camelCaseToLabel } from '@/util/camelCaseToLabel';
 import { FC, useCallback, useState } from 'react';
+
+const formLabels: { [key: string]: string } = {
+  ridingEnvironment: 'Riding Environment',
+  perceivedTemperature: 'Perceived Temperature',
+  notableWeatherConditions: 'Notable Weather Conditions',
+  overallExertion: 'Overall Perceived Exertion (1-10)',
+  intervalExertion: 'Interval Exertion (1-10)',
+  heartRateFeedback: 'Heart Rate Feedback',
+  powerOutputFeedback: 'Power Output Feedback',
+  waterIntake: 'Water Intake (0-10000 mL)',
+  nutrition: 'Nutrition',
+  caloriesConsumed: 'Calories Consumed (0-10000)',
+  carbsConsumed: 'Carbs Consumed (0-2000 grams)',
+  fatigueStart: 'Perceived Fatigue at the Beginning (1-10)',
+  fatigueEnd: 'Perceived Fatigue at the End (1-10)',
+  sleepHours: 'Hours of Sleep (0-24)',
+  sleepQuality: 'Sleep Quality (1-10)',
+  calories24h: 'Calories Consumed in 24 Hours Before Ride (0-10000)',
+  carbs24h: 'Carbs Consumed in 24 Hours Before Ride (0-2000 grams)',
+  nutritionQuality:
+    'Nutritional Quality of Food in 24 Hours Before Ride (1-10)',
+  stressLevel: 'Perceived Stress Level at Start (1-10)',
+  mentalState: 'Mental State Throughout the Ride',
+  achievements: 'Notable Achievements on This Ride',
+  areasOfImprovement: 'Areas of Improvement from This Ride',
+  upcomingWorkoutsManageability: 'Manageability of Upcoming Workouts (1-10)',
+  additionalComments: 'Additional Comments',
+};
 
 const RideFeedbackToolPage: FC = () => {
   const [output, setOutput] = useState<string | null>(null);
@@ -15,8 +42,8 @@ const RideFeedbackToolPage: FC = () => {
     let feedbackText = '';
 
     Array.from(formData.entries()).forEach(([key, value]) => {
-      if (value) {
-        feedbackText += `${camelCaseToLabel(key)}:\n${value}\n\n`;
+      if (value !== '') {
+        feedbackText += `${formLabels[key] || 'Unknown Field'}: ${value}\n\n`;
       }
     });
 
@@ -277,7 +304,7 @@ const RideFeedbackToolPage: FC = () => {
           >
             Copy to Clipboard
           </Button>
-          <pre>{output}</pre>
+          <pre className="overflow-x-auto">{output}</pre>
         </div>
       ) : null}
     </SimpleLayout>
