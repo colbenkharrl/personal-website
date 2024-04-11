@@ -4,7 +4,9 @@ import { Button } from '@/components/Button';
 import { Input } from '@/components/Input';
 import { Select } from '@/components/Select';
 import { TextArea } from '@/components/TextArea';
+import Image from 'next/image';
 import { FC, useCallback, useState } from 'react';
+import trainingPeaksLogo from '@/images/logos/trainingpeaks.png';
 
 const formLabels: { [key: string]: string } = {
   ridingEnvironment: 'Riding Environment',
@@ -76,7 +78,7 @@ export const CoachFeedbackForm: FC = () => {
         className="border-t border-t-orange-500 dark:border-t-orange-400"
       >
         <div className="space-y-12">
-          <div className="border-b border-gray-900/10 pb-12">
+          <div className="border-b border-orange-500 pb-12 dark:border-orange-400">
             <div className="mt-2 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
               <Select
                 name="ridingEnvironment"
@@ -148,7 +150,6 @@ export const CoachFeedbackForm: FC = () => {
                 id="waterIntake"
                 min="0"
                 max="10000"
-                step="50"
               />
 
               <TextArea
@@ -164,7 +165,6 @@ export const CoachFeedbackForm: FC = () => {
                 id="caloriesConsumed"
                 min="0"
                 max="10000"
-                step="50"
               />
 
               <Input
@@ -174,7 +174,6 @@ export const CoachFeedbackForm: FC = () => {
                 id="carbsConsumed"
                 min="0"
                 max="2000"
-                step="10"
               />
 
               <Input
@@ -220,7 +219,6 @@ export const CoachFeedbackForm: FC = () => {
                 id="calories24h"
                 min="0"
                 max="10000"
-                step="100"
               />
 
               <Input
@@ -230,7 +228,6 @@ export const CoachFeedbackForm: FC = () => {
                 id="carbs24h"
                 min="0"
                 max="2000"
-                step="10"
               />
 
               <Input
@@ -290,17 +287,38 @@ export const CoachFeedbackForm: FC = () => {
           </div>
         </div>
       </form>
+
       {output ? (
         <div>
-          <Button
-            type="submit"
-            variant="secondary"
-            className="mt-4 w-full"
-            onClick={onCopy}
-          >
-            Copy to Clipboard
-          </Button>
-          <pre className="overflow-x-auto">{output}</pre>
+          <div className="flex items-center justify-center space-x-2 p-2">
+            <Button
+              type="submit"
+              variant="secondary"
+              className="w-full"
+              onClick={onCopy}
+            >
+              Copy to Clipboard
+            </Button>
+            <Button
+              type="submit"
+              variant="secondary"
+              className="w-full bg-[#005593] text-white hover:bg-blue-950 dark:bg-[#005593]"
+              onClick={onCopy}
+              color="#005593"
+              href="https://app.trainingpeaks.com/"
+              target="_blank"
+            >
+              <Image
+                src={trainingPeaksLogo}
+                className="mr-2 h-6 w-6"
+                alt="training peaks"
+              />
+              Open TrainingPeaks
+            </Button>
+          </div>
+          <pre className="overflow-x-auto rounded-md bg-slate-600 p-2 text-white shadow-md">
+            {output}
+          </pre>
         </div>
       ) : null}
     </>
