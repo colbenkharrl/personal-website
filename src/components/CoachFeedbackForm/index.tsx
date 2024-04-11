@@ -86,7 +86,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Select
                 name="ridingEnvironment"
-                label="Riding Environment"
+                label={formLabels['ridingEnvironment']}
                 options={[
                   { name: 'Select', value: '' },
                   { value: 'Road' },
@@ -99,7 +99,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Select
                 name="perceivedTemperature"
-                label="Perceived Temperature"
+                label={formLabels['perceivedTemperature']}
                 options={[
                   { name: 'Select', value: '' },
                   { value: 'Cold' },
@@ -112,7 +112,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="notableWeatherConditions"
-                label="Notable Weather Conditions"
+                label={formLabels['notableWeatherConditions']}
                 type="text"
                 id="notableWeatherConditions"
               />
@@ -123,7 +123,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="overallExertion"
-                label="Overall Perceived Exertion (1-10)"
+                label={formLabels['overallExertion']}
                 type="number"
                 id="overallExertion"
                 min="1"
@@ -132,7 +132,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="intervalExertion"
-                label="Interval Exertion (1-10)"
+                label={formLabels['intervalExertion']}
                 type="number"
                 id="intervalExertion"
                 min="1"
@@ -141,13 +141,13 @@ export const CoachFeedbackForm: FC = () => {
 
               <TextArea
                 name="heartRateFeedback"
-                label="Heart Rate Feedback"
+                label={formLabels['heartRateFeedback']}
                 id="heartRateFeedback"
               ></TextArea>
 
               <TextArea
                 name="powerOutputFeedback"
-                label="Power Output Feedback"
+                label={formLabels['powerOutputFeedback']}
                 id="powerOutputFeedback"
               ></TextArea>
 
@@ -155,7 +155,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="fatigueStart"
-                label="Perceived Fatigue at the Beginning (1-10)"
+                label={formLabels['fatigueStart']}
                 type="number"
                 id="fatigueStart"
                 min="1"
@@ -164,7 +164,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="fatigueEnd"
-                label="Perceived Fatigue at the End (1-10)"
+                label={formLabels['fatigueEnd']}
                 type="number"
                 id="fatigueEnd"
                 min="1"
@@ -173,7 +173,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="upcomingWorkoutsManageability"
-                label="Manageability of Upcoming Workouts (1-10)"
+                label={formLabels['upcomingWorkoutsManageability']}
                 type="number"
                 id="upcomingWorkoutsManageability"
                 min="1"
@@ -184,7 +184,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="waterIntake"
-                label="Water Intake (0-10000 mL)"
+                label={formLabels['waterIntake']}
                 type="number"
                 id="waterIntake"
                 min="0"
@@ -193,13 +193,13 @@ export const CoachFeedbackForm: FC = () => {
 
               <TextArea
                 name="nutrition"
-                label="Nutrition Intake"
+                label={formLabels['nutrition']}
                 id="nutrition"
               ></TextArea>
 
               <Input
                 name="caloriesConsumed"
-                label="Calories Consumed (0-10000)"
+                label={formLabels['caloriesConsumed']}
                 type="number"
                 id="caloriesConsumed"
                 min="0"
@@ -208,7 +208,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="carbsConsumed"
-                label="Carbs Consumed (0-2000 grams)"
+                label={formLabels['carbsConsumed']}
                 type="number"
                 id="carbsConsumed"
                 min="0"
@@ -217,7 +217,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="calories24h"
-                label="Calories Consumed in 24 Hours Before Ride (0-10000)"
+                label={formLabels['calories24h']}
                 type="number"
                 id="calories24h"
                 min="0"
@@ -226,7 +226,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="carbs24h"
-                label="Carbs Consumed in 24 Hours Before Ride (0-2000 grams)"
+                label={formLabels['carbs24h']}
                 type="number"
                 id="carbs24h"
                 min="0"
@@ -235,7 +235,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="nutritionQuality"
-                label="Nutritional Quality of Food in 24 Hours Before Ride (1-10)"
+                label={formLabels['nutritionQuality']}
                 type="number"
                 id="nutritionQuality"
                 min="1"
@@ -246,7 +246,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="sleepHours"
-                label="Hours of Sleep (0-24)"
+                label={formLabels['sleepHours']}
                 type="number"
                 id="sleepHours"
                 min="0"
@@ -255,7 +255,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="sleepQuality"
-                label="Sleep Quality (1-10)"
+                label={formLabels['sleepQuality']}
                 type="number"
                 id="sleepQuality"
                 min="1"
@@ -266,7 +266,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <Input
                 name="stressLevel"
-                label="Perceived Stress Level at Start (1-10)"
+                label={formLabels['stressLevel']}
                 type="number"
                 id="stressLevel"
                 min="1"
@@ -275,7 +275,7 @@ export const CoachFeedbackForm: FC = () => {
 
               <TextArea
                 name="mentalState"
-                label="Mental State Throughout the Ride"
+                label={formLabels['mentalState']}
                 id="mentalState"
               />
 
@@ -285,19 +285,19 @@ export const CoachFeedbackForm: FC = () => {
 
               <TextArea
                 name="achievements"
-                label="Notable Achievements on This Ride"
+                label={formLabels['achievements']}
                 id="achievements"
               />
 
               <TextArea
                 name="areasOfImprovement"
-                label="Areas of Improvement from This Ride"
+                label={formLabels['areasOfImprovement']}
                 id="areasOfImprovement"
               />
 
               <TextArea
                 name="additionalComments"
-                label="Additional Comments"
+                label={formLabels['additionalComments']}
                 id="additionalComments"
                 containerProps={{
                   style: { gridColumnStart: 1, gridColumnEnd: -1 },
@@ -324,7 +324,7 @@ export const CoachFeedbackForm: FC = () => {
             </Button>
             <Button
               type="submit"
-              variant="secondary"
+              variant="link"
               className="w-1/2 bg-[#005593] text-white hover:bg-blue-950 dark:bg-[#005593]"
               onClick={onCopy}
               color="#005593"
