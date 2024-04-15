@@ -10,30 +10,29 @@ import trainingPeaksLogo from '@/images/logos/trainingpeaks.png';
 
 const formLabels: { [key: string]: string } = {
   ridingEnvironment: 'Riding Environment',
-  perceivedTemperature: 'Perceived Temperature',
-  notableWeatherConditions: 'Notable Weather Conditions',
+  perceivedTemperature: 'Temperature',
+  notableWeatherConditions: 'Weather Impact',
   overallExertion: 'Overall Perceived Exertion (1-10)',
   intervalExertion: 'Interval Exertion (1-10)',
   heartRateFeedback: 'Heart Rate Feedback',
   powerOutputFeedback: 'Power Output Feedback',
-  waterIntake: 'Water Intake (0-10000 mL)',
+  waterIntake: 'Water Consumed (L)',
+  carbsConsumed: 'Carbs Consumed (g)',
   nutrition: 'Nutrition',
-  caloriesConsumed: 'Calories Consumed (0-10000)',
-  carbsConsumed: 'Carbs Consumed (0-2000 grams)',
-  fatigueStart: 'Perceived Fatigue at the Beginning (1-10)',
-  fatigueEnd: 'Perceived Fatigue at the End (1-10)',
-  sleepHours: 'Hours of Sleep (0-24)',
+  fatigueStart: 'Pre-Ride Fatigue (1-10)',
+  fatigueEnd: 'Post-Ride Fatigue (1-10)',
+  sleepHours: 'Hours of Sleep',
   sleepQuality: 'Sleep Quality (1-10)',
   calories24h: 'Calories Consumed in 24 Hours Before Ride (0-10000)',
   carbs24h: 'Carbs Consumed in 24 Hours Before Ride (0-2000 grams)',
   nutritionQuality:
     'Nutritional Quality of Food in 24 Hours Before Ride (1-10)',
-  stressLevel: 'Perceived Stress Level at Start (1-10)',
+  stressLevel: 'Stress Level (1-10)',
   mentalState: 'Mental State Throughout the Ride',
   achievements: 'Notable Achievements on This Ride',
   areasOfImprovement: 'Areas of Improvement from This Ride',
   upcomingWorkoutsManageability: 'Manageability of Upcoming Workouts (1-10)',
-  additionalComments: 'Additional Comments',
+  activityComments: 'Activity Comments',
 };
 
 export const CoachFeedbackForm: FC = () => {
@@ -79,77 +78,36 @@ export const CoachFeedbackForm: FC = () => {
       >
         <div className="space-y-12">
           <div className="border-b border-orange-500 pb-12 dark:border-orange-400">
-            <div className="mt-2 grid grid-cols-1 gap-x-6 gap-y-8 pt-2 sm:grid-cols-2 lg:grid-cols-3">
-              <h3 className="col-span-full text-lg font-semibold">
-                Environment
-              </h3>
-
-              <Select
-                name="ridingEnvironment"
-                label={formLabels['ridingEnvironment']}
-                options={[
-                  { name: 'Select', value: '' },
-                  { value: 'Road' },
-                  { value: 'Mixed Terrain' },
-                  { value: 'Offroad' },
-                  { value: 'Track' },
-                  { value: 'Turbo/Trainer' },
-                ]}
-              />
-
-              <Select
-                name="perceivedTemperature"
-                label={formLabels['perceivedTemperature']}
-                options={[
-                  { name: 'Select', value: '' },
-                  { value: 'Cold' },
-                  { value: 'Cool' },
-                  { value: 'Neutral' },
-                  { value: 'Warm' },
-                  { value: 'Hot' },
-                ]}
-              />
-
-              <Input
-                name="notableWeatherConditions"
-                label={formLabels['notableWeatherConditions']}
-                type="text"
-                id="notableWeatherConditions"
-              />
-
-              <h3 className="col-span-full text-lg font-semibold">
-                Performance
-              </h3>
-
-              <Input
-                name="overallExertion"
-                label={formLabels['overallExertion']}
-                type="number"
-                id="overallExertion"
-                min="1"
-                max="10"
-              />
-
-              <Input
-                name="intervalExertion"
-                label={formLabels['intervalExertion']}
-                type="number"
-                id="intervalExertion"
-                min="1"
-                max="10"
-              />
-
+            <div className="mt-2 grid grid-cols-1 gap-x-6 gap-y-8 pt-2 sm:grid-cols-2">
               <TextArea
-                name="heartRateFeedback"
-                label={formLabels['heartRateFeedback']}
-                id="heartRateFeedback"
-              ></TextArea>
+                name="activityComments"
+                label={formLabels['activityComments']}
+                id="activityComments"
+                containerProps={{
+                  style: { gridColumnStart: 1, gridColumnEnd: -1 },
+                }}
+              />
 
-              <TextArea
-                name="powerOutputFeedback"
-                label={formLabels['powerOutputFeedback']}
-                id="powerOutputFeedback"
-              ></TextArea>
+              <h3 className="col-span-full text-lg font-semibold">Fueling</h3>
+
+              <Input
+                name="waterIntake"
+                label={formLabels['waterIntake']}
+                type="number"
+                id="waterIntake"
+                min="0"
+                max="100"
+                step={0.05}
+              />
+
+              <Input
+                name="carbsConsumed"
+                label={formLabels['carbsConsumed']}
+                type="number"
+                id="carbsConsumed"
+                min="0"
+                max="2000"
+              />
 
               <h3 className="col-span-full text-lg font-semibold">Fatigue</h3>
 
@@ -171,78 +129,18 @@ export const CoachFeedbackForm: FC = () => {
                 max="10"
               />
 
-              <Input
-                name="upcomingWorkoutsManageability"
-                label={formLabels['upcomingWorkoutsManageability']}
-                type="number"
-                id="upcomingWorkoutsManageability"
-                min="1"
-                max="10"
-              />
-
-              <h3 className="col-span-full text-lg font-semibold">Fueling</h3>
-
-              <Input
-                name="waterIntake"
-                label={formLabels['waterIntake']}
-                type="number"
-                id="waterIntake"
-                min="0"
-                max="10000"
-              />
-
-              <TextArea
-                name="nutrition"
-                label={formLabels['nutrition']}
-                id="nutrition"
-              ></TextArea>
-
-              <Input
-                name="caloriesConsumed"
-                label={formLabels['caloriesConsumed']}
-                type="number"
-                id="caloriesConsumed"
-                min="0"
-                max="10000"
-              />
-
-              <Input
-                name="carbsConsumed"
-                label={formLabels['carbsConsumed']}
-                type="number"
-                id="carbsConsumed"
-                min="0"
-                max="2000"
-              />
-
-              <Input
-                name="calories24h"
-                label={formLabels['calories24h']}
-                type="number"
-                id="calories24h"
-                min="0"
-                max="10000"
-              />
-
-              <Input
-                name="carbs24h"
-                label={formLabels['carbs24h']}
-                type="number"
-                id="carbs24h"
-                min="0"
-                max="2000"
-              />
-
-              <Input
-                name="nutritionQuality"
-                label={formLabels['nutritionQuality']}
-                type="number"
-                id="nutritionQuality"
-                min="1"
-                max="10"
-              />
-
               <h3 className="col-span-full text-lg font-semibold">Sleep</h3>
+
+              <p className="col-span-full">
+                <b>Note:</b> If possible, it is better to{' '}
+                <a
+                  className="text-orange-500 dark:text-orange-400"
+                  href="https://help.trainingpeaks.com/hc/en-us/articles/204072364-TrainingPeaks-Metrics-How-to-enter-Weight-HRV-Sleep-etc"
+                >
+                  input sleep as a metric in TraningPeaks
+                </a>{' '}
+                so your coach can analyze it along with other metrics.
+              </p>
 
               <Input
                 name="sleepHours"
@@ -262,7 +160,7 @@ export const CoachFeedbackForm: FC = () => {
                 max="10"
               />
 
-              <h3 className="col-span-full text-lg font-semibold">Mentality</h3>
+              <h3 className="col-span-full text-lg font-semibold">Stress</h3>
 
               <Input
                 name="stressLevel"
@@ -273,10 +171,31 @@ export const CoachFeedbackForm: FC = () => {
                 max="10"
               />
 
-              <TextArea
-                name="mentalState"
-                label={formLabels['mentalState']}
-                id="mentalState"
+              <h3 className="col-span-full text-lg font-semibold">
+                Environment
+              </h3>
+
+              <Select
+                name="ridingEnvironment"
+                label={formLabels['ridingEnvironment']}
+                options={[
+                  { name: 'Select', value: '' },
+                  { value: 'Road' },
+                  { value: 'Mixed Terrain' },
+                  { value: 'Offroad' },
+                  { value: 'Track' },
+                  { value: 'Turbo/Trainer' },
+                ]}
+              />
+
+              <Select
+                name="notableWeatherConditions"
+                label={formLabels['notableWeatherConditions']}
+                options={[
+                  { name: 'Select', value: '' },
+                  { value: 'Impeded performance' },
+                  { value: 'Improved performance' },
+                ]}
               />
 
               <h3 className="col-span-full text-lg font-semibold">
@@ -293,15 +212,6 @@ export const CoachFeedbackForm: FC = () => {
                 name="areasOfImprovement"
                 label={formLabels['areasOfImprovement']}
                 id="areasOfImprovement"
-              />
-
-              <TextArea
-                name="additionalComments"
-                label={formLabels['additionalComments']}
-                id="additionalComments"
-                containerProps={{
-                  style: { gridColumnStart: 1, gridColumnEnd: -1 },
-                }}
               />
             </div>
             <Button type="submit" className="mt-4 w-full">
