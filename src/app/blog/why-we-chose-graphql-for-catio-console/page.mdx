@@ -1,0 +1,225 @@
+import { BlogLayout } from '@/components/BlogLayout';
+import { MdxImage } from '@/components/MdxImage';
+import gqlExampleImage from './gql-blog-gql-example.png';
+import complexityImage from './gql-blog-graphql-rest-complexity.png';
+import restExampleImage from './gql-blog-rest-example.png';
+import standardsImage from './gql-blog-standards.png';
+import toolingImage from './gql-blog-tooling.png';
+import opengraphImage from './opengraph-image.png';
+
+export const blog = {
+  author: 'Matt Kharrl',
+  date: '2024-06-26',
+  title: 'Why We Chose GraphQL for the Catio Console',
+  description:
+    "Choosing the right API paradigm is crucial for any application's success. At Catio, after much deliberation and analysis, we decided on GraphQL for our Catio Console.",
+};
+
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+};
+
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+The following blog post was [originally posted](https://www.catio.tech/blog/why-we-chose-graphql-for-catio-console) to Catio's official website. It has been reposted here for exposure.
+
+---
+
+<MdxImage
+  src={opengraphImage}
+  alt="abstract header showing catio plus graphql"
+/>
+
+# Introduction
+
+**Choosing the right API paradigm is crucial for any application's success.** At Catio, after much deliberation and analysis, we decided on GraphQL for our Catio Console. Join me, Matt Kharrl, Lead Fullstack Engineer, as I take you through our journey of comparing REST and GraphQL, understanding our unique data needs, and ultimately selecting GraphQL as our preferred solution.
+
+---
+
+# REST vs. GraphQL
+
+It’s important to truly understand your options before choosing one. The following sections outline a detailed comparison between REST and GraphQL, two prominent approaches for building and consuming web APIs. We'll examine how each method handles various aspects such as data fetching, state management, caching, security, and more. This comparison helped to inform our decision on why we chose GraphQL for the Catio Console.
+
+📣 While there are many standards for web APIs, **this blog focuses on comparing REST and GraphQL**. These two are the most prominent in full-stack web application architecture and can be considered substitutes for each other in this context.
+
+## Overview
+
+**REST (Representational State Transfer)** is an architectural style for distributed systems. It structures data as resources, identified by URLs, and uses standard HTTP methods like GET, POST, PUT, and DELETE for operations. RESTful APIs are stateless, meaning that each request from the client to the server must contain all the information needed to understand and process the request.
+
+<figure className="flex flex-col items-center justify-center">
+  <MdxImage
+    src={restExampleImage}
+    alt="simplified example of a full-stack web application that manages data and state through a suite of REST APIs"
+  />
+  <figcaption>
+    Simplified example of a full-stack web application that manages data and
+    state through a suite of REST APIs.
+  </figcaption>
+</figure>
+
+**GraphQL** is a query language and runtime system for APIs. Instead of structuring data as resources, GraphQL allows clients to specify exactly what data they need, and aggregates responses from multiple sources. It uses a type system to describe data, and allows clients to request, mutate, and subscribe to changes in data.
+
+<figure className="flex flex-col items-center justify-center">
+  <MdxImage
+    src={gqlExampleImage}
+    alt="Simplified example of a full-stack web application that manages data and state through a single GraphQL API"
+  />
+  <figcaption>
+    Simplified example of a full-stack web application that manages data and
+    state through a single GraphQL API.
+  </figcaption>
+</figure>
+
+## Client-side considerations
+
+### **Data fetching**
+
+- In **REST**, clients make multiple requests to different endpoints, which can lead to overfetching or underfetching of data. This approach is simple but can be inefficient.
+- In **GraphQL**, clients request exactly the data they need in a single query, avoiding overfetching and underfetching. However, query construction can be more complex.
+
+### **State management**
+
+- In **REST**, managing state requires tracking changes across multiple endpoints. This often necessitates state management libraries like Redux or MobX, but allows detailed control over resources.
+- In **GraphQL**, state management is simplified with a single endpoint providing consistent data. This reduces complexity but can lead to handling more complex queries on the client side.
+
+### **Caching**
+
+- In **REST**, caching is handled at the resource level using HTTP cache control headers. This approach is straightforward but can be challenging with nested or related resources.
+- In **GraphQL**, caching mechanisms like Apollo Client allow flexible and efficient client-side caching. This reduces unnecessary network requests but requires more setup and maintenance.
+
+## Server-side considerations
+
+### **Security**
+
+- In **REST**, security measures are applied at the endpoint level, allowing granular control. Managing security for many endpoints can be complex to reason about but straightforward to implement.
+- In **GraphQL**, security is managed within resolvers, offering field-level control. This is flexible but complex, often requiring middleware for streamlined security.
+
+### **Complexity**
+
+- In **REST**, server-side logic is simpler due to endpoint-specific data availability. This reduces the need for complex query processing but can lead to inconsistencies without strict schemas.
+- In **GraphQL**, server-side complexity increases with the need to process complex queries and aggregate data. This ensures consistent data returns and improves code reusability, though it requires a robust schema and resolver setup.
+
+### **Caching**
+
+- In **REST**, server-side caching is straightforward with HTTP cache headers. This is easy to implement but less effective for dynamic or highly relational data.
+- In **GraphQL**, caching is challenging due to flexible queries. Tools like Apollo Server offer features like partial query caching but require advanced setup and maintenance.
+
+### **Data stitching**
+
+- In **REST**, combining data from multiple resources often requires complex client-side logic or increased server-side overhead. Each resource can be managed and optimized independently, but integration can be difficult.
+- In **GraphQL**, the server aggregates data from multiple sources into a single response. This simplifies client-side logic and reduces network data transfer but increases server-side complexity.
+
+### **Validation**
+
+- In **REST**, each endpoint has its own validation rules to ensure data integrity. This can lead to repetitive validation logic but allows for endpoint-specific checks.
+- In **GraphQL**, validation is built into the schema, ensuring uniformity across queries. This simplifies error handling and makes the API more predictable but requires a well-defined schema.
+
+### **Performance optimization**
+
+- In **REST**, performance optimization techniques like pagination, compression, and HTTP caching headers can be applied at the endpoint level. This offers granular control but optimizing across multiple endpoints can be challenging.
+- In **GraphQL**, performance optimization is complex due to flexible queries. Techniques like batching, caching, and tools like DataLoader mitigate challenges but add to server-side complexity.
+
+## Picking the right tool
+
+When deciding between **REST and GraphQL**, consider the specific requirements and constraints of the project.
+
+**REST is simple and straightforward**, making it a great choice for small to medium-sized projects with simple or stable data requirements. REST gives simpler control over server-side caching and security. Additionally, optimizing performance at the endpoint level through methods like pagination, compression, and efficient use of HTTP caching headers can be simpler in REST due to the isolated nature of its endpoints. This allows for individual optimization strategies tailored to each specific endpoint, providing granular control over the performance of each resource. However, the complexities of dealing with nested or related resources can complicate server-side caching.
+
+In contrast, **GraphQL excels when the client needs precise control over the data it receives**, making it ideal for highly interactive web and mobile applications where where performance and query-ability are paramount. GraphQL can fetch data from multiple sources in a single request and offers powerful client-side caching capabilities, significantly improving performance and user experience. However, GraphQL might require a more sophisticated server setup, and it might be excessive for simple projects. When it comes to performance optimization, GraphQL's flexible query nature can lead to complex queries that fetch data from multiple sources, which can be challenging to optimize, especially with highly relational databases. While tools and techniques like DataLoader, batching, caching at the resolver level, and using persisted queries can help manage performance, they do add to the complexity of the server-side logic.
+
+<MdxImage
+  src={complexityImage}
+  alt="simple line chart showing that for web applications with simple and/or stable data platforms, GraphQL is more complext than necessary, but for more comples/less stable data platforms, REST is more complex to manage than GraphQL"
+/>
+
+**Both REST and GraphQL have their strengths and weaknesses**, and the choice between them should be based on the nature of the project, the team's familiarity with the technologies, and the specific requirements of the system being built.
+
+# Understanding our data needs
+
+In the context of the Catio Console web application, **our data needs are multifaceted and complex** due to our AI platform's microservices architecture. Each microservice has its own set of data contracts, APIs (both REST and gRPC), and specific functionalities, necessitating the Catio Console to interact with many different backend services. This interaction involves not only communicating with these services but also stitching data between them.
+
+For client-side state management, we **need a system that can seamlessly handle application, system, and process state state** across various resources. Given the interaction with multiple backend services, managing this complex set of state can become complex. Therefore, having a system that can streamline state management is crucial.
+
+Furthermore, application-layer data is stored as JSON documents in DynamoDB, with all other direct data access abstracted behind the APIs of relevant microservices. Therefore, our solution needs to be **performant and reliable when working with object data**.
+
+When it comes to validation, we need to **ensure that data consistency and integrity are maintained at all times** in order for us to effectively normalize and stitch together disperate data. We also need to provide clear and rigid contracts to which different teams can develop asynchronously in order to maintain high our development efficiency.
+
+Given these requirements, our solution needs to effectively handle data fetching from multiple sources, manage complex state interactions, and work efficiently with our current data storage methods. This will allow us to **provide the best experience to our users while maintaining high application performance**.
+
+# Coming to a decision
+
+Based on the detailed comparison between REST and GraphQL and understanding our data needs, **we chose GraphQL for the Catio Console web application**. The decision was driven by several key factors.
+
+1. **We recognized the need for a flexible and efficient data-fetching system.** Given our microservices architecture and the complex interactions with multiple backend services, GraphQL's ability to aggregate data from multiple sources in a single request was a significant advantage. It eliminates the need for multiple requests to different endpoints, as required in REST, thereby reducing the network load and improving the overall performance of our application.
+2. **The Catio Console demands a robust system for state management.** This is largely due to the intricate state interactions we need to track across several resources. We decided to use Apollo Client with GraphQL for state management, which simplifies this process significantly. Apollo Client's integration with a single GraphQL endpoint provides consistent and predictable results, streamlining state management.
+3. **We mostly deal with document/object data.** Thus, GraphQL's ease of optimization and integration with object data is a crucial advantage. It allows us to work efficiently with our current data storage methods, ensuring high application performance.
+4. **Data consistency and integrity are of utmost importance for us**. GraphQL's built-in validation ensures that all incoming queries conform to the defined types and structures, enhancing data integrity. It also provides clear and rigid contracts for different teams to develop asynchronously, which is crucial for maintaining high development efficiency.
+
+While recognizing the strengths and weaknesses of both REST and GraphQL, **we chose GraphQL for the Catio Console application based on the specific requirements of our project**. It provides the flexibility, efficiency, and robustness we need to meet our data needs and ensure the best experience for our users.
+
+# Technology and tooling
+
+In any architecture, **the choice of pattern is only as effective as the tools and implementation strategies used to bring it to life**. In this section, we'll explore the specific technologies and tools we used to optimally implement GraphQL in the Catio Console application.
+
+<MdxImage
+  src={toolingImage}
+  alt="diagram showing that testing, typing, and code are all derived from a single shared GraphQL schema"
+/>
+
+## Apollo GraphQL
+
+Apollo GraphQL is a **comprehensive library that helps you manage data from a GraphQL API**. In the context of our application stack, it provides important features such as intelligent caching, error handling, and integration with popular libraries like React. Apollo enhances the developer experience by providing a set of tools that streamline the process of working with GraphQL. It improves performance by minimizing network requests through caching, and improves reliability by providing features for error tracking and state management.
+
+## Express.js
+
+Express.js is an **API middleware library** that provides access to the request object, the response object, and the next function in the application’s request-response cycle. It allows us to run code in between the request and the response, thus injecting functionality into our API. In our application, Express middleware handles contextual tasks such as configuring loggers, handling errors, and authenticating and authorizing requests prior to reaching our Apollo GraphQL resolvers, which enhances both the developer experience and the reliability of our app.
+
+## WebSockets
+
+WebSockets provide a **protocol for two-way communication** between the server and the client, allowing both parties to send data at any time. In a GraphQL context, WebSockets enable real-time updates through subscriptions, which is beneficial for performance and user experience. This allows our application to push updates to the client as soon as data changes on the server, eliminating the need for clients to refresh or poll the server for new data.
+
+## GraphQL Codegen
+
+GraphQL Codegen is a tool that **generates code out of your GraphQL schema**. Whether it's TypeScript typings, resolvers signatures, or custom React hooks, Codegen has got you covered. In our context, this tool greatly improves the developer experience by reducing the need to write boilerplate code. It also helps catch errors at compile time, increasing the reliability of our codebase.
+
+## Jest + Supertest
+
+Jest is a **robust testing framework** that provides features such as mocking, coverage reports, and asynchronous testing. Supertest is a library made specifically for **testing HTTP servers**. In our GraphQL web application, we use Jest along with Supertest to test our GraphQL API. This combination gives us the ability to ensure the reliability of our code by testing our resolvers and schema, ensuring they return expected results and errors.
+
+## Mocking
+
+We use dynamic resolver-based mocks and full query/response mocks for development and testing. Dynamic resolver-based mocks, with `graphql-tools`, create dummy data matching our schema for testing components with various data shapes and values. Full query/response mocks, with `@apollo/client/testing`, simulate our GraphQL server's behavior for integration and end-to-end tests. Both methods allow us to **test our components with data similar to our live environment**, improving test reliability and component robustness.
+
+# Reaping the advantages
+
+In our specific context, **GraphQL's strengths have provided significant advantages** that enabled us to create an efficient and robust data system:
+
+- **Flexible and efficient data-fetching:** With GraphQL, we're able to aggregate data from multiple sources with a single request. This has significantly improved our application's performance by reducing the need for multiple requests to different endpoints.
+- **Robust state management:** Using Apollo Client with GraphQL, we've been able to streamline our intricate state interactions across several resources. The single GraphQL endpoint provides consistent and predictable results, simplifying state management.
+- **Optimization and integration with object data:** Our data storage is primarily document/object data. GraphQL's ease of optimization and integration with this data type has enabled us to work efficiently, ensuring high application performance.
+- **Enhanced data consistency and integrity:** GraphQL's built-in validation ensures that all incoming queries conform to the defined types and structures. This has provided clear and rigid contracts for different teams to develop asynchronously, maintaining high development efficiency.
+- **Streamlining interaction with WebSockets**: GraphQL has libraries and tools that make it easier to work with real-time data over WebSockets, making it suitable for the Catio Console which requires real-time updates and push notifications.
+
+# Managing the weaknesses
+
+While GraphQL offers many advantages, it's essential to **be aware of its potential weaknesses** and take steps to address them:
+
+- **Query complexity:** GraphQL's flexibility can result in complex queries that are difficult to optimize, especially with highly relational databases. However, the nature of our data being primarily document-based avoids a lot of these complexity concerns and enables us to leverage implicit data stitching based on nested resolvers with efficient and relatively simple caching solutions.
+- **Code complexity:** The server-side logic in GraphQL can be more complex compared to REST due to the need for processing complex queries and aggregating data from multiple sources. We mitigate this by maintaining very clean documentation, automation, and organization within our API codebase so that we can effectively manage our information model and reuse logic where at all possible.
+- **Performance optimizations:** Performance optimization can be more complex in GraphQL due to the flexible nature of queries. We tackle this by using Apollo Server, which provides features such as partial query caching and persisted queries, as well as leaning on simple caching solutions that suit our document-based data models.
+- **Security implementation:** Security can be more challenging in GraphQL as all queries, mutations, and subscriptions are processed through a single endpoint. We manage this by adopting and implementing robust middleware solutions for authentication, authorization, input validation, and rate limiting.
+
+# Conclusion
+
+**Our decision to use GraphQL for the Catio Console web application has proven to be very effective**, providing us with the flexibility, efficiency, and robustness we needed to meet our complex data needs. While GraphQL comes with its own set of challenges, we have been able to manage these effectively through careful planning, tooling, and implementation.
+
+We hope that sharing our experience will help others who are considering a similar transition. We'd love to hear your thoughts or experiences on making such decisions. Feel free to leave a comment below to share your experiences and/or insights with us!
+
+<figure className="flex flex-col items-center justify-center">
+  <MdxImage
+    src={standardsImage}
+    alt="a comic from XKCD showing that there are many competing standards"
+  />
+  <figcaption>As always, there is a relevant XKCD.</figcaption>
+</figure>
