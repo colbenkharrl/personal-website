@@ -1,0 +1,263 @@
+import { BlogLayout } from '@/components/BlogLayout';
+import { MdxImage } from '@/components/MdxImage';
+import opengraphImage from './opengraph-image.png';
+import consoleImage from './bts-blog-console-laptop.png';
+import architectureImage from './bts-blog-technology-architecture.png';
+import developerExperienceImage from './bts-blog-developer-experience.png';
+import evolutionImage from './bts-blog-evolution.png';
+import problemSolvingImage from './bts-blog-problem-solving.png';
+import softwareDeliveryImage from './bts-blog-software-delivery.png';
+
+export const blog = {
+  author: 'Matt Kharrl',
+  date: '2024-05-17',
+  title: 'Behind the Scenes: Building the Catio Console',
+  description:
+    'Welcome to a brief “Behind the Scenes” tour of how we on the Catio engineering team designed and built the Catio Console, our cutting-edge cloud-native full-stack web application.',
+};
+
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+};
+
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+The following blog post was [originally posted](https://www.catio.tech/blog/behind-the-scenes-building-the-catio-console) to Catio's official website. It has been reposted here for exposure.
+
+---
+
+<MdxImage src={opengraphImage} alt="people collaborating over a web console" />
+
+Welcome to a brief **“Behind the Scenes”** tour of how we on the [**Catio**](https://www.catio.tech/) engineering team designed and built the **Catio Console**, our cutting-edge cloud-native full-stack web application. Catio is an AI-powered platform designed to help technical teams optimally evaluate, plan, and evolve their tech stack architecture. By providing a comprehensive view of your tech stack, actionable insights, and data-driven recommendations, Catio aims to enhance performance, security, and efficiency, ultimately propelling your business forward.
+
+I'm [**Matt Kharrl, Lead Fullstack Engineer**](https://www.linkedin.com/in/mattkharrl/) responsible for overseeing the design and implementation of our web application technology stack. In this blog post, you'll discover the **modern technologies** and practices we've adopted, the **thoughtful design choices** that drive our architecture, and the **innovative solutions** we've implemented to overcome technical hurdles. Let's dive in!
+
+<MdxImage
+  src={consoleImage}
+  alt="the catio console shown on a laptop with a diagram rendered in the view"
+/>
+
+# Design Principles
+
+Building a robust, enterprise-grade web application requires **thoughtful design decisions** that balance performance, usability, quality, and development time. Here are some key design principles we follow:
+
+### Keep it Simple 🔤
+
+This principle guides us to **prioritize simplicity** in our design and implementation. By keeping things simple, we can make our application more maintainable and easier to understand, enabling faster developments and fewer bugs.
+
+### Align with Reference Architecture 🗺️
+
+This design principle involves **adhering to established architecture models** that have proven successful in similar contexts. It helps us to avoid reinventing the wheel and leverage existing, effective solutions to common problems.
+
+💡 In the near future, we plan to fully operationalize our own product to drive architectural analysis and evolution.
+
+### Follow Contract-First Development 📝
+
+This principle involves defining **clear and strict contracts for modules before implementing them**. It ensures that each part of our application interacts with others in a predictable way, reducing the risk of unexpected behavior.
+
+### Enable Agility with Encapsulation & Abstraction 😶‍🌫️
+
+This principle involves **hiding the internal workings of individual modules and exposing only what is necessary**. It allows us to change the implementation of a module without affecting the rest of the application, promoting flexibility and agility in our development process.
+
+### Test Behavior, not Implementation 🧪
+
+This principle guides us to **focus our testing efforts on the behavior of our application**, rather than the specifics of how features are implemented. It ensures that our tests remain valid even as we refactor and optimize our code.
+
+### Develop Components in Isolation 🔍
+
+This principle encourages us to **develop and test components separately** before integrating them into the larger application. It helps us to ensure that each component functions correctly on its own, which in turn increases the reliability of our application as a whole.
+
+### Don’t Repeat Yourself 🫢
+
+Commonly abbreviated as DRY, this principle urges us to **reduce repetition** in our code. It promotes code reuse, which makes our codebase more maintainable and less prone to bugs.
+
+# Technology Architecture
+
+## Technology Stack 🏗️
+
+At the core of our web application lies a **robust and versatile technology stack**, carefully selected to ensure performance, scalability, quality, and maintainability. Here's a closer look at the key components
+
+### Programming Languages
+
+- [TypeScript](https://www.typescriptlang.org/): A statically typed superset of JavaScript, enhancing our coding with robust tooling and safer, more predictable code.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript): The universal scripting language for web development, used throughout our stack for complex scripting needs.
+- [Bash](https://www.gnu.org/software/bash/): A Unix shell and command language, crucial for scripting and automating tasks in our development process.
+
+### Frontend Libraries
+
+- [React](https://reactjs.org/): Powers the interactive elements of our application, enabling the creation of dynamic user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapid UI development, styling, and responsive designs.
+- [MDX](https://mdxjs.com/): Combines Markdown and JSX, invaluable for documentation and content creation within the project.
+- [ReactFlow](https://reactflow.dev/): A library we use for rendering complex, draggable node-based graphs and diagrams.
+
+### Web Frameworks
+
+- [Next.js](https://nextjs.org/): Enhances performance and SEO through server-rendered applications, a key player in our tech stack.
+- [Node.js](https://nodejs.org/): Drives our server-side operations, providing a runtime for JavaScript.
+
+### API Frameworks
+
+- [GraphQL](https://graphql.org/): Interfaces efficiently with backend services, enabling flexible and efficient data queries.
+- [gRPC](https://grpc.io/): Facilitates high-performance communication for microservices in our backend.
+- [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API): Provides full-duplex communication between client and server, enabling real-time features.
+- [REST](https://restfulapi.net/): Manages the CRUD lifecycle of various backend data sources and platform services.
+
+### Identity Management
+
+- [AWS Amplify](https://docs.aws.amazon.com/amplify): Manages user authentication and authorization seamlessly, building secure, scalable applications.
+- [AWS Cognito](https://docs.aws.amazon.com/cognito): Handles secure user access, excelling in authentication, authorization, and user management.
+
+### Database Storage
+
+- [AWS DynamoDB](https://aws.amazon.com/dynamodb): A NoSQL database service, crucial for rapid data storage and retrieval at any scale.
+
+### Developer Experience
+
+- [Storybook](https://storybook.js.org/): Prototyping and testing UI components in isolation, ensuring shared understanding across the team.
+- [GraphQL Codegen](https://www.graphql-code-generator.com/): Generates static types, mocks, and utilities for working with GraphQL schemas, maintaining type safety.
+- [Nodemon](https://nodemon.io/): Monitors changes in the source code and automatically restarts the server, accelerating development.
+- [Prettier](https://prettier.io/): An opinionated code formatter for consistent code style.
+- [ESLint](https://eslint.org/): Identifies and reports on patterns in ECMAScript/JavaScript code, preventing bugs and improving code quality.
+
+### Data Validation
+
+- [JSON Schema](https://json-schema.org/): Validates the structure of JSON data, ensuring data consistency.
+- [Protobufs](https://protobuf.dev/): Efficiently serializes structured data, used for defining and exchanging data between services.
+
+### Build Tools
+
+- [Yarn](https://yarnpkg.com/): Manages dependencies and scripts as our package manager and monorepo facilitator.
+- [Webpack](https://webpack.js.org/) & [Babel](https://babeljs.io/): Transforms and bundles code for the browser.
+- [Docker](https://www.docker.com/): Ensures environment consistency and smooth deployment by running applications inside containers.
+
+### Test Libraries
+
+- [Jest](https://jestjs.io/): A framework for unit testing JavaScript code, ensuring code integrity.
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/): Helps test UI components without relying on their implementation details.
+- [Cypress](https://www.cypress.io/): Ensures overall application functionality through end-to-end testing.
+
+### CI/CD
+
+- [GitHub Actions](https://github.com/features/actions): Orchestrates workflows based on event triggers, automating tests and deployments.
+- [Helm](https://helm.sh/): Manages Kubernetes applications, simplifying deployment.
+- [Terraform](https://www.terraform.io/): Manages and provisions infrastructure as code, improving deployment predictability and efficiency.
+
+### Cloud Infrastructure
+
+- [Kubernetes](https://kubernetes.io/): Manages containerized workloads and services, enabling swift scaling and response to changes.
+- [AWS ELB](https://aws.amazon.com/elasticloadbalancing): Distributes incoming traffic across multiple targets, enhancing application availability and fault tolerance.
+- [AWS VPC](https://aws.amazon.com/vpc): Creates a logically isolated section of the AWS Cloud, providing control over the virtual networking environment.
+
+## System Architecture 📐
+
+Our system architecture is built upon a **three-layer model** that is designed to provide a seamless user experience and efficient performance. This framework consists of the client application, the [GraphQL](https://graphql.org/) API, and the backend platform. Each component plays a critical role in maintaining the robustness and scalability of our application.
+
+<figure className="flex flex-col items-center justify-center">
+  <MdxImage
+    src={architectureImage}
+    alt="diagram of catio console technology architecture"
+  />
+  <figcaption>
+    Simplified view of our system architecture focusing on the web application
+    stack.
+  </figcaption>
+</figure>
+
+### Client Application 💻
+
+The client application is the user-facing component of our system. It is built using React, a popular JavaScript library renowned for its ability to create **dynamic and interactive user interfaces**. To manage state and share data across components, we utilize the React Context API, which provides a straightforward way to pass data through the component tree without having to manually pass props down at every level.
+
+For fetching data, we use Apollo Client, a **comprehensive data fetching and state management** library that enables us to manage both local and remote data with GraphQL. This allows us to fetch, cache, and modify application data, all while automatically updating the UI.
+
+Our application is built on Next.js, a React framework that enables features such as **server-side rendering** and static site generation. This helps us optimize performance and enhance SEO, ensuring a smooth and responsive user experience.
+
+### GraphQL API 🌐
+
+The GraphQL API is the **bridge between our client application and the backend platform**. It is built using Apollo Server and Node.js, providing a powerful combination for executing GraphQL operations. This setup allows us to create a unified API that pulls from various data sources, simplifying data fetching on the client side.
+
+For storing and retrieving data rapidly, we use AWS DynamoDB, a NoSQL database service. This ensures that our application can handle any amount of traffic and respond in milliseconds.
+
+### Backend Platform 🤖
+
+Our backend platform is a **microservice-based system which carries out the duties of our AI platform**. This design allows us to deploy, scale, and update services independently, leading to improved fault isolation and system availability. Though the specifics of this platform are beyond the scope of this overview, it's important to note that the GraphQL API interfaces with these microservices through a mix of REST and [**gRPC**](https://grpc.io/) protocols, abstracting the complexity of the backend from the client application.
+
+## Developer Experience 🛠️
+
+<MdxImage
+  src={developerExperienceImage}
+  alt="developers in an organization working together"
+/>
+
+At Catio, we are dedicated to creating an **efficient and enjoyable developer experience**. We've adopted a range of tools to streamline our development process, improve code quality, and foster collaboration.
+
+We use **TypeScript** for its static typing system, enhancing code readability and catching errors early. Code consistency is maintained through tools like **Prettier** and **ESLint**, which automate code formatting and detect potential issues.
+
+**Yarn Workspaces** simplify dependency management, and **Git** facilitates version control, submodule dependencies, and team collaboration. Environment-specific settings are handled by **direnv**, and we have comprehensive developer scripts (**Bash and JavaScript**) for automating common tasks.
+
+Our commitment to high-quality components is reflected in our use of tools like **Storybook** and **Figma**. High-fidelity designs from our product design team are transformed into isolated components in Storybook, ensuring a shared understanding of component structure and functionality across the team.
+
+We firmly believe in the power of the right tools and workflows to significantly enhance productivity and job satisfaction. Our commitment to an effective and enjoyable developer experience is a **foundational aspect of our culture and practices**.
+
+## Software Delivery 🚀
+
+<figure className="flex flex-col items-center justify-center">
+  <MdxImage
+    src={softwareDeliveryImage}
+    alt="diagram of catio console software delivery architecture"
+  />
+  <figcaption>
+    Simplified view of our fully-automated CI/CD process and technologies.
+  </figcaption>
+</figure>
+
+**Delivering high-quality software consistently and efficiently** is a cornerstone of our development practices at Catio. This commitment is deeply reflected in our software delivery process, where we leverage a host of powerful tools and technologies to manage and deploy our infrastructure and services to our cloud environment.
+
+- We use **GitHub Actions** to orchestrate our workflows based on event triggers. This enables us to automate our tests and deployments, ensuring that every code change is validated and can be safely integrated.
+- We use **Jest** and **Cypress** for our continuous integration tests. Jest handles our unit tests, while Cypress allows us to ensure that the overall functionality of our application works as expected. These tools allow us to catch any issues early, helping us maintain a high standard of quality.
+- **Docker** plays a crucial role in our process by packaging our applications into containers. This ensures environment consistency and smooth deployment, eliminating the "it works on my machine" problem.
+- **Kubernetes (EKS)** is the backbone of our cloud infrastructure. It is a powerful platform used for managing containerized workloads and services, enabling us to scale and respond to changes swiftly.
+- To manage our Kubernetes applications, we use **Helm**, a package manager that simplifies the deployment and management of applications on Kubernetes.
+- Finally, we use **Terraform**, an infrastructure as code software tool, to manage and provision our infrastructure. This allows us to version and review changes to our infrastructure the same way we do with code, greatly improving the predictability and efficiency of our deployments.
+
+Adhering to the [DORA "Accelerate" principles](https://dora.dev/research/), we are committed to key practices such as infrastructure as code, CI/CD automation, trunk-based development, and shifting left on security. These practices allow us to **deliver software rapidly, reliably, and responsibly**, ensuring a high level of quality while also enabling us to respond to changes and innovate at a rapid pace.
+
+# **Interesting Problems**
+
+<MdxImage
+  src={problemSolvingImage}
+  alt="woman thinking about problems and coming to solutions"
+/>
+
+The following sections present just a few examples of **technology challenges** we face and how we implemented solutions to overcome them.
+
+### Simplifying our Client Data Fetching Interface 🌐
+
+In order to provide a seamless and efficient data fetching experience for our client application, we chose to use GraphQL as the API gateway for all client data fetching needs. The Catio platform employs a variety of networking solutions, each tailored to best fit the service or system in question. As a result, our backend services feature a mix of messaging patterns and protocols such as REST, gRPC, WebSockets, Multipart File Upload, and we even have plans to incorporate more in the future such as webhooks. However, despite this diversity in the backend, we've abstracted all these different systems from our web client through a single Apollo GraphQL API which supports queries, mutations, and subscriptions. This approach simplifies data fetching on the client side and allows us to handle service-to-service communications effectively at the web API layer.
+
+### Tracking and Storing Stacks Diagram Edits ✍🏻
+
+Our users have the ability to customize their architecture diagrams, which are rendered using a library called [**ReactFlow**](https://reactflow.dev/). We've found a way to efficiently track and store these customizations - instead of saving entire instances of graph data, we've optimized our system to only monitor changes to the base layout.
+
+We've accomplished this by deeply integrating the React Context API at the core of our application. This involves attaching dozens of listeners to ReactFlow's internal state and event system. These listeners allow us to monitor user interactions, calculate the differences from the base layout, and store these differences, representing a given user view, in React’s context API.
+
+Finally, the changes gathered in our React context are saved in our data layer. They are ready to be retrieved and applied whenever the user accesses their customized view. This approach not only optimizes performance by reducing the amount of data to be stored and fetched, but it also enhances portability by enabling us to script easy data migrations based on changes rather than the entire diagram state.
+
+### Creating a Configurable Third-Party Integration Wizard 🧩
+
+The Catio Console supports numerous third-party integrations like AWS, Prometheus, and Kubernetes, with support for many more planned in the near future. Facilitating these integrations presented a unique situation: each required a distinct onboarding experience, leading to an unsustainable and increasing amount of vendor-specific code.
+
+To manage this integrations more effectively, we needed a scalable and efficient solution. We chose to develop a metadata-driven system, which allowed us to define multi-step integrations using richly typed and configured data inputs. We designed a custom data format to define the steps, inputs, and behaviors of a generic third-party integration. These data objects would be used on the client to render rich content via a dynamic renderer which leveraged MDX.
+
+The result was a system that significantly reduced complexity, improved user experience, and allowed scalable support for third-party integrations. Moreover, we achieved this without writing any vendor-specific code, further streamlining the integration process.
+
+# Conclusion
+
+<MdxImage
+  src={evolutionImage}
+  alt="a series of buildings arranged from simple and small on the left growing to tall and futuristic skyscrapers on the right"
+/>
+
+In this blog post, we shared an **inside look at the technology stack, design decisions, and challenges we faced** while building the Catio Console. Our use of modern technologies and development practices not only ensures a robust and scalable application but also demonstrates our commitment to innovation and excellence.
+
+We strive to **balance our design principles with appropriate technology solutions**, ensuring our systems are extensible and modular. This approach maintains robustness and scalability while allowing agility and responsiveness to change. We hope you found this deep dive insightful and encourage you to share your thoughts in the comments. Follow our company blog for more updates and insights into our development process!
