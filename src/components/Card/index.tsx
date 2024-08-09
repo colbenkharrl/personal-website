@@ -25,7 +25,11 @@ export function Card<T extends React.ElementType = 'div'>({
 
   return (
     <Component
-      className={clsx(className, 'group relative flex flex-col items-start')}
+      className={clsx(
+        'group relative flex items-start',
+        className,
+        className?.includes('flex-row') ? 'flex-row' : 'flex-col',
+      )}
       data-testid="Card"
     >
       {children}

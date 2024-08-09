@@ -1,4 +1,6 @@
 import { BlogLayout } from '@/components/BlogLayout';
+import { MdxImage } from '@/components/MdxImage';
+import opengraphImage from './opengraph-image.png';
 
 export const blog = {
   author: 'Matt Kharrl',
@@ -13,6 +15,13 @@ export const metadata = {
 };
 
 export default (props) => <BlogLayout blog={blog} {...props} />;
+
+---
+
+<MdxImage
+  src={opengraphImage}
+  alt="my friend samyak and myself standing atop Mount Umunhum"
+/>
 
 Bikes have been part of my life in some capacity for most of my life. Walmart bikes as a kid, street BMX bikes as a teenager, fixed-gear bikes in college, and road bikes as a young adult. This relationship was casual and adventurous, focusing more on getting lost with a camera and less on training zones.
 

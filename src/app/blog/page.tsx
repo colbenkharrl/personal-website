@@ -18,7 +18,7 @@ export default async function BlogsIndex() {
       intro="I sometimes write down my ideas or document my experiences as I navigate my way through my personal and professional life."
     >
       <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
-        <div className="flex max-w-3xl flex-col space-y-16">
+        <div className="flex w-full flex-col space-y-16">
           {blogs.map((blog) => (
             <Blog key={blog.slug} blog={blog} />
           ))}
