@@ -63,7 +63,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
               role="list"
             >
               <li
-                class="group relative flex flex-col items-start"
+                class="group relative flex items-start flex-col"
                 data-testid="Card"
               >
                 <div
@@ -126,7 +126,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
                 </p>
               </li>
               <li
-                class="group relative flex flex-col items-start"
+                class="group relative flex items-start flex-col"
                 data-testid="Card"
               >
                 <div
@@ -189,7 +189,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
                 </p>
               </li>
               <li
-                class="group relative flex flex-col items-start"
+                class="group relative flex items-start flex-col"
                 data-testid="Card"
               >
                 <div
@@ -252,7 +252,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
                 </p>
               </li>
               <li
-                class="group relative flex flex-col items-start"
+                class="group relative flex items-start flex-col"
                 data-testid="Card"
               >
                 <div
@@ -315,7 +315,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
                 </p>
               </li>
               <li
-                class="group relative flex flex-col items-start"
+                class="group relative flex items-start flex-col"
                 data-testid="Card"
               >
                 <div
@@ -378,7 +378,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
                 </p>
               </li>
               <li
-                class="group relative flex flex-col items-start"
+                class="group relative flex items-start flex-col"
                 data-testid="Card"
               >
                 <div
@@ -441,7 +441,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
                 </p>
               </li>
               <li
-                class="group relative flex flex-col items-start"
+                class="group relative flex items-start flex-col"
                 data-testid="Card"
               >
                 <div
@@ -504,7 +504,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
                 </p>
               </li>
               <li
-                class="group relative flex flex-col items-start"
+                class="group relative flex items-start flex-col"
                 data-testid="Card"
               >
                 <div
@@ -567,7 +567,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
                 </p>
               </li>
               <li
-                class="group relative flex flex-col items-start"
+                class="group relative flex items-start flex-col"
                 data-testid="Card"
               >
                 <div

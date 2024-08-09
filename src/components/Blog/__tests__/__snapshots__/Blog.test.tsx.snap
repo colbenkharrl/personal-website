@@ -10,8 +10,12 @@ exports[`Blog matches snapshot (regression test): Full component snapshot. 1`] =
     class="mb-6 aspect-video w-full shrink-0 grow-0 rounded-lg object-cover sm:mb-0 sm:mr-6 sm:w-72"
     data-nimg="1"
     decoding="async"
-    src=""
+    height="40"
+    loading="lazy"
+    src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+    srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
     style="color: transparent;"
+    width="40"
   />
   <div
     class="flex flex-col"
