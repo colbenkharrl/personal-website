@@ -37,3 +37,8 @@ next-env.d.ts
 
 # storybook static assets
 /public/storybook
+
+# Auto-generated sitemap files
+/public/sitemap.xml
+/public/sitemap-*.xml
+/public/robots.txt

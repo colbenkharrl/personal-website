@@ -1,4 +1,6 @@
 import { BlogLayout } from '@/components/BlogLayout';
+import { MdxImage } from '@/components/MdxImage';
+import opengraphImage from './opengraph-image.png';
 
 export const blog = {
   author: 'Matt Kharrl',
@@ -10,9 +12,21 @@ export const blog = {
 export const metadata = {
   title: blog.title,
   description: blog.description,
+  keywords: [
+    'BWR California race',
+    'gravel cycling',
+    'race experience',
+    'Belgian Waffle Ride',
+    'cycling competition',
+    'race analysis',
+  ],
 };
 
 export default (props) => <BlogLayout blog={blog} {...props} />;
+
+---
+
+<MdxImage src={opengraphImage} alt="me pedaling through a gravel sector" />
 
 | Date        | Race                                            | Duration                                                 | Type        | Location       | Category | Result                                                                            |
 | ----------- | ----------------------------------------------- | -------------------------------------------------------- | ----------- | -------------- | -------- | --------------------------------------------------------------------------------- |

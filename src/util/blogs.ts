@@ -1,4 +1,5 @@
 import glob from 'fast-glob';
+import { StaticImageData } from 'next/image';
 
 interface Blog {
   title: string;
@@ -9,6 +10,7 @@ interface Blog {
 
 export interface BlogWithSlug extends Blog {
   slug: string;
+  opengraphImage: StaticImageData;
 }
 
 async function importBlog(blogFilename: string): Promise<BlogWithSlug> {
@@ -17,8 +19,17 @@ async function importBlog(blogFilename: string): Promise<BlogWithSlug> {
     blog: Blog;
   };
 
+  const slug = blogFilename.replace(/(\/page)?\.mdx$/, '');
+
+  const { default: opengraphImage } = (await import(
+    `../app/blog/${slug}/opengraph-image.png`
+  )) as {
+    default: StaticImageData;
+  };
+
   return {
-    slug: blogFilename.replace(/(\/page)?\.mdx$/, ''),
+    slug,
+    opengraphImage,
     ...blog,
   };
 }

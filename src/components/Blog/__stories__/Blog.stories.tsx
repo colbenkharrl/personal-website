@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import opengraphImage from '@/app/opengraph-image.png';
 
 import { Blog } from '..';
 
@@ -19,6 +20,7 @@ const meta = {
       description: 'Test blog description.',
       author: 'Matt Kharrl',
       date: '2023-11-09',
+      opengraphImage,
     },
   },
 } satisfies Meta<typeof Blog>;

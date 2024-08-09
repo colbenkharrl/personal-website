@@ -2,7 +2,7 @@
 
 exports[`Card matches snapshot (regression test): Full component snapshot. 1`] = `
 <div
-  class="group relative flex flex-col items-start"
+  class="group relative flex items-start flex-col"
   data-testid="Card"
 >
   <time

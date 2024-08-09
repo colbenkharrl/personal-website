@@ -36,7 +36,7 @@ $ nvm use
 Run the local development server view the entire website:
 
 ```bash
-$ yarn start:next-dev
+$ yarn dev
 ```
 
 Then, open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -48,7 +48,7 @@ Then, open [http://localhost:3000](http://localhost:3000) with your browser to s
 Run the local storybook server to view, develop, and test React components in isolation:
 
 ```bash
-$ yarn start:storybook
+$ yarn storybook
 ```
 
 Then, open [http://localhost:6006](http://localhost:6006) with your browser to utilize the Storybook UI.

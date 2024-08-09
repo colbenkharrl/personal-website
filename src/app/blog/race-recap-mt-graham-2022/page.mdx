@@ -1,4 +1,6 @@
 import { BlogLayout } from '@/components/BlogLayout';
+import { MdxImage } from '@/components/MdxImage';
+import opengraphImage from './opengraph-image.png';
 
 export const blog = {
   author: 'Matt Kharrl',
@@ -11,9 +13,24 @@ export const blog = {
 export const metadata = {
   title: blog.title,
   description: blog.description,
+  keywords: [
+    'Mt. Graham Hill Climb',
+    'cycling race recap',
+    'state championship',
+    'hill climbing tips',
+    'competitive cycling',
+    'race strategy',
+  ],
 };
 
 export default (props) => <BlogLayout blog={blog} {...props} />;
+
+---
+
+<MdxImage
+  src={opengraphImage}
+  alt="rider descending Mount Graham after completing the race"
+/>
 
 | Date         | Race                                                              | Duration                                                 | Type            | Location    | Category | Result                                                                    |
 | ------------ | ----------------------------------------------------------------- | -------------------------------------------------------- | --------------- | ----------- | -------- | ------------------------------------------------------------------------- |
