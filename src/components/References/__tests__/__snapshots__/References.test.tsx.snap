@@ -45,7 +45,14 @@ exports[`References matches snapshot (regression test): Full component snapshot.
           <img
             alt=""
             class="h-12 w-12 flex-none rounded-full bg-gray-50"
-            src="https://media.licdn.com/dms/image/C5603AQGSMFSgLAucdg/profile-displayphoto-shrink_800_800/0/1651951117696?e=1706745600&v=beta&t=NgH7LoQYPgg26ZmIYvsRhHzZSp4NZNGDmI82yoTb9ZI"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
           />
         </a>
         <div
@@ -102,7 +109,14 @@ exports[`References matches snapshot (regression test): Full component snapshot.
           <img
             alt=""
             class="h-12 w-12 flex-none rounded-full bg-gray-50"
-            src="https://media.licdn.com/dms/image/C4D03AQGPFCZV7u-dcg/profile-displayphoto-shrink_400_400/0/1628123240070?e=1706745600&v=beta&t=Wa9w7w-XPFDPUnk1PR8z89lfpxomt_2ye_QypkAJmeU"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
           />
         </a>
         <div
@@ -164,7 +178,14 @@ exports[`References matches snapshot (regression test): Full component snapshot.
           <img
             alt=""
             class="h-12 w-12 flex-none rounded-full bg-gray-50"
-            src="https://media.licdn.com/dms/image/C5603AQFtIkHEhrCP0w/profile-displayphoto-shrink_400_400/0/1516528588963?e=1706140800&v=beta&t=wvFSdNqCRdpiScSUKAj2KXrPPOTtLADVY_lgBHLEsfY"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
           />
         </a>
         <div
@@ -221,7 +242,14 @@ exports[`References matches snapshot (regression test): Full component snapshot.
           <img
             alt=""
             class="h-12 w-12 flex-none rounded-full bg-gray-50"
-            src="https://media.licdn.com/dms/image/C4E03AQGW9Th9zrzfmA/profile-displayphoto-shrink_400_400/0/1533777100700?e=1706140800&v=beta&t=fiDCqtSHQszTSGDbovrlzu3DoWUSaHypnq37K5HG_nQ"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
           />
         </a>
         <div
@@ -278,7 +306,14 @@ exports[`References matches snapshot (regression test): Full component snapshot.
           <img
             alt=""
             class="h-12 w-12 flex-none rounded-full bg-gray-50"
-            src="https://media.licdn.com/dms/image/C4D03AQEuwa7yiidTnw/profile-displayphoto-shrink_400_400/0/1613090699632?e=1706140800&v=beta&t=GR1Jm5tgbl-Wl5B_SMpp_JwLFOytU961j_QcEshGfZU"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
           />
         </a>
         <div
@@ -335,7 +370,14 @@ exports[`References matches snapshot (regression test): Full component snapshot.
           <img
             alt=""
             class="h-12 w-12 flex-none rounded-full bg-gray-50"
-            src="https://media.licdn.com/dms/image/C5603AQFVgZM5cPo8zQ/profile-displayphoto-shrink_100_100/0/1581035120375?e=1705536000&v=beta&t=NzNXAKI6m9egMfLRF3ZOsuMXLc3kh67AGHOiowCF6cM"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
           />
         </a>
         <div

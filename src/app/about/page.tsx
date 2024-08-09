@@ -49,7 +49,7 @@ export const metadata: Metadata = {
 
 const raceResults: IconLinkProps[] = [
   {
-    text: '1st - AZ TTT Championship',
+    text: '1st - AZ TTT Championship (2x)',
     Icon: TrophyIcon,
     href: 'https://legacy.usacycling.org/results/index.php?permit=2023-9995',
   },
