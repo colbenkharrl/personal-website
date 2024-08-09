@@ -55,7 +55,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
       >
         <div
-          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50/50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
         />
         <a
           href="https://catio.tech/"
@@ -118,7 +118,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
       >
         <div
-          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50/50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
         />
         <a
           href="https://specprotected.com/"
@@ -181,7 +181,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
       >
         <div
-          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50/50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
         />
         <a
           href="https://www.atlassian.com/software/confluence"
@@ -244,7 +244,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
       >
         <div
-          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50/50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
         />
         <a
           href="https://atlassian.design/components/atlassian-navigation/examples"
@@ -307,7 +307,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
       >
         <div
-          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50/50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
         />
         <a
           href="https://www.amazon.com/echo/s?k=echo+show"
@@ -370,7 +370,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
       >
         <div
-          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50/50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
         />
         <a
           href="https://risk.lexisnexis.com/products/threatmetrix"
@@ -433,7 +433,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
       >
         <div
-          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50/50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
         />
         <a
           href="https://github.com/colbenkharrl/personal-website"
@@ -496,7 +496,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
       >
         <div
-          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50/50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
         />
         <a
           href="https://edupoint.com/Products/Student-Information-Management"
@@ -559,7 +559,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         class="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100"
       >
         <div
-          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
+          class="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50/50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"
         />
         <a
           href="https://blitzracingcc.com/"
