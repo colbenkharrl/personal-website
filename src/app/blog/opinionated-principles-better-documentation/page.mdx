@@ -1,0 +1,181 @@
+import { BlogLayout } from '@/components/BlogLayout';
+import { MdxImage } from '@/components/MdxImage';
+import { slugify } from '@/util/slugify';
+import opengraphImage from './opengraph-image.png';
+import looksMatterImage from './looks-matter.png';
+import readTheDocumentationImage from './read-the-documentation.png';
+
+export const blog = {
+  author: 'Matt Kharrl',
+  date: '2024-08-12',
+  title: 'Some Opinionated Principles for Writing Better Documentation',
+  description:
+    'Documentation is a critical part of effective communication. Here are some opinionated principles to help your writing shine.',
+};
+
+export const principles = [
+  'Looks matter.',
+  'A picture is worth a thousand words.',
+  'Write for your least-informed reader.',
+  'Make your document easily findable.',
+  'Focus on single sources of truth.',
+  'Subtle emphasis goes a long way.',
+  'Set proper expectations.',
+  'Keep the type of document in mind.',
+  'Don’t take yourself too seriously.',
+];
+
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+  keywords: [
+    'documentation',
+    'technical writing',
+    'writing principles',
+    'documentation principles',
+    'documentation best practices',
+    'documentation tips',
+  ],
+};
+
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+Documentation is a critical part of effective communication. Below are some opinionated principles I follow to help my writing land with readers and stand the test of time. Hopefully they can help you, too.
+
+<MdxImage
+  src={opengraphImage}
+  alt="artistic graphic of writing utencils and paper"
+/>
+
+# Foreword
+
+For the majority of professional roles across industries and regions, people end up writing a lot of documentation. This could be for any number of reasons: discussions, processes, reports, plans, requirements… the list goes on.
+
+While I don’t claim to be an expert in documentation (or even the greatest writer in general), I do, for better or worse, write a _lot_ of documentation both at work and for myself. This page collects my thoughts on how to approach a blank page and come out with something from which any audience can benefit.
+
+---
+
+# Principles
+
+Here are some core principles to keep in mind when creating documentation.
+
+<div>
+  <ol className="flex flex-col sm:flex-row">
+    <div className="flex-grow">
+      {principles.slice(0, 5).map((principle) => (
+        <li key={principle}>
+          <a href={`#${slugify(principle)}`}>{principle}</a>
+        </li>
+      ))}
+    </div>
+    <div className="flex-grow">
+      {principles.slice(5).map((principle) => (
+        <li key={principle}>
+          <a href={`#${slugify(principle)}`}>{principle}</a>
+        </li>
+      ))}
+    </div>
+  </ol>
+</div>
+
+## Looks matter.
+
+**Try to put in a little extra effort to make your document clean and organized.** This is inherently subjective and I don’t think forcing too much standardization here is productive, but there are some universal ideas we can apply, such as:
+
+- using proper header levels for various depths of content.
+- clearly breaking up major sections with headers and horizontal lines.
+- keeping paragraphs succinct and focused on a central idea.
+- adding a table of contents at the top of longer documents.
+- understanding when to use lists / tables / columns / etc.
+- leaning on macros (if available in your editor) to neatly format and organize content.
+
+## A picture is worth a thousand words.
+
+**Well-organized diagrams and visuals help _so much_ to reinforce your words** when explaining any idea or concept.
+
+For example, here is a diagram to visually aid my previous point that “Looks matter.” Which document looks more interesting to spend your time reading (assuming content was identical)?:
+
+<MdxImage
+  src={looksMatterImage}
+  alt="two documents side by side, one with a wall of text and one with organized headers and lists and images"
+  className="m-auto w-full max-w-sm"
+/>
+
+## Write for your least-informed reader.
+
+You are learning and making decisions every day, constantly adding to your unique mental context of how to understand concepts and get things done. When writing documentation, **it can be easy to assume that readers will have the same mental context you do**.
+
+**When writing this way, we tend to cut corners by leaving key ideas unexplained or omitting them entirely.** This makes some documentation leave newer readers walking away with more questions than answers.
+
+We should watch out for this tendency when writing documentation. **The primary purpose of documentation is to provide information for those who don’t already have it.** As such, we should try to write documents that cater equally to those who already have necessary context and those who don’t. This balance can be achieved with a few tips:
+
+- **Provide adequate background information at the top of your document.** This is great because readers who don’t yet have the necessary background information can read it in stride, and those who do can immediately skip to the next content.
+- **Link out to other existing documentation.** Often some key information already exists in another document. When appropriate, we should link to these documents and not spend our keystrokes explaining something again (unless this is necessary for some reason). However, if there is something about the linked page that requires more prompting, feel free to add that in as well. For example:
+
+> See [this former blog post](/blog/behind-the-scenes-catio-console) for an example of mixing both functional and purely illustrative graphics to make your documentation more engaging.
+
+## Make your document easily findable.
+
+Findability is a critical aspect of documentation. **If your documentation is hard to find, it might as well not exist.** Here are some tips to make your documentation more findable:
+
+- **Make sure your document title is logical and descriptive.** This makes it easier for people to know what your document is about and find it when they need it.
+- **Use a consistent naming convention for your documents.** This makes it easier for people to search for and find similar documents.
+- **Use tags or categories to group related documents together.** This can help people find and/or group related documents more easily.
+- **Set a descriptive page icon.** This feature is available in most documentation products and can help people quickly identify your document in a list of search results.
+
+## Focus on single sources of truth.
+
+**Where we can help it, we want information to live in exactly one place.** Once information lives in more than one place it becomes susceptible of becoming out-of-sync.
+
+**Scenario:** Imagine I wrote an entire process for managing incident response for my company. Then in another document about postmortems, another employee adds a bunch of background information about our incident response process to help the reader understand. While the intention here is pure, imagine that I now go in and update my incident response process to change the way we do `x`, `y`, and `z`. I don’t know (or don't remember) to do the extra work of finding that other person's document and updating the background information. **Now we have two sources of truth that say different things. How does a reader know which is correct?**
+
+There is a simple way to get around this: link to other documents. As much as possible, **link to other documentation (or external resources) that already exist in lieu of writing it again yourself**. This both saves you time in the present and saves someone else a lot of confusion in the future.
+
+## Subtle emphasis goes a long way.
+
+Clever use of emphasis, both in text and formatting, go a long way to boost the readability of a document. There are many tips and tricks for using these sorts of things to enable an easier flow for the reader. Examples of things I use all the time:
+
+- **Use bold and italic text to highlight main ideas in paragraphs.** I try to write my documents in a fashion to where if you only ever read the headers and the text in bold, you would still have a good understanding of the key content on the page.
+- **Use the macros provided by your editor _liberally_.** This could be quotes, code blocks, callouts, etc. These macros are designed to make your content more readable and engaging. Use them!
+- **Use color, but sparingly.** Color can effectively highlight key ideas, but it can also be distracting if overused. Use it sparingly and with purpose.
+
+## Set proper expectations.
+
+Here are **two very frustrating scenarios that we want to avoid**:
+
+- You read an entire seemingly-relevant document, hunting for a specific piece of information, only to find out that it was never going to exist on that page in the first place.
+- You spend a morning catching up on recent documentation, only to discover the next day that all the content on the page has changed overnight due to feedback the author received or other changes they wanted to make.
+
+Both of these scenarios can be mitigated if you **set proper expectations for a document upfront.** Examples of setting expectations include:
+
+- **Document scope.** Start your page with one to two sentences establishing the purpose and scope of the document. Answer the question: “what is this document going to talk about?”
+- **Document status.** Where necessary, mention right at the top of the page the status of this document. For example:
+
+  > **Work In Progress.** This page is currently being worked on, and all content is subject to change.
+
+  > **Draft.** This page has ideas that have not been agreed upon or need to be reviewed, and all content is subject to change.
+
+  > **Needs review.** This page is asking for feedback and improvements from readers, content is subject to change.
+
+  > **Living document.** This page is in a final state, but by virtue of the type of information on the page it is likely to change in the future as the needs of the team or landscape of information shifts.
+
+## Keep the type of document in mind.
+
+**There are many classes of documentation and each lend themselves to a different structure and tone.** Remembering what type of document you are writing will help inform how to cater the information to the readers who are coming to your page for a given purpose. Examples of documentation types include:
+
+- Tutorials (learning oriented)
+- How-to guides (problem oriented)
+- Explanation (understanding oriented)
+- Reference (information oriented)
+
+In an effort to follow my own advice and _lean on single sources of truth_, I will leave further reading on this topic to [this article](https://documentation.divio.com/).
+
+## Don’t take yourself too seriously.
+
+All of these principles are helpful for manifesting more useful documents with better traction and longevity. That being said, **don’t let these ideas add more weight to your creative process than they are worth.** I mention a few times here the importance of writing documents that are enjoyable to read, and sometimes that means allowing yourself to throw in jokes, memes, and other such light-hearted content. **The more fun we have with documentation, the more embedded it will become** in our personal and professional settings and the more benefit your readers will reap both now and in the distant future.
+
+<MdxImage
+  src={readTheDocumentationImage}
+  alt="a meme showing instricutions to place a lego with three prongs onto a lego with four prongs"
+  className="m-auto w-full max-w-sm"
+/>
