@@ -96,7 +96,7 @@ export default function typographyStyles({ theme }: PluginUtils) {
           marginBottom: theme('spacing.4'),
         },
         h3: {
-          fontSize: theme('fontSize.base')[0],
+          fontSize: theme('fontSize.lg')[0],
           lineHeight: theme('lineHeight.7'),
           marginTop: theme('spacing.12'),
           marginBottom: theme('spacing.4'),
