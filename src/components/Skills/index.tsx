@@ -239,7 +239,7 @@ const skillCategories: Skill[] = [
     ],
   },
   {
-    category: 'Database Technologies',
+    category: 'Data Technologies',
     skills: [
       {
         name: 'PostgreSQL',
@@ -256,6 +256,30 @@ const skillCategories: Skill[] = [
       {
         name: 'MongoDB',
         proficiency: 'high',
+      },
+      {
+        name: 'Splunk',
+        proficiency: 'high',
+      },
+      {
+        name: 'Datadog',
+        proficiency: 'high',
+      },
+      {
+        name: 'Amazon CloudWatch',
+        proficiency: 'high',
+      },
+      {
+        name: 'Google Analytics',
+        proficiency: 'high',
+      },
+      {
+        name: 'Prometheus',
+        proficiency: 'medium',
+      },
+      {
+        name: 'Grafana',
+        proficiency: 'medium',
       },
       {
         name: 'Microsoft SQL Server',
