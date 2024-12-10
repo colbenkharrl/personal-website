@@ -35,6 +35,10 @@ const skillCategories: Skill[] = [
         proficiency: 'high',
       },
       {
+        name: 'Bash',
+        proficiency: 'high',
+      },
+      {
         name: 'Python',
         proficiency: 'medium',
       },
@@ -44,10 +48,6 @@ const skillCategories: Skill[] = [
       },
       {
         name: 'PHP',
-        proficiency: 'medium',
-      },
-      {
-        name: 'Bash',
         proficiency: 'medium',
       },
       {
@@ -88,6 +88,10 @@ const skillCategories: Skill[] = [
         proficiency: 'high',
       },
       {
+        name: 'SVG',
+        proficiency: 'high',
+      },
+      {
         name: 'Storybook',
         proficiency: 'high',
       },
@@ -105,6 +109,14 @@ const skillCategories: Skill[] = [
       },
       {
         name: 'Bootstrap',
+        proficiency: 'high',
+      },
+      {
+        name: 'Sass',
+        proficiency: 'high',
+      },
+      {
+        name: 'Styled Components',
         proficiency: 'high',
       },
       {
@@ -182,6 +194,10 @@ const skillCategories: Skill[] = [
       },
       {
         name: 'GraphQL APIs',
+        proficiency: 'high',
+      },
+      {
+        name: 'WebSockets',
         proficiency: 'high',
       },
       {
@@ -295,11 +311,15 @@ const skillCategories: Skill[] = [
         proficiency: 'high',
       },
       {
-        name: 'GitHub Actions',
+        name: 'GitHub',
         proficiency: 'high',
       },
       {
         name: 'GitLab',
+        proficiency: 'high',
+      },
+      {
+        name: 'Bitbucket',
         proficiency: 'high',
       },
       {
@@ -323,11 +343,23 @@ const skillCategories: Skill[] = [
         proficiency: 'high',
       },
       {
+        name: 'Prettier',
+        proficiency: 'high',
+      },
+      {
         name: 'Docker',
-        proficiency: 'medium',
+        proficiency: 'high',
       },
       {
         name: 'Kubernetes',
+        proficiency: 'medium',
+      },
+      {
+        name: 'Helm',
+        proficiency: 'medium',
+      },
+      {
+        name: 'ArgoCD',
         proficiency: 'medium',
       },
       {
@@ -343,12 +375,8 @@ const skillCategories: Skill[] = [
         proficiency: 'medium',
       },
       {
-        name: 'Bitbucket Pipelines',
-        proficiency: 'medium',
-      },
-      {
         name: 'Vite',
-        proficiency: 'low',
+        proficiency: 'medium',
       },
       {
         name: 'Travis CI',
@@ -396,6 +424,10 @@ const skillCategories: Skill[] = [
         proficiency: 'high',
       },
       {
+        name: 'Google Cloud Platform',
+        proficiency: 'medium',
+      },
+      {
         name: 'Heroku',
         proficiency: 'medium',
       },
@@ -407,9 +439,42 @@ const skillCategories: Skill[] = [
         name: 'Microsoft Azure',
         proficiency: 'low',
       },
+    ],
+  },
+  {
+    category: 'Identity Platforms',
+    skills: [
       {
-        name: 'Google Cloud Platform',
-        proficiency: 'low',
+        name: 'Auth0',
+        proficiency: 'high',
+      },
+      {
+        name: 'AWS Cognito',
+        proficiency: 'high',
+      },
+      {
+        name: 'JWT',
+        proficiency: 'high',
+      },
+      {
+        name: 'OAuth',
+        proficiency: 'high',
+      },
+      {
+        name: 'OpenID Connect',
+        proficiency: 'medium',
+      },
+      {
+        name: 'Okta',
+        proficiency: 'medium',
+      },
+      {
+        name: 'SAML',
+        proficiency: 'medium',
+      },
+      {
+        name: 'LDAP',
+        proficiency: 'medium',
       },
     ],
   },
