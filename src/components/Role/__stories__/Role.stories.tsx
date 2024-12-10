@@ -24,6 +24,7 @@ export const Basic: Story = {
       start: '2020',
       end: '2023',
       url: 'https://specprotected.com/',
+      duration: '3 years',
     },
   },
 };

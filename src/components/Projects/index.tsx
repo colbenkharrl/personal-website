@@ -14,23 +14,23 @@ import { PortfolioSection } from '../PortfolioSection';
 
 const projects = [
   {
-    name: 'Catio Console',
+    name: 'Catio',
     description:
-      'The Catio Console is the main user experience product for the Catio tech evaluation and improvement platform. As Lead Fullstack Engineer, I own the architecture and implementation of our Next.js web application and GraphQL API server.',
+      'As Lead Fullstack Engineer, I designed and developed the Catio Console, the primary user interface for the Catio tech evaluation and improvement platform. I led the creation of a high-performance web application using Next.js and a robust GraphQL API server, ensuring seamless integration and scalability. This initiative empowered organizations to effectively evaluate, plan, and evolve their tech architectures, enhancing visibility and decision-making across tech stacks. ',
     link: { href: 'https://catio.tech/', label: 'catio.tech' },
     logo: logoCatio,
   },
   {
-    name: 'Trust Cloud',
+    name: 'Spec',
     description:
-      "Spec's Trust Cloud is a real-time security defense platform that is currently protecting the web traffic of some of the largest brands in the world. As the founding engineer, I designed and developed their enterprise security defense web application, then went on to build and lead the entire engineering and compliance organizations.",
+      "Architected and implemented the enterprise security defense web application for Spec's defense platform, a real-time platform protecting web traffic for some of the largest global brands. Led the end-to-end development of a scalable, high-performance security solution, ensuring seamless integration and a smooth user experience. Built and managed both the engineering and compliance teams, driving the growth of a cutting-edge platform that significantly enhanced security and operational efficiency for enterprise clients.",
     link: { href: 'https://specprotected.com/', label: 'specprotected.com' },
     logo: logoSpec,
   },
   {
     name: 'Confluence',
     description:
-      'Confluence, an Atlassian product, is the most widely-used workplace documentation product in the world. I worked on the core navigation and discoverability features for their cloud-based web application, and also designed and built their automated, interactive, and multi-stage release pipeline.',
+      'Improved core navigation and discoverability features for Confluence, the world’s leading workplace documentation platform. Designed and implemented an automated, interactive, multi-stage release pipeline, streamlining deployment processes and significantly reducing release cycle time. Delivered scalable solutions that enhanced the overall user experience and operational efficiency for Confluence’s cloud-based web application.',
     link: {
       href: 'https://www.atlassian.com/software/confluence',
       label: 'atlassian.com',
@@ -40,7 +40,7 @@ const projects = [
   {
     name: 'Atlassian Navigation',
     description:
-      'Atlassian Navigation is a core component of the Atlassian design system, which is utilized across all of their cloud products. I worked with a special project team to research, design, develop, and integrate this navigation experience and all associated components.',
+      'Collaborated with a cross-functional team to research, design, and develop Atlassian Navigation, a core component of the Atlassian design system used across all cloud products. Led the integration of navigation features and components, ensuring a seamless, consistent user experience across platforms. Delivered scalable, high-performance solutions that enhanced usability and streamlined navigation across Atlassian’s suite of products.',
     link: {
       href: 'https://atlassian.design/components/atlassian-navigation/examples',
       label: 'atlassian.design',
@@ -50,7 +50,7 @@ const projects = [
   {
     name: 'Echo Show',
     description:
-      "Amazon's Echo Show is their only Alexa-enabled household device with a screen. I developed an internal web application which enabled marketers and brand partners to create, schedule, and deploy advertising campaigns to devices worldwide in the form of custom camera filters.",
+      'Developed an internal web application that empowered marketers and brand partners to create, schedule, and deploy custom advertising campaigns to Amazon Echo Show devices worldwide. The platform enabled the dynamic deployment of custom camera filters, enhancing advertising capabilities and providing a unique, engaging experience for users. Delivered a scalable, user-friendly solution that streamlined campaign management and boosted brand visibility.',
     link: {
       href: 'https://www.amazon.com/echo/s?k=echo+show',
       label: 'amazon.com',
@@ -60,7 +60,7 @@ const projects = [
   {
     name: 'ThreatMetrix ID',
     description:
-      "ThreatMetrix ID was the fraud industry's first dynamic representation of digital identities on the internet. I designed and developed an interactive graph visualization which allows fraud analysts to inspect the complex history of user behavior on the web across many websites and devices.",
+      "Designed and developed an interactive graph visualization for ThreatMetrix ID, the fraud industry's first dynamic representation of digital identities. The tool enabled fraud analysts to visually inspect and analyze complex user behavior across multiple websites and devices, providing deeper insights into digital identity patterns. Delivered a scalable solution that enhanced fraud detection capabilities and empowered analysts to make data-driven decisions.",
     link: {
       href: 'https://risk.lexisnexis.com/products/threatmetrix',
       label: 'lexisnexis.com',
@@ -70,7 +70,7 @@ const projects = [
   {
     name: 'Personal Portfolio',
     description:
-      'The website you are browsing right now was built by me using modern web technologies. Over time I will likely test out new libraries in this very over-engineered project. You can view the source code on my Github profile.',
+      'This website was built by me using modern web technologies, showcasing my expertise in creating dynamic, responsive web applications. As part of my ongoing development, I continually experiment with new libraries and tools, ensuring the project remains innovative and cutting-edge. Feel free to explore the source code on my GitHub profile to see the technologies and techniques I use to craft high-quality web experiences.',
     link: {
       href: 'https://github.com/colbenkharrl/personal-website',
       label: 'github.com',
@@ -80,7 +80,7 @@ const projects = [
   {
     name: 'Synergy SIS',
     description:
-      'The Synergy Student Information System, developed by Edupoint, provides end-to-end educational management services for K-12 schools across the United States. I worked on their .NET platform and focused on enhancements to their administrative reporting framework.',
+      'Contributed to Synergy, a comprehensive K-12 educational management platform, by enhancing its .NET-based administrative reporting framework. Focused on optimizing reporting features to provide more insightful, data-driven decision-making tools for school administrators. Delivered scalable solutions that improved system performance and reporting efficiency, supporting educational institutions across the U.S. with robust management capabilities.',
     link: {
       href: 'https://edupoint.com/Products/Student-Information-Management',
       label: 'edupoint.com',
@@ -90,7 +90,7 @@ const projects = [
   {
     name: 'Blitz Racing Cycling Club',
     description:
-      'Blitz Racing is the cycling club for which I race bikes. I developed a simple landing page for our team where we can share information about our events, sponsors, and results.',
+      'Volunteered to develop a landing page for Blitz Racing, the cycling club I race with, to help organize and promote community events. The site serves as a hub for sharing event details, sponsor information, and race results, fostering engagement and building visibility for the team. The platform has become an essential tool for coordinating club activities and strengthening connections within the cycling community.',
     link: {
       href: 'https://blitzracingcc.com/',
       label: 'blitzracingcc.com',

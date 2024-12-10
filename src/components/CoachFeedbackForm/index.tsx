@@ -72,6 +72,7 @@ export const CoachFeedbackForm: FC = () => {
         excluded from the output.
       </p>
       <form
+        // @ts-ignore - TS doesn't know about the FormData constructor
         action={handleForm}
         data-testid="ContactForm"
         className="border-t border-t-orange-500 dark:border-t-orange-400"

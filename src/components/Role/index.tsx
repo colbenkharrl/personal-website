@@ -8,6 +8,7 @@ export interface Role {
   start: string | { label: string; dateTime: string };
   end: string | { label: string; dateTime: string };
   url: string;
+  duration: string;
 }
 
 export function Role({ role }: { role: Role }) {
@@ -37,17 +38,20 @@ export function Role({ role }: { role: Role }) {
         <dd className="relative z-10 flex w-full text-sm font-medium text-zinc-900 dark:text-zinc-100">
           {role.company}
           <div className="flex-grow" />
-          <p className="relative z-10 text-xs text-zinc-400 dark:text-zinc-500">
-            <time className="relative z-10" dateTime={startDate}>
-              {startLabel}
-            </time>{' '}
-            <span className="relative z-10" aria-hidden="true">
-              —
-            </span>{' '}
-            <time className="relative z-10" dateTime={endDate}>
-              {endLabel}
-            </time>
-          </p>
+          <div className="flex flex-col items-end">
+            <p className="relative z-10 text-xs text-zinc-400 dark:text-zinc-500">
+              <time className="relative z-10" dateTime={startDate}>
+                {startLabel}
+              </time>{' '}
+              <span className="relative z-10" aria-hidden="true">
+                —
+              </span>{' '}
+              <time className="relative z-10" dateTime={endDate}>
+                {endLabel}
+              </time>{' '}
+              ({role.duration})
+            </p>
+          </div>
         </dd>
         <dt className="sr-only">Role</dt>
         <dd className="text-xs text-zinc-500 dark:text-zinc-400">

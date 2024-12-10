@@ -35,30 +35,38 @@ exports[`Role matches snapshot (regression test): Full component snapshot. 1`] =
       <div
         class="flex-grow"
       />
-      <p
-        class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
+      <div
+        class="flex flex-col items-end"
       >
-        <time
-          class="relative z-10"
-          datetime="2020"
+        <p
+          class="relative z-10 text-xs text-zinc-400 dark:text-zinc-500"
         >
-          2020
-        </time>
-         
-        <span
-          aria-hidden="true"
-          class="relative z-10"
-        >
-          —
-        </span>
-         
-        <time
-          class="relative z-10"
-          datetime="2023"
-        >
-          2023
-        </time>
-      </p>
+          <time
+            class="relative z-10"
+            datetime="2020"
+          >
+            2020
+          </time>
+           
+          <span
+            aria-hidden="true"
+            class="relative z-10"
+          >
+            —
+          </span>
+           
+          <time
+            class="relative z-10"
+            datetime="2023"
+          >
+            2023
+          </time>
+           
+          (
+          3 years
+          )
+        </p>
+      </div>
     </dd>
     <dt
       class="sr-only"

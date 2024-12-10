@@ -20,6 +20,7 @@ const resume: Array<Role> = [
       dateTime: new Date().getFullYear().toString(),
     },
     url: 'https://www.linkedin.com/company/catiotech/',
+    duration: '1 year',
   },
   {
     company: 'Spec',
@@ -28,6 +29,7 @@ const resume: Array<Role> = [
     start: '2020',
     end: '2023',
     url: 'https://specprotected.com/',
+    duration: '3 years',
   },
   {
     company: 'Atlassian',
@@ -36,6 +38,7 @@ const resume: Array<Role> = [
     start: '2018',
     end: '2020',
     url: 'https://atlassian.com/',
+    duration: '2 years',
   },
   {
     company: 'Amazon',
@@ -44,6 +47,7 @@ const resume: Array<Role> = [
     start: '2018',
     end: '2018',
     url: 'https://amazon.com/',
+    duration: '4 months',
   },
   {
     company: 'ThreatMetrix',
@@ -52,6 +56,7 @@ const resume: Array<Role> = [
     start: '2017',
     end: '2018',
     url: 'https://risk.lexisnexis.com/products/threatmetrix',
+    duration: '1 year',
   },
   {
     company: 'Edupoint',
@@ -60,6 +65,7 @@ const resume: Array<Role> = [
     start: '2017',
     end: '2017',
     url: 'https://www.edupoint.com/',
+    duration: '4 months',
   },
   {
     company: 'Apple',
@@ -68,6 +74,7 @@ const resume: Array<Role> = [
     start: '2015',
     end: '2016',
     url: 'https://apple.com/',
+    duration: '1 year',
   },
 ];
 
