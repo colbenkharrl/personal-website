@@ -37,6 +37,7 @@ export const ContactForm: FC<ContactFormProps> = ({ onSubmit }) => {
   );
 
   return (
+    // @ts-ignore - TS doesn't know about the FormData constructor
     <form action={handleForm} data-testid="ContactForm">
       <div className="space-y-12">
         <div className="border-b border-gray-900/10 pb-12">
