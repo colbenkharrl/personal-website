@@ -771,7 +771,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
                          
                         <time
                           class="relative z-10"
-                          datetime="2024"
+                          datetime="2025"
                         >
                           Present
                         </time>
@@ -896,7 +896,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
                       <span
                         class="relative z-10  group-hover:text-orange-500"
                       >
-                        Lead Software Engineer, VP of Engineering
+                        Founding Software Engineer, VP of Engineering
                       </span>
                       <br />
                     </a>
