@@ -55,7 +55,7 @@ exports[`Footer matches snapshot (regression test): Full component snapshot. 1`]
                 class="text-sm text-zinc-400 dark:text-zinc-500"
               >
                 © 
-                2024
+                2025
                  Matt Kharrl. All rights reserved.
               </p>
             </div>
