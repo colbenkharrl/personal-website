@@ -18,14 +18,14 @@ export function NavItem({
         className={clsx(
           'relative block px-3 py-2 transition',
           isActive
-            ? 'text-orange-500 dark:text-orange-400'
-            : 'hover:text-orange-500 dark:hover:text-orange-400',
+            ? 'text-amber-500 dark:text-amber-400'
+            : 'hover:text-amber-500 dark:hover:text-amber-400',
         )}
         data-testid="NavItem"
       >
         {children}
         {isActive && (
-          <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-orange-500/0 via-orange-500/40 to-orange-500/0 dark:from-orange-400/0 dark:via-orange-400/40 dark:to-orange-400/0" />
+          <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-amber-500/0 via-amber-500/40 to-amber-500/0 dark:from-amber-400/0 dark:via-amber-400/40 dark:to-amber-400/0" />
         )}
       </Link>
     </li>

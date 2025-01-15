@@ -2,7 +2,7 @@
 
 exports[`NavItem matches snapshot (regression test): Full component snapshot. 1`] = `
 <a
-  class="relative block px-3 py-2 transition hover:text-orange-500 dark:hover:text-orange-400"
+  class="relative block px-3 py-2 transition hover:text-amber-500 dark:hover:text-amber-400"
   data-testid="NavItem"
   href="https://www.example.com/"
 >

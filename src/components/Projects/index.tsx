@@ -1,7 +1,7 @@
 import { Card } from '@/components/Card';
 import logoSpec from '@/images/logos/spec.svg';
 import logoCatio from '@/images/logos/catio.png';
-import logoPortfolio from '@/images/logos/portfolio.png';
+import logoPortfolio from '@/images/avatar_512.png';
 import logoConfluence from '@/images/logos/confluence.svg';
 import logoAtlassian from '@/images/logos/atlassian.svg';
 import logoAlexa from '@/images/logos/alexa.png';
@@ -120,7 +120,7 @@ export function Projects() {
               <Card.Link href={project.link.href}>{project.name}</Card.Link>
             </h2>
             <Card.Description>{project.description}</Card.Description>
-            <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-orange-500 dark:text-zinc-200">
+            <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-amber-500 dark:text-zinc-200">
               <LinkIcon className="h-6 w-6 flex-none" />
               <span className="ml-2">{project.link.label}</span>
             </p>

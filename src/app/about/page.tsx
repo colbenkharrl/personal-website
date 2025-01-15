@@ -33,9 +33,9 @@ function SocialLink({
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-orange-500 dark:text-zinc-200 dark:hover:text-orange-500"
+        className="group flex text-sm font-medium text-zinc-800 transition hover:text-amber-500 dark:text-zinc-200 dark:hover:text-amber-500"
       >
-        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-orange-500" />
+        <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-amber-500" />
         <span className="ml-4">{children}</span>
       </Link>
     </li>
@@ -97,9 +97,7 @@ export default function About() {
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
             I’m Matt Kharrl: <br />{' '}
-            <span className="text-orange-500 dark:text-orange-400">
-              engineer
-            </span>
+            <span className="text-amber-500 dark:text-amber-400">engineer</span>
             , <span className="text-sky-500 dark:text-sky-400">athlete</span>,
             and{' '}
             <span className="text-emerald-500 dark:text-emerald-400">dad</span>.
@@ -112,7 +110,7 @@ export default function About() {
             </p>
             <h2 className="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
               I build{' '}
-              <span className="text-orange-500 dark:text-orange-400">
+              <span className="text-amber-500 dark:text-amber-400">
                 software
               </span>
               .
@@ -135,7 +133,7 @@ export default function About() {
                 <BriefcaseIcon
                   className="mr-1.5 h-5 w-5"
                   pathProps={{
-                    className: 'stroke-orange-600 dark:stroke-orange-400',
+                    className: 'stroke-amber-600 dark:stroke-amber-400',
                   }}
                 />
                 <div className="flex items-center justify-center">
