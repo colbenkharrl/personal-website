@@ -22,20 +22,20 @@ exports[`should match page snapshot: page snapshot 1`] = `
           >
             Engineer
             <span
-              class="text-amber-500 dark:text-amber-400"
+              class="text-yellow-500 dark:text-yellow-400"
             >
               .
             </span>
              
             Athlete
             <span
-              class="text-amber-500"
+              class="text-yellow-500"
             >
               .
             </span>
              Dad
             <span
-              class="text-amber-500"
+              class="text-yellow-500"
             >
               .
             </span>
@@ -55,7 +55,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="h-6 w-6 fill-zinc-500 transition group-hover:fill-amber-600 dark:fill-zinc-400 dark:group-hover:fill-amber-400"
+                class="h-6 w-6 fill-zinc-500 transition group-hover:fill-yellow-600 dark:fill-zinc-400 dark:group-hover:fill-yellow-400"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -70,7 +70,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="h-6 w-6 fill-zinc-500 transition group-hover:fill-amber-600 dark:fill-zinc-400 dark:group-hover:fill-amber-400"
+                class="h-6 w-6 fill-zinc-500 transition group-hover:fill-yellow-600 dark:fill-zinc-400 dark:group-hover:fill-yellow-400"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -87,7 +87,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="h-6 w-6 fill-zinc-500 transition group-hover:fill-amber-600 dark:fill-zinc-400 dark:group-hover:fill-amber-400"
+                class="h-6 w-6 fill-zinc-500 transition group-hover:fill-yellow-600 dark:fill-zinc-400 dark:group-hover:fill-yellow-400"
                 viewBox="0 0 24 24"
               >
                 <path
@@ -105,7 +105,7 @@ exports[`should match page snapshot: page snapshot 1`] = `
             >
               <svg
                 aria-hidden="true"
-                class="h-6 w-6 fill-zinc-500 transition group-hover:fill-amber-600 dark:fill-zinc-400 dark:group-hover:fill-amber-400"
+                class="h-6 w-6 fill-zinc-500 transition group-hover:fill-yellow-600 dark:fill-zinc-400 dark:group-hover:fill-yellow-400"
                 viewBox="0 0 24 24"
               >
                 <path

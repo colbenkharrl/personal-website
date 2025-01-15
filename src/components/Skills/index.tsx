@@ -616,7 +616,7 @@ export function Skills() {
           Some Experience
         </span>
         <span
-          className={`mb-1 me-1 inline-flex items-center rounded-md bg-amber-50 px-2 py-1 text-xs font-medium text-amber-700 ring-1 ring-inset ring-amber-600/20 dark:bg-amber-500/10 dark:text-amber-400 dark:ring-amber-300/20`}
+          className={`mb-1 me-1 inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-700 ring-1 ring-inset ring-yellow-600/20 dark:bg-yellow-500/10 dark:text-yellow-400 dark:ring-yellow-300/20`}
         >
           Some Exposure
         </span>
@@ -640,19 +640,19 @@ export function Skills() {
                       ? 'bg-emerald-50 dark:bg-emerald-500/10'
                       : proficiency === 'medium'
                       ? 'bg-sky-50 dark:bg-sky-500/10'
-                      : 'bg-amber-50 dark:bg-amber-500/10'
+                      : 'bg-yellow-50 dark:bg-yellow-500/10'
                   } px-2 py-1 text-xs font-medium ${
                     proficiency === 'high'
                       ? 'text-emerald-700 dark:text-emerald-400'
                       : proficiency === 'medium'
                       ? 'text-sky-700 dark:text-sky-400'
-                      : 'text-amber-700 dark:text-amber-400'
+                      : 'text-yellow-700 dark:text-yellow-400'
                   } ring-1 ring-inset ${
                     proficiency === 'high'
                       ? 'ring-emerald-600/20 dark:ring-emerald-300/20'
                       : proficiency === 'medium'
                       ? 'ring-sky-600/20 dark:ring-sky-300/20'
-                      : 'ring-amber-600/20 dark:ring-amber-300/20'
+                      : 'ring-yellow-600/20 dark:ring-yellow-300/20'
                   }`}
                 >
                   {name}
