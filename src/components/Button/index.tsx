@@ -3,7 +3,7 @@ import clsx from 'clsx';
 
 const variantStyles = {
   primary:
-    'bg-orange-500 font-semibold text-zinc-100 hover:bg-orange-600 active:bg-orange-500 active:text-zinc-100/70 dark:bg-orange-400 dark:hover:bg-orange-500 dark:active:bg-orange-700 dark:active:text-zinc-100/70',
+    'bg-amber-500 font-semibold text-zinc-100 hover:bg-amber-600 active:bg-amber-500 active:text-zinc-100/70 dark:bg-amber-400 dark:hover:bg-amber-500 dark:active:bg-amber-700 dark:active:text-zinc-100/70',
   secondary:
     'bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70',
   link: 'font-medium text-zinc-900 active:text-zinc-900/60 dark:text-zinc-300 dark:hover:text-zinc-50 dark:active:text-zinc-50/70',

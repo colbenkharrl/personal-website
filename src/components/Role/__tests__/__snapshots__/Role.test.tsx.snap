@@ -86,7 +86,7 @@ exports[`Role matches snapshot (regression test): Full component snapshot. 1`] =
           class="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"
         />
         <span
-          class="relative z-10  group-hover:text-orange-500"
+          class="relative z-10  group-hover:text-amber-500"
         >
           VP of Engineering
         </span>
