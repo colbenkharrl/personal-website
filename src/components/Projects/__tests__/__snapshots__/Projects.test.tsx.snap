@@ -76,7 +76,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         As Lead Fullstack Engineer, I designed and developed the Catio Console, the primary user interface for the Catio tech evaluation and improvement platform. I led the creation of a high-performance web application using Next.js and a robust GraphQL API server, ensuring seamless integration and scalability. This initiative empowered organizations to effectively evaluate, plan, and evolve their tech architectures, enhancing visibility and decision-making across tech stacks. 
       </p>
       <p
-        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-amber-500 dark:text-zinc-200"
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-yellow-500 dark:text-zinc-200"
       >
         <svg
           aria-hidden="true"
@@ -139,7 +139,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         Architected and implemented the enterprise security defense web application for Spec's defense platform, a real-time platform protecting web traffic for some of the largest global brands. Led the end-to-end development of a scalable, high-performance security solution, ensuring seamless integration and a smooth user experience. Built and managed both the engineering and compliance teams, driving the growth of a cutting-edge platform that significantly enhanced security and operational efficiency for enterprise clients.
       </p>
       <p
-        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-amber-500 dark:text-zinc-200"
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-yellow-500 dark:text-zinc-200"
       >
         <svg
           aria-hidden="true"
@@ -202,7 +202,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         Improved core navigation and discoverability features for Confluence, the world’s leading workplace documentation platform. Designed and implemented an automated, interactive, multi-stage release pipeline, streamlining deployment processes and significantly reducing release cycle time. Delivered scalable solutions that enhanced the overall user experience and operational efficiency for Confluence’s cloud-based web application.
       </p>
       <p
-        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-amber-500 dark:text-zinc-200"
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-yellow-500 dark:text-zinc-200"
       >
         <svg
           aria-hidden="true"
@@ -265,7 +265,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         Collaborated with a cross-functional team to research, design, and develop Atlassian Navigation, a core component of the Atlassian design system used across all cloud products. Led the integration of navigation features and components, ensuring a seamless, consistent user experience across platforms. Delivered scalable, high-performance solutions that enhanced usability and streamlined navigation across Atlassian’s suite of products.
       </p>
       <p
-        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-amber-500 dark:text-zinc-200"
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-yellow-500 dark:text-zinc-200"
       >
         <svg
           aria-hidden="true"
@@ -328,7 +328,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         Developed an internal web application that empowered marketers and brand partners to create, schedule, and deploy custom advertising campaigns to Amazon Echo Show devices worldwide. The platform enabled the dynamic deployment of custom camera filters, enhancing advertising capabilities and providing a unique, engaging experience for users. Delivered a scalable, user-friendly solution that streamlined campaign management and boosted brand visibility.
       </p>
       <p
-        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-amber-500 dark:text-zinc-200"
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-yellow-500 dark:text-zinc-200"
       >
         <svg
           aria-hidden="true"
@@ -391,7 +391,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         Designed and developed an interactive graph visualization for ThreatMetrix ID, the fraud industry's first dynamic representation of digital identities. The tool enabled fraud analysts to visually inspect and analyze complex user behavior across multiple websites and devices, providing deeper insights into digital identity patterns. Delivered a scalable solution that enhanced fraud detection capabilities and empowered analysts to make data-driven decisions.
       </p>
       <p
-        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-amber-500 dark:text-zinc-200"
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-yellow-500 dark:text-zinc-200"
       >
         <svg
           aria-hidden="true"
@@ -454,7 +454,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         This website was built by me using modern web technologies, showcasing my expertise in creating dynamic, responsive web applications. As part of my ongoing development, I continually experiment with new libraries and tools, ensuring the project remains innovative and cutting-edge. Feel free to explore the source code on my GitHub profile to see the technologies and techniques I use to craft high-quality web experiences.
       </p>
       <p
-        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-amber-500 dark:text-zinc-200"
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-yellow-500 dark:text-zinc-200"
       >
         <svg
           aria-hidden="true"
@@ -517,7 +517,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         Contributed to Synergy, a comprehensive K-12 educational management platform, by enhancing its .NET-based administrative reporting framework. Focused on optimizing reporting features to provide more insightful, data-driven decision-making tools for school administrators. Delivered scalable solutions that improved system performance and reporting efficiency, supporting educational institutions across the U.S. with robust management capabilities.
       </p>
       <p
-        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-amber-500 dark:text-zinc-200"
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-yellow-500 dark:text-zinc-200"
       >
         <svg
           aria-hidden="true"
@@ -580,7 +580,7 @@ exports[`Projects matches snapshot (regression test): Full component snapshot. 1
         Volunteered to develop a landing page for Blitz Racing, the cycling club I race with, to help organize and promote community events. The site serves as a hub for sharing event details, sponsor information, and race results, fostering engagement and building visibility for the team. The platform has become an essential tool for coordinating club activities and strengthening connections within the cycling community.
       </p>
       <p
-        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-amber-500 dark:text-zinc-200"
+        class="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-yellow-500 dark:text-zinc-200"
       >
         <svg
           aria-hidden="true"

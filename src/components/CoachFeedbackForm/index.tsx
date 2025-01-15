@@ -75,10 +75,10 @@ export const CoachFeedbackForm: FC = () => {
         // @ts-ignore - TS doesn't know about the FormData constructor
         action={handleForm}
         data-testid="ContactForm"
-        className="border-t border-t-amber-500 dark:border-t-amber-400"
+        className="border-t border-t-yellow-500 dark:border-t-yellow-400"
       >
         <div className="space-y-12">
-          <div className="border-b border-amber-500 pb-12 dark:border-amber-400">
+          <div className="border-b border-yellow-500 pb-12 dark:border-yellow-400">
             <div className="mt-2 grid grid-cols-1 gap-x-6 gap-y-8 pt-2 sm:grid-cols-2">
               <TextArea
                 name="activityComments"
@@ -135,7 +135,7 @@ export const CoachFeedbackForm: FC = () => {
               <p className="col-span-full">
                 <b>Note:</b> If possible, it is better to{' '}
                 <a
-                  className="text-amber-500 dark:text-amber-400"
+                  className="text-yellow-500 dark:text-yellow-400"
                   href="https://help.trainingpeaks.com/hc/en-us/articles/204072364-TrainingPeaks-Metrics-How-to-enter-Weight-HRV-Sleep-etc"
                 >
                   input sleep as a metric in TraningPeaks

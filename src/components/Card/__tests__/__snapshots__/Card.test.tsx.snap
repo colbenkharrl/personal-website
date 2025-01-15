@@ -45,7 +45,7 @@ exports[`Card matches snapshot (regression test): Full component snapshot. 1`] =
   </p>
   <div
     aria-hidden="true"
-    class="relative z-10 mt-4 flex items-center text-sm font-medium text-amber-500"
+    class="relative z-10 mt-4 flex items-center text-sm font-medium text-yellow-500"
   >
     Call to Action
     <svg
