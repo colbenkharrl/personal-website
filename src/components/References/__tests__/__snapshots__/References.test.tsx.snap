@@ -40,6 +40,78 @@ exports[`References matches snapshot (regression test): Full component snapshot.
       >
         <a
           class="flex min-w-fit items-center"
+          href="https://www.linkedin.com/in/dipock/"
+        >
+          <img
+            alt=""
+            class="h-12 w-12 flex-none rounded-full bg-gray-50"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
+        </a>
+        <div
+          class="min-w-0 flex-auto"
+        >
+          <p
+            class="text-sm leading-6"
+          >
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/in/dipock/"
+            >
+              Dipock Das
+            </a>
+          </p>
+          <p
+            class="mt-1  leading-5"
+          >
+            Product Leader
+             at
+             
+            <a
+              class="font-semibold underline"
+              href="https://www.linkedin.com/company/catiotech/"
+            >
+              Catio
+            </a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <p
+          class="mb-4"
+        >
+          I had the pleasure of working with Matt, and I can confidently say that he is one of the most talented, dedicated, and forward-thinking developers I’ve encountered. His ability to seamlessly blend technical expertise with modern best practices has been a major asset to our team.
+        </p>
+        <p
+          class="mb-4"
+        />
+        <p
+          class="mb-4"
+        >
+          Matt isn’t just an ...
+        </p>
+      </div>
+      <button
+        class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+      >
+        Read More
+      </button>
+    </li>
+    <li
+      class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+    >
+      <div
+        class="flex min-w-0 justify-between gap-x-4 py-5"
+      >
+        <a
+          class="flex min-w-fit items-center"
           href="https://www.linkedin.com/in/doshay/"
         >
           <img
