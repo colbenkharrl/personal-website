@@ -11,6 +11,7 @@ import justinAvatar from '@/images/avatars/justin_wayne.jpg';
 import grantAvatar from '@/images/avatars/grant_redfearn.jpg';
 import nateAvatar from '@/images/avatars/nate_kharrl.jpg';
 import deanAvatar from '@/images/avatars/dean_weinert.jpg';
+import dipockAvatar from '@/images/avatars/dipock_das.jpg';
 
 export type Reference = {
   author: string;
@@ -24,6 +25,17 @@ export type Reference = {
 };
 
 export const references: Reference[] = [
+  {
+    author: 'Dipock Das',
+    title: 'Product Leader',
+    company: 'Catio',
+    authorLinkedIn: 'https://www.linkedin.com/in/dipock/',
+    companyLinkedIn: 'https://www.linkedin.com/company/catiotech/',
+    content:
+      'I had the pleasure of working with Matt, and I can confidently say that he is one of the most talented, dedicated, and forward-thinking developers I’ve encountered. His ability to seamlessly blend technical expertise with modern best practices has been a major asset to our team.\n\nMatt isn’t just an exceptional full-stack engineer—he’s a proactive problem solver who consistently goes above and beyond. He doesn’t just code; he thinks strategically, ensuring that every feature he builds is not only functional but scalable and maintainable. He approaches each challenge with curiosity and a willingness to learn, always staying ahead of the curve in front-end and back-end technologies.\n\nMatt’s security expertise is second to none. He played a pivotal role in our SOC2 efforts, ensuring our systems met rigorous compliance and security standards. His ability to balance developer agility with security best practices has been invaluable to our team.\n\nBeyond his technical skills, Matt has contributed immensely to our DevOps strategy, helping build and maintain deployment pipelines that allow us to deploy and roll back with zero downtime. His efforts have made our infrastructure more resilient, scalable, and efficient.\n\nMatt doesn’t just do the work—he documents, mentors, and evangelizes best practices. He writes detailed tickets, full specifications, and blog posts, helping both our internal team and the broader community understand new concepts and innovations. His ability to communicate complex technical ideas clearly has had a lasting impact on our team’s efficiency and alignment.\n\nMatt’s ability to pick up new tasks without hesitation and his collaborative spirit make him an invaluable team member. Any organization would be lucky to have him. He’s the rare kind of engineer who excels at full-stack development, security, DevOps, and technical leadership—all while being an incredible team player.\n\nI give him my highest recommendation, and I have no doubt that he will continue to thrive and make a lasting impact wherever he goes.',
+    date: new Date('2024-03-07T12:00:00.000Z'),
+    authorAvatarURL: dipockAvatar,
+  },
   {
     author: 'Heather Doshay',
     title: 'Partner, People + Talent',
