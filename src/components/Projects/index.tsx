@@ -8,11 +8,19 @@ import logoAlexa from '@/images/logos/alexa.png';
 import logoSynergy from '@/images/logos/synergy.png';
 import logoThreatMetrix from '@/images/logos/threatmetrix.png';
 import logoBlitz from '@/images/logos/blitz.png';
+import logoDiscord from '@/images/logos/discord.png';
 import { LinkIcon, RocketIcon } from '@/components/Icons';
 import Image from 'next/image';
 import { PortfolioSection } from '../PortfolioSection';
 
 const projects = [
+  {
+    name: 'Discord',
+    description:
+      "As a senior software engineer, I work across web, desktop, mobile, and API to build features and complete projects within Discord's Core Product organization. My focus is on rapid experimentation and prototyping for emerging innovation projects. I collaborate with engineering, product, design, and business organizations to define and meet strategic comapny goals.",
+    link: { href: 'https://discord.com/', label: 'discord.com' },
+    logo: logoDiscord,
+  },
   {
     name: 'Catio',
     description:
