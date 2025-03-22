@@ -5,20 +5,30 @@ import logoThreatMetrix from '@/images/logos/threatmetrix.png';
 import logoEdupoint from '@/images/logos/synergy.png';
 import logoApple from '@/images/logos/apple.png';
 import logoCatio from '@/images/logos/catio.png';
+import logoDiscord from '@/images/logos/discord.png';
 import { Role } from '@/components/Role';
 import { BriefcaseIcon } from '@/components/Icons';
 import { PortfolioSection } from '../PortfolioSection';
 
 const resume: Array<Role> = [
   {
-    company: 'Catio',
-    title: 'Lead Fullstack Engineer',
-    logo: logoCatio,
-    start: '2023',
+    company: 'Discord',
+    title: 'Senior Software Engineer',
+    logo: logoDiscord,
+    start: '2025',
     end: {
       label: 'Present',
       dateTime: new Date().getFullYear().toString(),
     },
+    url: 'https://discord.com/',
+    duration: 'ongoing',
+  },
+  {
+    company: 'Catio',
+    title: 'Lead Fullstack Engineer',
+    logo: logoCatio,
+    start: '2023',
+    end: '2025',
     url: 'https://www.linkedin.com/company/catiotech/',
     duration: '1 year',
   },
