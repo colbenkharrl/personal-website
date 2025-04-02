@@ -40,8 +40,8 @@ export default function Portfolio() {
       </div>
       <Projects />
       <Resume />
-      <Skills />
       <References />
+      <Skills />
     </SimpleLayout>
   );
 }

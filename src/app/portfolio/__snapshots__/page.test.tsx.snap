@@ -1540,6 +1540,569 @@ exports[`should match page snapshot: page snapshot 1`] = `
               class="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100"
             >
               <svg
+                class="h-6 w-6 flex-none"
+                fill="none"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
+                  d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="ml-3"
+              >
+                References
+              </span>
+            </h2>
+            <ul
+              class="mt-4 divide-y divide-gray-200 dark:divide-gray-500"
+              role="list"
+            >
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/adam-kirsh-0b9ab67b/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      data-nimg="1"
+                      decoding="async"
+                      height="40"
+                      loading="lazy"
+                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                      style="color: transparent;"
+                      width="40"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/adam-kirsh-0b9ab67b/"
+                      >
+                        Adam Kirsh
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      Head of Product
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/catiotech/"
+                      >
+                        Catio
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    Matt is an engineer, product builder, and colleague whom I hope to work with again. He's somebody who zeroes in on what it takes to succeed and relentlessly pursues that. He is prolific as a developer, excellent at organizing important projects and the people involved, and possesses a great product ...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/dipock/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      data-nimg="1"
+                      decoding="async"
+                      height="40"
+                      loading="lazy"
+                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                      style="color: transparent;"
+                      width="40"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/dipock/"
+                      >
+                        Dipock Das
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      Product Leader
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/catiotech/"
+                      >
+                        Catio
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    I had the pleasure of working with Matt, and I can confidently say that he is one of the most talented, dedicated, and forward-thinking developers I’ve encountered. His ability to seamlessly blend technical expertise with modern best practices has been a major asset to our team.
+                  </p>
+                  <p
+                    class="mb-4"
+                  />
+                  <p
+                    class="mb-4"
+                  >
+                    Matt isn’t just an ...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/doshay/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      data-nimg="1"
+                      decoding="async"
+                      height="40"
+                      loading="lazy"
+                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                      style="color: transparent;"
+                      width="40"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/doshay/"
+                      >
+                        Heather Doshay
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      Partner, People + Talent
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/signalfire/"
+                      >
+                        SignalFire
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    I worked with Matt as VP Engineering for Spec as his VC Talent Partner, and was incredibly impressed with him. He brought a great balance of kindness and discipline to hire and manage his functional area intentionally. I've been hiring engineers for about a decade and worked with hundreds of enginee...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/anthony-micara/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      data-nimg="1"
+                      decoding="async"
+                      height="40"
+                      loading="lazy"
+                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                      style="color: transparent;"
+                      width="40"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/anthony-micara/"
+                      >
+                        Anthony Micara
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      VP of Product Success
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/specprotected/"
+                      >
+                        Spec
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    It has been a rewarding experience working alongside Matt Kharrl for over two years at Spec, where he was the founding engineer. His evolution into a multifaceted leader was truly remarkable and a testament to his capabilities.
+                  </p>
+                  <p
+                    class="mb-4"
+                  >
+                    Matt’s diverse skill set is a rare find and proved to be a cornerstone i...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/justincwayne/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      data-nimg="1"
+                      decoding="async"
+                      height="40"
+                      loading="lazy"
+                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                      style="color: transparent;"
+                      width="40"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/justincwayne/"
+                      >
+                        Justin Wayne
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      Senior Software Engineer
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/specprotected/"
+                      >
+                        Spec
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    As a senior engineer in Matt's organization at Spec, I've watched him excel in leadership as a technical lead, Engineering Manager, and VP of Engineering. He established the processes we needed to scale up our team, provided the vision to coordinate our efforts, nurtured a strong engineering culture...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/gredfearn/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      data-nimg="1"
+                      decoding="async"
+                      height="40"
+                      loading="lazy"
+                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                      style="color: transparent;"
+                      width="40"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/gredfearn/"
+                      >
+                        Grant Redfearn
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      Staff DevOps Engineer
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/specprotected/"
+                      >
+                        Spec
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    Besides being absolutely prolific in producing process, documentation, and strategy — Matt has an innate ability to inspire. I was privileged to watch him grow a small team of senior engineers into a highly productive engineering organization with unmatched culture. Always leading by example, and ta...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/nate-kharrl/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      data-nimg="1"
+                      decoding="async"
+                      height="40"
+                      loading="lazy"
+                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                      style="color: transparent;"
+                      width="40"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/nate-kharrl/"
+                      >
+                        Nate Kharrl
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      CEO
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/specprotected/"
+                      >
+                        Spec
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    Matt was founder and engineer #1 at Spec. He's built prototypes, UX frameworks, deployment pipelines, and finished products that now serve Fortune 500 enterprises. Matt's a passionate "all-in" engineer who knows what it takes to prove it out, make it work, make it scale, and make it special. He's a ...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+              <li
+                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
+              >
+                <div
+                  class="flex min-w-0 justify-between gap-x-4 py-5"
+                >
+                  <a
+                    class="flex min-w-fit items-center"
+                    href="https://www.linkedin.com/in/deanweinert/"
+                  >
+                    <img
+                      alt=""
+                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
+                      data-nimg="1"
+                      decoding="async"
+                      height="40"
+                      loading="lazy"
+                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+                      style="color: transparent;"
+                      width="40"
+                    />
+                  </a>
+                  <div
+                    class="min-w-0 flex-auto"
+                  >
+                    <p
+                      class="text-sm leading-6"
+                    >
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/in/deanweinert/"
+                      >
+                        Dean Weinert
+                      </a>
+                    </p>
+                    <p
+                      class="mt-1  leading-5"
+                    >
+                      VP of Product Management
+                       at
+                       
+                      <a
+                        class="font-semibold underline"
+                        href="https://www.linkedin.com/company/threatmetrix/"
+                      >
+                        ThreatMetrix
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div>
+                  <p
+                    class="mb-4"
+                  >
+                    Matt fulfilled an internship at ThreatMetrix under my supervision during the summer of 2017. During that time, I developed a high regard for Matt based on the outstanding contributions he made on several high-profile projects.
+                  </p>
+                  <p
+                    class="mb-4"
+                  >
+                    He demonstrated that he is technically capable with a wide array of langu...
+                  </p>
+                </div>
+                <button
+                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
+                >
+                  Read More
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
+            data-testid="PortfolioSection"
+          >
+            <h2
+              class="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100"
+            >
+              <svg
                 aria-hidden="true"
                 class="h-6 w-6 flex-none"
                 fill="none"
@@ -2342,505 +2905,6 @@ exports[`should match page snapshot: page snapshot 1`] = `
                 Podcasts
               </span>
             </div>
-          </div>
-          <div
-            class="my-8 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
-            data-testid="PortfolioSection"
-          >
-            <h2
-              class="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100"
-            >
-              <svg
-                class="h-6 w-6 flex-none"
-                fill="none"
-                stroke-width="1.5"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  class="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
-                  d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-              <span
-                class="ml-3"
-              >
-                References
-              </span>
-            </h2>
-            <ul
-              class="mt-4 divide-y divide-gray-200 dark:divide-gray-500"
-              role="list"
-            >
-              <li
-                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
-              >
-                <div
-                  class="flex min-w-0 justify-between gap-x-4 py-5"
-                >
-                  <a
-                    class="flex min-w-fit items-center"
-                    href="https://www.linkedin.com/in/dipock/"
-                  >
-                    <img
-                      alt=""
-                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
-                      data-nimg="1"
-                      decoding="async"
-                      height="40"
-                      loading="lazy"
-                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-                      style="color: transparent;"
-                      width="40"
-                    />
-                  </a>
-                  <div
-                    class="min-w-0 flex-auto"
-                  >
-                    <p
-                      class="text-sm leading-6"
-                    >
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/in/dipock/"
-                      >
-                        Dipock Das
-                      </a>
-                    </p>
-                    <p
-                      class="mt-1  leading-5"
-                    >
-                      Product Leader
-                       at
-                       
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/company/catiotech/"
-                      >
-                        Catio
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <p
-                    class="mb-4"
-                  >
-                    I had the pleasure of working with Matt, and I can confidently say that he is one of the most talented, dedicated, and forward-thinking developers I’ve encountered. His ability to seamlessly blend technical expertise with modern best practices has been a major asset to our team.
-                  </p>
-                  <p
-                    class="mb-4"
-                  />
-                  <p
-                    class="mb-4"
-                  >
-                    Matt isn’t just an ...
-                  </p>
-                </div>
-                <button
-                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
-                >
-                  Read More
-                </button>
-              </li>
-              <li
-                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
-              >
-                <div
-                  class="flex min-w-0 justify-between gap-x-4 py-5"
-                >
-                  <a
-                    class="flex min-w-fit items-center"
-                    href="https://www.linkedin.com/in/doshay/"
-                  >
-                    <img
-                      alt=""
-                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
-                      data-nimg="1"
-                      decoding="async"
-                      height="40"
-                      loading="lazy"
-                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-                      style="color: transparent;"
-                      width="40"
-                    />
-                  </a>
-                  <div
-                    class="min-w-0 flex-auto"
-                  >
-                    <p
-                      class="text-sm leading-6"
-                    >
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/in/doshay/"
-                      >
-                        Heather Doshay
-                      </a>
-                    </p>
-                    <p
-                      class="mt-1  leading-5"
-                    >
-                      Partner, People + Talent
-                       at
-                       
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/company/signalfire/"
-                      >
-                        SignalFire
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <p
-                    class="mb-4"
-                  >
-                    I worked with Matt as VP Engineering for Spec as his VC Talent Partner, and was incredibly impressed with him. He brought a great balance of kindness and discipline to hire and manage his functional area intentionally. I've been hiring engineers for about a decade and worked with hundreds of enginee...
-                  </p>
-                </div>
-                <button
-                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
-                >
-                  Read More
-                </button>
-              </li>
-              <li
-                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
-              >
-                <div
-                  class="flex min-w-0 justify-between gap-x-4 py-5"
-                >
-                  <a
-                    class="flex min-w-fit items-center"
-                    href="https://www.linkedin.com/in/anthony-micara/"
-                  >
-                    <img
-                      alt=""
-                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
-                      data-nimg="1"
-                      decoding="async"
-                      height="40"
-                      loading="lazy"
-                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-                      style="color: transparent;"
-                      width="40"
-                    />
-                  </a>
-                  <div
-                    class="min-w-0 flex-auto"
-                  >
-                    <p
-                      class="text-sm leading-6"
-                    >
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/in/anthony-micara/"
-                      >
-                        Anthony Micara
-                      </a>
-                    </p>
-                    <p
-                      class="mt-1  leading-5"
-                    >
-                      VP of Product Success
-                       at
-                       
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/company/specprotected/"
-                      >
-                        Spec
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <p
-                    class="mb-4"
-                  >
-                    It has been a rewarding experience working alongside Matt Kharrl for over two years at Spec, where he was the founding engineer. His evolution into a multifaceted leader was truly remarkable and a testament to his capabilities.
-                  </p>
-                  <p
-                    class="mb-4"
-                  >
-                    Matt’s diverse skill set is a rare find and proved to be a cornerstone i...
-                  </p>
-                </div>
-                <button
-                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
-                >
-                  Read More
-                </button>
-              </li>
-              <li
-                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
-              >
-                <div
-                  class="flex min-w-0 justify-between gap-x-4 py-5"
-                >
-                  <a
-                    class="flex min-w-fit items-center"
-                    href="https://www.linkedin.com/in/justincwayne/"
-                  >
-                    <img
-                      alt=""
-                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
-                      data-nimg="1"
-                      decoding="async"
-                      height="40"
-                      loading="lazy"
-                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-                      style="color: transparent;"
-                      width="40"
-                    />
-                  </a>
-                  <div
-                    class="min-w-0 flex-auto"
-                  >
-                    <p
-                      class="text-sm leading-6"
-                    >
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/in/justincwayne/"
-                      >
-                        Justin Wayne
-                      </a>
-                    </p>
-                    <p
-                      class="mt-1  leading-5"
-                    >
-                      Senior Software Engineer
-                       at
-                       
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/company/specprotected/"
-                      >
-                        Spec
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <p
-                    class="mb-4"
-                  >
-                    As a senior engineer in Matt's organization at Spec, I've watched him excel in leadership as a technical lead, Engineering Manager, and VP of Engineering. He established the processes we needed to scale up our team, provided the vision to coordinate our efforts, nurtured a strong engineering culture...
-                  </p>
-                </div>
-                <button
-                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
-                >
-                  Read More
-                </button>
-              </li>
-              <li
-                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
-              >
-                <div
-                  class="flex min-w-0 justify-between gap-x-4 py-5"
-                >
-                  <a
-                    class="flex min-w-fit items-center"
-                    href="https://www.linkedin.com/in/gredfearn/"
-                  >
-                    <img
-                      alt=""
-                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
-                      data-nimg="1"
-                      decoding="async"
-                      height="40"
-                      loading="lazy"
-                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-                      style="color: transparent;"
-                      width="40"
-                    />
-                  </a>
-                  <div
-                    class="min-w-0 flex-auto"
-                  >
-                    <p
-                      class="text-sm leading-6"
-                    >
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/in/gredfearn/"
-                      >
-                        Grant Redfearn
-                      </a>
-                    </p>
-                    <p
-                      class="mt-1  leading-5"
-                    >
-                      Staff DevOps Engineer
-                       at
-                       
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/company/specprotected/"
-                      >
-                        Spec
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <p
-                    class="mb-4"
-                  >
-                    Besides being absolutely prolific in producing process, documentation, and strategy — Matt has an innate ability to inspire. I was privileged to watch him grow a small team of senior engineers into a highly productive engineering organization with unmatched culture. Always leading by example, and ta...
-                  </p>
-                </div>
-                <button
-                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
-                >
-                  Read More
-                </button>
-              </li>
-              <li
-                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
-              >
-                <div
-                  class="flex min-w-0 justify-between gap-x-4 py-5"
-                >
-                  <a
-                    class="flex min-w-fit items-center"
-                    href="https://www.linkedin.com/in/nate-kharrl/"
-                  >
-                    <img
-                      alt=""
-                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
-                      data-nimg="1"
-                      decoding="async"
-                      height="40"
-                      loading="lazy"
-                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-                      style="color: transparent;"
-                      width="40"
-                    />
-                  </a>
-                  <div
-                    class="min-w-0 flex-auto"
-                  >
-                    <p
-                      class="text-sm leading-6"
-                    >
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/in/nate-kharrl/"
-                      >
-                        Nate Kharrl
-                      </a>
-                    </p>
-                    <p
-                      class="mt-1  leading-5"
-                    >
-                      CEO
-                       at
-                       
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/company/specprotected/"
-                      >
-                        Spec
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <p
-                    class="mb-4"
-                  >
-                    Matt was founder and engineer #1 at Spec. He's built prototypes, UX frameworks, deployment pipelines, and finished products that now serve Fortune 500 enterprises. Matt's a passionate "all-in" engineer who knows what it takes to prove it out, make it work, make it scale, and make it special. He's a ...
-                  </p>
-                </div>
-                <button
-                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
-                >
-                  Read More
-                </button>
-              </li>
-              <li
-                class="flex-column mb-6 text-sm text-zinc-900 dark:text-zinc-100"
-              >
-                <div
-                  class="flex min-w-0 justify-between gap-x-4 py-5"
-                >
-                  <a
-                    class="flex min-w-fit items-center"
-                    href="https://www.linkedin.com/in/deanweinert/"
-                  >
-                    <img
-                      alt=""
-                      class="h-12 w-12 flex-none rounded-full bg-gray-50"
-                      data-nimg="1"
-                      decoding="async"
-                      height="40"
-                      loading="lazy"
-                      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-                      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-                      style="color: transparent;"
-                      width="40"
-                    />
-                  </a>
-                  <div
-                    class="min-w-0 flex-auto"
-                  >
-                    <p
-                      class="text-sm leading-6"
-                    >
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/in/deanweinert/"
-                      >
-                        Dean Weinert
-                      </a>
-                    </p>
-                    <p
-                      class="mt-1  leading-5"
-                    >
-                      VP of Product Management
-                       at
-                       
-                      <a
-                        class="font-semibold underline"
-                        href="https://www.linkedin.com/company/threatmetrix/"
-                      >
-                        ThreatMetrix
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                <div>
-                  <p
-                    class="mb-4"
-                  >
-                    Matt fulfilled an internship at ThreatMetrix under my supervision during the summer of 2017. During that time, I developed a high regard for Matt based on the outstanding contributions he made on several high-profile projects.
-                  </p>
-                  <p
-                    class="mb-4"
-                  >
-                    He demonstrated that he is technically capable with a wide array of langu...
-                  </p>
-                </div>
-                <button
-                  class="disabled:opacity-30 inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70"
-                >
-                  Read More
-                </button>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
