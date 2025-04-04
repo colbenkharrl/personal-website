@@ -13,6 +13,7 @@ import nateAvatar from '@/images/avatars/nate_kharrl.jpg';
 import deanAvatar from '@/images/avatars/dean_weinert.jpg';
 import dipockAvatar from '@/images/avatars/dipock_das.jpg';
 import adamAvatar from '@/images/avatars/adam_kirsh.jpg';
+import samyakAvatar from '@/images/avatars/samyak_singh.jpg';
 
 export type Reference = {
   author: string;
@@ -26,6 +27,17 @@ export type Reference = {
 };
 
 export const references: Reference[] = [
+  {
+    author: 'Samyak Singh',
+    title: 'Engineering Manager',
+    company: 'Notion',
+    authorLinkedIn: 'https://www.linkedin.com/in/samyaksingh/',
+    companyLinkedIn: 'https://www.linkedin.com/company/notionhq/',
+    content:
+      "I was Matt's mentor at Atlassian and we eventually became close friends. Matt is a builder at heart: a product and team builder with experience working at both early-stage startups and companies with billions of dollars in revenue. Matt can work effectively at different altitudes, from founders and board members to engineers and designers. \n\nDuring my time at Atlassian, Matt was always involved in business-critical projects from product reliability to significant redesigns of the Confluence app. He built systems that operated reliably even after his departure, and is still a core part of the product. His implementation literally enabled hundreds of engineers to safely ship their changes or millions of users to navigate the Confluence app. This is the type of 10x impact every team wants.\n\nMatt has always served the people around him through mentoring or collaborating. I've witnessed him steer or set product directions by effectively jamming with designers and PMs, using data and his intuition for the product. He was a trusted engineer in the team and sought after for his quality and velocity. Any organization would be very lucky to have Matt. He gets things done.",
+    date: new Date('2025-04-04T12:00:00.000Z'),
+    authorAvatarURL: samyakAvatar,
+  },
   {
     author: 'Adam Kirsh',
     title: 'Head of Product',
